@@ -1,53 +1,27 @@
-import { mkdir, writeFile } from "node:fs/promises";
-
-const API = "https://www.thesportsdb.com/api/v1/json/123";
-const SOURCE = "TheSportsDB v1 free API";
-const SOURCE_URL = "https://www.thesportsdb.com/docs_api";
-const VERIFIED_AT = new Date().toISOString().slice(0, 10);
-const clubs = ["Arsenal","Chelsea","Liverpool","Manchester United","Manchester City","Tottenham","Real Madrid","Barcelona","Bayern Munich","Paris SG","AC Milan","Inter Milan","Juventus","Napoli","Ajax","Borussia Dortmund","Benfica","FC Porto","Celtic","Rangers","Galatasaray","Marseille","Lyon","Monaco","Bayer Leverkusen","RB Leipzig","Atletico Madrid","Sevilla","Valencia","Atalanta","Athletic Bilbao","Real Sociedad","Roma","Lazio","Fiorentina"];
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function get(path) { const response = await fetch(`${API}/${path}`, { headers: { "User-Agent": "BALLER-question-bank/1.0" } }); if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`); return response.json(); }
-const clean = value => typeof value === "string" ? value.trim() : "";
-const staff = /coach|manager|trainer|director|staff/i;
-const hash = text => [...text].reduce((value, char) => ((value * 31) + char.charCodeAt(0)) >>> 0, 2166136261);
-function choices(answer, pool, seed) { const unique = [...new Set(pool.filter(value => value && value !== answer))]; unique.sort((a,b) => hash(`${seed}:${a}`) - hash(`${seed}:${b}`)); const result = [answer, ...unique.slice(0,3)]; return result.sort((a,b) => hash(`${seed}:order:${a}`) - hash(`${seed}:order:${b}`)); }
-const countryFromLocation = value => clean(value).split(",").at(-1)?.trim() ?? "";
-
-const rawPlayers = [];
-for (const club of clubs) {
-  try {
-    const teamSearch = await get(`searchteams.php?t=${encodeURIComponent(club)}`); await sleep(2100);
-    const team = teamSearch.teams?.find(item => clean(item.strSport) === "Soccer") ?? teamSearch.teams?.[0];
-    if (!team?.idTeam) continue;
-    const playerResponse = await get(`lookup_all_players.php?id=${team.idTeam}`); await sleep(2100);
-    for (const item of playerResponse.player ?? []) {
-      const player = { id: clean(item.idPlayer), name: clean(item.strPlayer), club: clean(item.strTeam) || clean(team.strTeam), nationality: clean(item.strNationality), position: clean(item.strPosition), born: clean(item.dateBorn), birthplace: clean(item.strBirthLocation), number: clean(item.strNumber) };
-      if (player.id && player.name && player.club && player.nationality && player.position && !staff.test(player.position)) rawPlayers.push(player);
-    }
-  } catch (error) { process.stderr.write(`Skipped ${club}: ${error.message}\n`); }
-}
-
-const players = [...new Map(rawPlayers.map(player => [player.id, player])).values()];
-const names = players.map(p=>p.name), teams=[...new Set(players.map(p=>p.club))], nationalities=[...new Set(players.map(p=>p.nationality))], positions=[...new Set(players.map(p=>p.position))], years=[...new Set(players.map(p=>p.born.slice(0,4)).filter(Boolean))], birthCountries=[...new Set(players.map(p=>countryFromLocation(p.birthplace)).filter(Boolean))], numbers=[...new Set(players.map(p=>p.number).filter(Boolean))];
-const questions=[];
-function add(player, key, prompt, answer, pool, explanation, clues) { if (!answer || new Set(pool).size < 4) return; const id=`tsdb-${player.id}-${key}`; questions.push({ id, mode:"whos-that-baller", prompt, answer, choices:choices(answer,pool,id), ...(clues?{clues}:{}), explanation, category:player.club, source:SOURCE, sourceUrl:SOURCE_URL, sourceRecordId:player.id, verifiedAt:VERIFIED_AT }); }
-for (const p of players) {
-  const year=p.born.slice(0,4), birthCountry=countryFromLocation(p.birthplace);
-  add(p,"club",`Which club was ${p.name} listed with on ${VERIFIED_AT}?`,p.club,teams,`${p.name} was listed by ${SOURCE} with ${p.club} when this bank was verified.`);
-  add(p,"nationality",`What nationality is ${p.name}?`,p.nationality,nationalities,`${SOURCE} records ${p.name}'s nationality as ${p.nationality}.`);
-  add(p,"position",`Which position is ${p.name} listed as playing?`,p.position,positions,`${p.name} is listed as ${p.position}.`);
-  add(p,"born",`In which year was ${p.name} born?`,year,years,`${p.name}'s recorded birth date is ${p.born}.`);
-  add(p,"birth-country",`In which country was ${p.name} born?`,birthCountry,birthCountries,`${p.name}'s recorded birthplace is ${p.birthplace}.`);
-  add(p,"number",`Which squad number was ${p.name} listed with at ${p.club}?`,p.number,numbers,`${p.name} was listed with number ${p.number} when verified on ${VERIFIED_AT}.`);
-  add(p,"identify-club",`Who was listed as a ${p.position} for ${p.club} on ${VERIFIED_AT}?`,p.name,names,`${p.name} was listed in ${p.club}'s squad.`);
-  add(p,"identify-nationality",`Which ${p.nationality} footballer was listed with ${p.club}?`,p.name,names,`${p.name} was listed as a ${p.nationality} player for ${p.club}.`);
-  add(p,"identify-born",`Which ${p.club} player was born in ${year}?`,p.name,names,`${p.name} was born on ${p.born}.`);
-  add(p,"clues",`Who’s that baller?`,p.name,names,`${p.name} matched every listed clue when verified on ${VERIFIED_AT}.`,[`Nationality: ${p.nationality}`,`Position: ${p.position}`,`Current listing: ${p.club}`,year?`Born: ${year}`:"Professional footballer",p.number?`Squad number: ${p.number}`:`Birthplace: ${p.birthplace}`]);
-}
-if (questions.length < 2000) throw new Error(`Only ${questions.length} valid questions were generated from ${players.length} players; refusing to publish below 2,000.`);
-questions.sort((a,b)=>a.id.localeCompare(b.id));
-await mkdir("data",{recursive:true});
-await writeFile("data/questions.generated.json",JSON.stringify(questions,null,2)+"\n","utf8");
-await writeFile("data/question-bank-manifest.json",JSON.stringify({generatedAt:new Date().toISOString(),verifiedAt:VERIFIED_AT,source:SOURCE,sourceUrl:SOURCE_URL,players:players.length,clubsRequested:clubs.length,questions:questions.length,policy:"Questions are generated only when required source fields are present. Current-club and squad-number wording includes the verification date."},null,2)+"\n","utf8");
-process.stdout.write(`Generated ${questions.length} questions from ${players.length} player records, verified ${VERIFIED_AT}.\n`);
-
+import {mkdir,writeFile} from "node:fs/promises";
+const API="https://www.thesportsdb.com/api/v1/json/123",SOURCE="TheSportsDB v1 free API",SOURCE_URL="https://www.thesportsdb.com/docs_api",VERIFIED_AT=new Date().toISOString().slice(0,10);
+const clubs=["Arsenal","Chelsea","Liverpool","Manchester United","Manchester City","Tottenham","Real Madrid","Barcelona","Bayern Munich","Paris SG","AC Milan","Inter Milan","Juventus","Napoli","Ajax","Borussia Dortmund","Benfica","FC Porto","Celtic","Rangers","Galatasaray","Marseille","Lyon","Monaco","Bayer Leverkusen","RB Leipzig","Atletico Madrid","Sevilla","Valencia","Atalanta","Athletic Bilbao","Real Sociedad","Roma","Lazio","Fiorentina"];
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function get(path){const response=await fetch(`${API}/${path}`,{headers:{"User-Agent":"BALLER-question-bank/2.0"}});if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);return response.json()}
+const clean=value=>typeof value==="string"?value.trim():"",staff=/coach|manager|trainer|director|staff|chief|ceo|president|owner|chair|executive/i,hash=text=>[...text].reduce((value,char)=>((value*31)+char.charCodeAt(0))>>>0,2166136261);
+function choices(answer,pool,seed){const unique=[...new Set(pool.filter(value=>value&&value!==answer))];unique.sort((a,b)=>hash(`${seed}:${a}`)-hash(`${seed}:${b}`));const result=[answer,...unique.slice(0,3)];return result.sort((a,b)=>hash(`${seed}:order:${a}`)-hash(`${seed}:order:${b}`))}
+function contextual(primary,fallback){const focused=[...new Set(primary.filter(Boolean))];return focused.length>=4?focused:[...new Set([...focused,...fallback.filter(Boolean)])]}
+const countryFromLocation=value=>clean(value).split(",").at(-1)?.trim()??"";
+function role(position){const value=position.toLowerCase();if(value.includes("goalkeeper"))return"goalkeeper";if(/back|defender/.test(value))return"defender";if(/midfield|wing/.test(value))return"midfielder";return"forward"}
+function nearby(value,pool){const number=Number(value);return [...pool].sort((a,b)=>Math.abs(Number(a)-number)-Math.abs(Number(b)-number))}
+const rawPlayers=[];
+for(const club of clubs){try{const teamSearch=await get(`searchteams.php?t=${encodeURIComponent(club)}`);await sleep(2100);const team=teamSearch.teams?.find(item=>clean(item.strSport)==="Soccer")??teamSearch.teams?.[0];if(!team?.idTeam)continue;const response=await get(`lookup_all_players.php?id=${team.idTeam}`);await sleep(2100);for(const item of response.player??[]){const player={id:clean(item.idPlayer),name:clean(item.strPlayer),club:clean(item.strTeam)||clean(team.strTeam),nationality:clean(item.strNationality),position:clean(item.strPosition),born:clean(item.dateBorn),birthplace:clean(item.strBirthLocation),number:clean(item.strNumber)};if(player.id&&player.name&&player.club&&player.nationality&&player.position&&!staff.test(player.position))rawPlayers.push(player)}}catch(error){process.stderr.write(`Skipped ${club}: ${error.message}\n`)}}
+const players=[...new Map(rawPlayers.map(player=>[player.id,player])).values()],teams=[...new Set(players.map(p=>p.club))],nationalities=[...new Set(players.map(p=>p.nationality))],positions=[...new Set(players.map(p=>p.position))],years=[...new Set(players.map(p=>p.born.slice(0,4)).filter(Boolean))],birthCountries=[...new Set(players.map(p=>countryFromLocation(p.birthplace)).filter(Boolean))],numbers=[...new Set(players.map(p=>p.number).filter(Boolean))],questions=[];
+function add(player,key,prompt,answer,pool,explanation,clues){if(!answer||new Set(pool).size<4)return;const id=`tsdb-${player.id}-${key}`;questions.push({id,mode:"whos-that-baller",kind:key,prompt,answer,choices:choices(answer,pool,id),...(clues?{clues}:{}),explanation,category:player.club,source:SOURCE,sourceUrl:SOURCE_URL,sourceRecordId:player.id,verifiedAt:VERIFIED_AT,distractorStrategy:"context-matched"})}
+for(const p of players){const year=p.born.slice(0,4),birthCountry=countryFromLocation(p.birthplace),sameRole=players.filter(x=>x.id!==p.id&&role(x.position)===role(p.position)),sameClub=players.filter(x=>x.id!==p.id&&x.club===p.club),sameNationality=players.filter(x=>x.id!==p.id&&x.nationality===p.nationality);
+ add(p,"club",`Which club was ${p.name} listed with on ${VERIFIED_AT}?`,p.club,contextual(sameRole.map(x=>x.club),teams),`${p.name} was listed with ${p.club} when this bank was verified.`);
+ add(p,"nationality",`What nationality is ${p.name}?`,p.nationality,contextual(sameRole.map(x=>x.nationality),nationalities),`${SOURCE} records ${p.name}'s nationality as ${p.nationality}.`);
+ add(p,"born",`In which year was ${p.name} born?`,year,contextual(nearby(year,years).slice(0,8),years),`${p.name}'s recorded birth date is ${p.born}.`);
+ add(p,"birth-country",`In which country was ${p.name} born?`,birthCountry,contextual(sameRole.map(x=>countryFromLocation(x.birthplace)),birthCountries),`${p.name}'s recorded birthplace is ${p.birthplace}.`);
+ add(p,"number",`Which squad number was ${p.name} listed with at ${p.club}?`,p.number,contextual(nearby(p.number,numbers).slice(0,8),numbers),`${p.name} was listed with number ${p.number} when verified on ${VERIFIED_AT}.`);
+ add(p,"identify-club",`Which ${p.nationality} ${p.position} was listed for ${p.club} on ${VERIFIED_AT}?`,p.name,contextual(sameClub.filter(x=>x.nationality!==p.nationality||x.position!==p.position).map(x=>x.name),sameRole.map(x=>x.name)),`${p.name} was listed in ${p.club}'s squad.`);
+ add(p,"identify-nationality",`Which ${p.nationality} footballer was listed with ${p.club}?`,p.name,contextual(sameClub.filter(x=>x.nationality!==p.nationality).map(x=>x.name),sameNationality.filter(x=>x.club!==p.club).map(x=>x.name)),`${p.name} was listed as a ${p.nationality} player for ${p.club}.`);
+ add(p,"identify-born",`Which ${p.club} ${p.position} was born in ${year}?`,p.name,contextual(sameClub.filter(x=>x.position!==p.position||x.born.slice(0,4)!==year).map(x=>x.name),players.filter(x=>x.born.slice(0,4)===year&&x.club!==p.club).map(x=>x.name)),`${p.name} was born on ${p.born}.`);
+ add(p,"clues","Who’s that baller?",p.name,contextual(sameClub.map(x=>x.name),contextual(sameNationality.map(x=>x.name),sameRole.map(x=>x.name))),`${p.name} matched every listed clue when verified on ${VERIFIED_AT}.`,[`Nationality: ${p.nationality}`,`Position: ${p.position}`,`Current listing: ${p.club}`,year?`Born: ${year}`:"Professional footballer",p.number?`Squad number: ${p.number}`:`Birthplace: ${p.birthplace}`])}
+if(questions.length<2000)throw new Error(`Only ${questions.length} valid questions were generated from ${players.length} players; refusing to publish below 2,000.`);
+questions.sort((a,b)=>a.id.localeCompare(b.id));await mkdir("data",{recursive:true});await writeFile("data/questions.generated.json",JSON.stringify(questions,null,2)+"\n","utf8");await writeFile("data/question-bank-manifest.json",JSON.stringify({generatedAt:new Date().toISOString(),verifiedAt:VERIFIED_AT,source:SOURCE,sourceUrl:SOURCE_URL,players:players.length,clubsRequested:clubs.length,questions:questions.length,distractors:"Context matched by club, nationality, position family, or nearby numeric value.",policy:"Incomplete records are excluded. Current-club and squad-number wording includes the verification date."},null,2)+"\n","utf8");process.stdout.write(`Generated ${questions.length} context-matched questions from ${players.length} player records, verified ${VERIFIED_AT}.\n`);

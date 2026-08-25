@@ -1,0 +1,1 @@
+.complete-squad{display:flex;margin:22px auto 0;border:0}.complete-squad:disabled{opacity:.35;cursor:not-allowed}.squad-help{text-align:center;color:var(--muted);font-size:10px}.sound[aria-pressed="true"]{border-color:var(--lime);color:var(--lime)}

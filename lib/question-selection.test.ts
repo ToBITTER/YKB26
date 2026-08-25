@@ -1,0 +1,2 @@
+import {describe,expect,it} from "vitest";import questions from "../data/questions.generated.json";import type {QuizQuestion} from "../types";import {selectQuestionSet} from "./question-selection";
+describe("question selection",()=>{it("never repeats an answer or player in one game",()=>{for(let run=0;run<30;run++){const set=selectQuestionSet(questions as QuizQuestion[],5);expect(set).toHaveLength(5);expect(new Set(set.map(q=>q.answer.toLowerCase())).size).toBe(5);expect(new Set(set.map(q=>q.sourceRecordId)).size).toBe(5)}})})
