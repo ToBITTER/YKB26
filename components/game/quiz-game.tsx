@@ -1,14 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Check, Clock3, Lightbulb, X, Zap } from "lucide-react";
-import curatedQuestions from "@/data/questions.json";
-import generatedQuestions from "@/data/questions.generated.json";
-import clubs from "@/data/clubs.generated.json";
 import type { GameResult, Mode, QuizQuestion } from "@/types";
-import { calculateScore, dailyIndex } from "@/lib/game";
-import { selectUnseenQuestionSet } from "@/lib/question-selection";
+import { calculateScore } from "@/lib/game";
 import { useProgress } from "@/components/progress-provider";
 import { Result } from "./result";
 
@@ -19,34 +15,24 @@ const TIMEOUT = "__timeout__";
 export function QuizGame({ mode = "whos-that-baller", daily = false, category, competition }: { mode?: Mode; daily?: boolean; category?: string; competition?: string }) {
   const { progress, historyReady, markQuestionsSeen } = useProgress();
   const [run, setRun] = useState(0);
-  const questions = useMemo(() => {
-    const generated = generatedQuestions as QuizQuestion[];
-    const curated = curatedQuestions as QuizQuestion[];
-    const nigerianRecords = new Set(generated.filter((q) => (q.kind === "nationality" || q.kind === "birth-country") && q.answer.toLowerCase() === "nigeria").map((q) => q.sourceRecordId));
-    const fullBank = mode === "nigeria"
-      ? [...curated.filter((q) => q.mode === "nigeria"), ...generated.filter((q) => nigerianRecords.has(q.sourceRecordId))]
-      : generated;
-    const league = competition?.toLowerCase();
-    const leagueClubs = league ? clubs.filter((club) => club.league.toLowerCase() === league).map((club) => club.name.toLowerCase()) : [];
-    const filtered = category
-      ? fullBank.filter((q) => q.category.toLowerCase() === category.toLowerCase())
-      : leagueClubs.length ? fullBank.filter((q) => leagueClubs.includes(q.category.toLowerCase())) : fullBank;
-    const seen = new Set(progress.seenQuestionIds);
-    const bank = filtered.filter((q) => !seen.has(q.id));
-    if (daily) {
-      const today = new Date().toISOString().slice(0, 10);
-      return bank.length ? [bank[dailyIndex(today, bank.length)]!] : [];
-    }
-    return selectUnseenQuestionSet(filtered, progress.seenQuestionIds, QUESTIONS_PER_SESSION);
-  }, [category, competition, daily, historyReady, mode, run]);
+  const [questions, setQuestions] = useState<QuizQuestion[] | null>(null);
+  const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
-    if (historyReady && questions.length) markQuestionsSeen(questions.map((question) => question.id));
-  }, [historyReady, questions]);
+    if (!historyReady) return;
+    const controller = new AbortController();
+    setLoadError(false);
+    fetch("/api/questions/round", { method: "POST", headers: { "content-type": "application/json" }, signal: controller.signal, body: JSON.stringify({ mode, daily, category, competition, seenIds: progress.seenQuestionIds }) })
+      .then(async (response) => { if (!response.ok) throw new Error("Round request failed"); return response.json(); })
+      .then(({ questions: next }: { questions: QuizQuestion[] }) => { setQuestions(next); if (next.length) markQuestionsSeen(next.map((question) => question.id)); })
+      .catch((error) => { if (!(error instanceof DOMException && error.name === "AbortError")) setLoadError(true); });
+    return () => controller.abort();
+  }, [category, competition, daily, historyReady, mode, run]);
 
-  if (!historyReady) return <main className="game-shell"><p>Loading your unseen questions…</p></main>;
+  if (loadError) return <main className="game-shell"><section className="question-card"><div className="mode-label">CONNECTION ERROR</div><h1>WE COULDN’T LOAD THIS ROUND.</h1><button className="primary" onClick={() => { setQuestions(null); setRun((value) => value + 1); }}>TRY AGAIN</button></section></main>;
+  if (!historyReady || questions === null) return <main className="game-shell"><p>Loading your unseen questions…</p></main>;
   if (questions.length < (daily ? 1 : QUESTIONS_PER_SESSION)) return <main className="game-shell"><section className="question-card"><div className="mode-label">CATEGORY COMPLETE</div><h1>YOU’VE CLEARED THIS 20-QUESTION CATEGORY.</h1><p>We will never recycle questions you have already seen. Choose another club or competition while fresh verified questions are added.</p></section></main>;
-  return <QuizRound key={run} questions={questions} mode={mode} daily={daily} again={() => setRun((value) => value + 1)} />;
+  return <QuizRound key={run} questions={questions} mode={mode} daily={daily} again={() => { setQuestions(null); setRun((value) => value + 1); }} />;
 }
 
 function QuizRound({ questions, mode, daily, again }: { questions: QuizQuestion[]; mode: Mode; daily: boolean; again: () => void }) {

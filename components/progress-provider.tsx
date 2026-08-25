@@ -26,7 +26,10 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       if (stored) local = { ...DEFAULT_PROGRESS, ...JSON.parse(stored), seenQuestionIds: JSON.parse(stored).seenQuestionIds ?? [] };
     } catch {}
     setProgress(local);
-    fetch("/api/questions/seen", { cache: "no-store" })
+    setHistoryReady(true);
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 4000);
+    fetch("/api/questions/seen", { cache: "no-store", signal: controller.signal })
       .then((response) => response.ok ? response.json() : { ids: [] })
       .then(({ ids }: { ids: string[] }) => {
         if (!ids.length) return;
@@ -37,7 +40,7 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
         });
       })
       .catch(() => {})
-      .finally(() => setHistoryReady(true));
+      .finally(() => window.clearTimeout(timeout));
   }, []);
 
   const persist = (next: Progress) => {

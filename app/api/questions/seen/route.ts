@@ -13,7 +13,7 @@ export async function GET() {
 export async function POST(request: NextRequest) {
   if (!await sameOrigin()) return NextResponse.json({ error: "Invalid request origin" }, { status: 403 });
   const user = await currentUser();
-  if (!user) return NextResponse.json({ ids: [] }, { status: 401 });
+  if (!user) return NextResponse.json({ ids: [] });
   const parsed = schema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "Invalid question history" }, { status: 400 });
   const ids = [...new Set([...(user.stats?.seenQuestionIds ?? []), ...parsed.data.ids])];
