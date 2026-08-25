@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-08-25T17:14:26.034Z",
+  "verifiedAt": "2026-08-25",
+  "source": "TheSportsDB v1 free API",
+  "sourceUrl": "https://www.thesportsdb.com/docs_api",
+  "players": 315,
+  "clubsRequested": 35,
+  "questions": 3125,
+  "policy": "Questions are generated only when required source fields are present. Current-club and squad-number wording includes the verification date."
+}

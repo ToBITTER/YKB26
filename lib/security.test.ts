@@ -1,0 +1,3 @@
+import {describe,expect,it} from "vitest";import {hashPassword,hashSessionToken,verifyPassword} from "./security";
+describe("credential security",()=>{it("stores a salted one-way password hash",async()=>{const first=await hashPassword("a-long-test-password"),second=await hashPassword("a-long-test-password");expect(first).not.toBe("a-long-test-password");expect(first).not.toBe(second);expect(await verifyPassword("a-long-test-password",first)).toBe(true);expect(await verifyPassword("wrong-password",first)).toBe(false)},15000);it("hashes session tokens before storage",()=>{const hash=hashSessionToken("secret-session-token");expect(hash).toMatch(/^[a-f0-9]{64}$/);expect(hash).not.toContain("secret-session-token")})})
+
