@@ -1,0 +1,590 @@
+[
+  {
+    "id": "133667",
+    "name": "AC Milan",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "ACM"
+  },
+  {
+    "id": "133772",
+    "name": "Ajax",
+    "league": "Dutch Eredivisie",
+    "country": "The Netherlands",
+    "short": "A"
+  },
+  {
+    "id": "138995",
+    "name": "Al Ahly",
+    "league": "Egyptian Premier League",
+    "country": "Egypt",
+    "short": "AA"
+  },
+  {
+    "id": "133776",
+    "name": "Anderlecht",
+    "league": "Belgian Pro League",
+    "country": "Belgium",
+    "short": "A"
+  },
+  {
+    "id": "133604",
+    "name": "Arsenal",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "A"
+  },
+  {
+    "id": "133601",
+    "name": "Aston Villa",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "AV"
+  },
+  {
+    "id": "134782",
+    "name": "Atalanta",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "A"
+  },
+  {
+    "id": "133727",
+    "name": "Athletic Bilbao",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "AB"
+  },
+  {
+    "id": "133729",
+    "name": "Atlético Madrid",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "AM"
+  },
+  {
+    "id": "133739",
+    "name": "Barcelona",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "B"
+  },
+  {
+    "id": "133666",
+    "name": "Bayer Leverkusen",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "BL"
+  },
+  {
+    "id": "133664",
+    "name": "Bayern Munich",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "BM"
+  },
+  {
+    "id": "134108",
+    "name": "Benfica",
+    "league": "Portuguese Primeira Liga",
+    "country": "Portugal",
+    "short": "B"
+  },
+  {
+    "id": "133794",
+    "name": "Beşiktaş",
+    "league": "Turkish Super Lig",
+    "country": "Turkey",
+    "short": "B"
+  },
+  {
+    "id": "134781",
+    "name": "Bologna",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "B"
+  },
+  {
+    "id": "133650",
+    "name": "Borussia Dortmund",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "BD"
+  },
+  {
+    "id": "134779",
+    "name": "Borussia Mönchengladbach",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "BM"
+  },
+  {
+    "id": "134301",
+    "name": "Bournemouth",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "B"
+  },
+  {
+    "id": "134098",
+    "name": "Braga",
+    "league": "Portuguese Primeira Liga",
+    "country": "Portugal",
+    "short": "B"
+  },
+  {
+    "id": "134355",
+    "name": "Brentford",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "B"
+  },
+  {
+    "id": "140222",
+    "name": "Brighton WFC",
+    "league": "English Womens Super League",
+    "country": "England",
+    "short": "BWF"
+  },
+  {
+    "id": "133623",
+    "name": "Burnley",
+    "league": "English League Championship",
+    "country": "England",
+    "short": "B"
+  },
+  {
+    "id": "133937",
+    "name": "Celta Vigo",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "CV"
+  },
+  {
+    "id": "133647",
+    "name": "Celtic",
+    "league": "Scottish Premier League",
+    "country": "Scotland",
+    "short": "C"
+  },
+  {
+    "id": "133610",
+    "name": "Chelsea",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "C"
+  },
+  {
+    "id": "133789",
+    "name": "Club Brugge",
+    "league": "Belgian Pro League",
+    "country": "Belgium",
+    "short": "CB"
+  },
+  {
+    "id": "133632",
+    "name": "Crystal Palace",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "CP"
+  },
+  {
+    "id": "133944",
+    "name": "Dynamo Kyiv",
+    "league": "Ukrainian Premier League",
+    "country": "Ukraine",
+    "short": "DK"
+  },
+  {
+    "id": "133814",
+    "name": "Eintracht Frankfurt",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "EF"
+  },
+  {
+    "id": "133615",
+    "name": "Everton",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "E"
+  },
+  {
+    "id": "133807",
+    "name": "Fenerbahçe",
+    "league": "Turkish Super Lig",
+    "country": "Turkey",
+    "short": "F"
+  },
+  {
+    "id": "133758",
+    "name": "Feyenoord",
+    "league": "Dutch Eredivisie",
+    "country": "The Netherlands",
+    "short": "F"
+  },
+  {
+    "id": "133674",
+    "name": "Fiorentina",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "F"
+  },
+  {
+    "id": "133600",
+    "name": "Fulham",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "F"
+  },
+  {
+    "id": "133804",
+    "name": "Galatasaray",
+    "league": "Turkish Super Lig",
+    "country": "Turkey",
+    "short": "G"
+  },
+  {
+    "id": "133779",
+    "name": "Genk",
+    "league": "Belgian Pro League",
+    "country": "Belgium",
+    "short": "G"
+  },
+  {
+    "id": "133675",
+    "name": "Genoa",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "G"
+  },
+  {
+    "id": "134700",
+    "name": "Girona",
+    "league": "Spanish La Liga 2",
+    "country": "Spain",
+    "short": "G"
+  },
+  {
+    "id": "133657",
+    "name": "Hoffenheim",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "H"
+  },
+  {
+    "id": "133681",
+    "name": "Inter Milan",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "IM"
+  },
+  {
+    "id": "133676",
+    "name": "Juventus",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "J"
+  },
+  {
+    "id": "139474",
+    "name": "Kaizer Chiefs",
+    "league": "South African Premier Soccer League",
+    "country": "South Africa",
+    "short": "KC"
+  },
+  {
+    "id": "133668",
+    "name": "Lazio",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "L"
+  },
+  {
+    "id": "133635",
+    "name": "Leeds United",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "LU"
+  },
+  {
+    "id": "133822",
+    "name": "Lens",
+    "league": "French Ligue 1",
+    "country": "France",
+    "short": "L"
+  },
+  {
+    "id": "133602",
+    "name": "Liverpool",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "L"
+  },
+  {
+    "id": "133713",
+    "name": "Lyon",
+    "league": "French Ligue 1",
+    "country": "France",
+    "short": "L"
+  },
+  {
+    "id": "134491",
+    "name": "Mamelodi Sundowns",
+    "league": "South African Premier Soccer League",
+    "country": "South Africa",
+    "short": "MS"
+  },
+  {
+    "id": "133613",
+    "name": "Manchester City",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "MC"
+  },
+  {
+    "id": "133612",
+    "name": "Manchester United",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "MU"
+  },
+  {
+    "id": "133707",
+    "name": "Marseille",
+    "league": "French Ligue 1",
+    "country": "France",
+    "short": "M"
+  },
+  {
+    "id": "133823",
+    "name": "Monaco",
+    "league": "French Ligue 1",
+    "country": "Monaco",
+    "short": "M"
+  },
+  {
+    "id": "133861",
+    "name": "Nantes",
+    "league": "French Ligue 2",
+    "country": "France",
+    "short": "N"
+  },
+  {
+    "id": "133670",
+    "name": "Napoli",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "N"
+  },
+  {
+    "id": "134777",
+    "name": "Newcastle United",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "NU"
+  },
+  {
+    "id": "133712",
+    "name": "Nice",
+    "league": "French Ligue 1",
+    "country": "France",
+    "short": "N"
+  },
+  {
+    "id": "133754",
+    "name": "Olympiacos",
+    "league": "Greek Superleague Greece",
+    "country": "Greece",
+    "short": "O"
+  },
+  {
+    "id": "139483",
+    "name": "Orlando Pirates",
+    "league": "South African Premier Soccer League",
+    "country": "South Africa",
+    "short": "OP"
+  },
+  {
+    "id": "133730",
+    "name": "Osasuna",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "O"
+  },
+  {
+    "id": "133768",
+    "name": "PSV Eindhoven",
+    "league": "Dutch Eredivisie",
+    "country": "The Netherlands",
+    "short": "PSV"
+  },
+  {
+    "id": "133642",
+    "name": "Rangers",
+    "league": "Scottish Premier League",
+    "country": "Scotland",
+    "short": "R"
+  },
+  {
+    "id": "134695",
+    "name": "RB Leipzig",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "RBL"
+  },
+  {
+    "id": "133722",
+    "name": "Real Betis",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "RB"
+  },
+  {
+    "id": "133738",
+    "name": "Real Madrid",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "RM"
+  },
+  {
+    "id": "133724",
+    "name": "Real Sociedad",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "RS"
+  },
+  {
+    "id": "133970",
+    "name": "Red Bull Salzburg",
+    "league": "Austrian Bundesliga",
+    "country": "Austria",
+    "short": "RBS"
+  },
+  {
+    "id": "133719",
+    "name": "Rennes",
+    "league": "French Ligue 1",
+    "country": "France",
+    "short": "R"
+  },
+  {
+    "id": "133682",
+    "name": "Roma",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "R"
+  },
+  {
+    "id": "133735",
+    "name": "Sevilla",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "S"
+  },
+  {
+    "id": "134126",
+    "name": "Shakhtar Donetsk",
+    "league": "Ukrainian Premier League",
+    "country": "Ukraine",
+    "short": "SD"
+  },
+  {
+    "id": "135708",
+    "name": "Sporting CP",
+    "league": "Portuguese Primeira Liga",
+    "country": "Portugal",
+    "short": "SCP"
+  },
+  {
+    "id": "133882",
+    "name": "Strasbourg",
+    "league": "French Ligue 1",
+    "country": "France",
+    "short": "S"
+  },
+  {
+    "id": "133660",
+    "name": "Stuttgart",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "S"
+  },
+  {
+    "id": "133603",
+    "name": "Sunderland",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "S"
+  },
+  {
+    "id": "133687",
+    "name": "Torino",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "T"
+  },
+  {
+    "id": "133616",
+    "name": "Tottenham Hotspur",
+    "league": "English Premier League",
+    "country": "England",
+    "short": "TH"
+  },
+  {
+    "id": "133679",
+    "name": "Udinese",
+    "league": "Italian Serie A",
+    "country": "Italy",
+    "short": "U"
+  },
+  {
+    "id": "133725",
+    "name": "Valencia",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "V"
+  },
+  {
+    "id": "133740",
+    "name": "Villarreal",
+    "league": "Spanish La Liga",
+    "country": "Spain",
+    "short": "V"
+  },
+  {
+    "id": "133662",
+    "name": "Werder Bremen",
+    "league": "German Bundesliga",
+    "country": "Germany",
+    "short": "WB"
+  },
+  {
+    "id": "133636",
+    "name": "West Ham United",
+    "league": "English League Championship",
+    "country": "England",
+    "short": "WHU"
+  },
+  {
+    "id": "133655",
+    "name": "Wolfsburg",
+    "league": "German 2. Bundesliga",
+    "country": "Germany",
+    "short": "W"
+  },
+  {
+    "id": "133599",
+    "name": "Wolverhampton Wanderers",
+    "league": "English League Championship",
+    "country": "England",
+    "short": "WW"
+  },
+  {
+    "id": "138997",
+    "name": "Zamalek",
+    "league": "Egyptian Premier League",
+    "country": "Egypt",
+    "short": "Z"
+  }
+]

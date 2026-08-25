@@ -1,4 +1,4 @@
-import clubs from "@/data/clubs.json";
+import clubs from "@/data/clubs.generated.json";
 import questions from "@/data/questions.generated.json";
 import Link from "next/link";
 

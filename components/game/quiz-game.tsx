@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Check, Clock3, Lightbulb, X, Zap } from "lucide-react";
 import curatedQuestions from "@/data/questions.json";
 import generatedQuestions from "@/data/questions.generated.json";
-import clubs from "@/data/clubs.json";
+import clubs from "@/data/clubs.generated.json";
 import type { GameResult, Mode, QuizQuestion } from "@/types";
 import { calculateScore, dailyIndex } from "@/lib/game";
 import { selectUnseenQuestionSet } from "@/lib/question-selection";
