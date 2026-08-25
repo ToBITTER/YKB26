@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T18:00:25.837Z",
+  "generatedAt": "2026-08-25T18:07:14.299Z",
   "verifiedAt": "2026-08-25",
   "source": "TheSportsDB v1 free API",
   "sourceUrl": "https://www.thesportsdb.com/docs_api",
-  "players": 315,
+  "players": 313,
   "clubsRequested": 35,
-  "questions": 3125,
+  "questions": 2795,
   "distractors": "Context matched by club, nationality, position family, or nearby numeric value.",
   "policy": "Incomplete records are excluded. Current-club and squad-number wording includes the verification date."
 }
