@@ -1,0 +1,9 @@
+[
+ {"id":"c1","clubs":["Ajax","Tottenham Hotspur","Real Madrid"],"answer":"Rafael van der Vaart","choices":["Rafael van der Vaart","Luka Modrić","Christian Eriksen","Wesley Sneijder"],"nationality":"Netherlands","position":"Midfielder"},
+ {"id":"c2","clubs":["Sporting CP","Manchester United","Real Madrid","Juventus","Al Nassr"],"answer":"Cristiano Ronaldo","choices":["Cristiano Ronaldo","Nani","Ángel Di María","Carlos Tevez"],"nationality":"Portugal","position":"Forward"},
+ {"id":"c3","clubs":["Basel","Chelsea","Fiorentina","Roma","Liverpool"],"answer":"Mohamed Salah","choices":["Mohamed Salah","Sadio Mané","Juan Cuadrado","Eden Hazard"],"nationality":"Egypt","position":"Forward"},
+ {"id":"c4","clubs":["Wolfsburg","Charleroi","Lille","Napoli","Galatasaray"],"answer":"Victor Osimhen","choices":["Victor Osimhen","Samuel Chukwueze","Odion Ighalo","Emmanuel Dennis"],"nationality":"Nigeria","position":"Striker"},
+ {"id":"c5","clubs":["Genk","Chelsea","Werder Bremen","Wolfsburg","Manchester City"],"answer":"Kevin De Bruyne","choices":["Kevin De Bruyne","Thibaut Courtois","Romelu Lukaku","Eden Hazard"],"nationality":"Belgium","position":"Midfielder"},
+ {"id":"c6","clubs":["Dinamo Zagreb","Tottenham Hotspur","Real Madrid"],"answer":"Luka Modrić","choices":["Luka Modrić","Mateo Kovačić","Ivan Rakitić","Gareth Bale"],"nationality":"Croatia","position":"Midfielder"}
+]
+

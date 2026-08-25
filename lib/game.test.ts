@@ -1,0 +1,3 @@
+import {describe,expect,it} from "vitest";import {calculateScore,dailyIndex,getLevelFromXP,updateProgress,DEFAULT_PROGRESS} from "./game";
+describe("game engine",()=>{it("rewards early clues",()=>expect(calculateScore("whos-that-baller",1,1,1,0)).toBeGreaterThan(calculateScore("whos-that-baller",1,1,1,4)));it("daily selection is deterministic",()=>expect(dailyIndex("2026-08-25",5)).toBe(dailyIndex("2026-08-25",5)));it("never accepts arbitrary xp through progression",()=>{const next=updateProgress(DEFAULT_PROGRESS,{score:100,xp:100,correct:1,total:1,bestStreak:1,elapsed:5,mode:"quiz"});expect(next.xp).toBe(100)});it("levels increase",()=>expect(getLevelFromXP(6000)).toBeGreaterThan(getLevelFromXP(0)))})
+

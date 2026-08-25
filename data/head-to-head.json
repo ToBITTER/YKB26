@@ -1,0 +1,8 @@
+[
+ {"id":"h1","prompt":"Who scored more Premier League goals through the end of 2023–24?","left":{"name":"Mohamed Salah","value":157,"label":"Premier League goals"},"right":{"name":"Son Heung-min","value":120,"label":"Premier League goals"},"answer":"Mohamed Salah","category":"Premier League"},
+ {"id":"h2","prompt":"Who has won more men’s Ballon d’Or awards?","left":{"name":"Lionel Messi","value":8,"label":"Ballon d'Or"},"right":{"name":"Cristiano Ronaldo","value":5,"label":"Ballon d'Or"},"answer":"Lionel Messi","category":"World"},
+ {"id":"h3","prompt":"Who was younger on 1 January 2025?","left":{"name":"Jude Bellingham","value":21,"label":"years old"},"right":{"name":"Kylian Mbappé","value":26,"label":"years old"},"answer":"Jude Bellingham","category":"World"},
+ {"id":"h4","prompt":"Who scored more goals at the 2022 FIFA World Cup?","left":{"name":"Kylian Mbappé","value":8,"label":"goals"},"right":{"name":"Lionel Messi","value":7,"label":"goals"},"answer":"Kylian Mbappé","category":"World Cup"},
+ {"id":"h5","prompt":"Who won more Premier League Golden Boots through 2024?","left":{"name":"Thierry Henry","value":4,"label":"Golden Boots"},"right":{"name":"Mohamed Salah","value":3,"label":"Golden Boots"},"answer":"Thierry Henry","category":"Premier League"}
+]
+

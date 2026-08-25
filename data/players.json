@@ -1,0 +1,23 @@
+[
+ {"id":"messi","name":"Lionel Messi","nationality":"Argentina","position":"Forward","clubs":["Barcelona","Paris Saint-Germain","Inter Miami"],"facts":["Won the 2022 FIFA World Cup","Record eight-time Ballon d'Or winner"]},
+ {"id":"ronaldo","name":"Cristiano Ronaldo","nationality":"Portugal","position":"Forward","clubs":["Sporting CP","Manchester United","Real Madrid","Juventus","Al Nassr"],"facts":["Portugal's record men's international scorer","Won five Ballon d'Or awards"]},
+ {"id":"salah","name":"Mohamed Salah","nationality":"Egypt","position":"Forward","clubs":["Basel","Chelsea","Fiorentina","Roma","Liverpool"],"facts":["Won the Premier League with Liverpool","Three-time Premier League Golden Boot winner"]},
+ {"id":"osimhen","name":"Victor Osimhen","nationality":"Nigeria","position":"Striker","clubs":["Wolfsburg","Charleroi","Lille","Napoli","Galatasaray"],"facts":["Won Serie A with Napoli","Won the 2015 FIFA U-17 World Cup"]},
+ {"id":"saka","name":"Bukayo Saka","nationality":"England","position":"Winger","clubs":["Arsenal"],"facts":["Arsenal academy graduate","Represented England at Euro 2020"]},
+ {"id":"bellingham","name":"Jude Bellingham","nationality":"England","position":"Midfielder","clubs":["Birmingham City","Borussia Dortmund","Real Madrid"],"facts":["Joined Real Madrid in 2023","Won the 2024 Champions League"]},
+ {"id":"mbappe","name":"Kylian Mbappé","nationality":"France","position":"Forward","clubs":["Monaco","Paris Saint-Germain","Real Madrid"],"facts":["Won the 2018 FIFA World Cup","Scored a hat-trick in the 2022 World Cup final"]},
+ {"id":"haaland","name":"Erling Haaland","nationality":"Norway","position":"Striker","clubs":["Bryne","Molde","Red Bull Salzburg","Borussia Dortmund","Manchester City"],"facts":["Won the 2023 treble with Manchester City","Premier League single-season scoring record holder"]},
+ {"id":"debruyne","name":"Kevin De Bruyne","nationality":"Belgium","position":"Midfielder","clubs":["Genk","Chelsea","Werder Bremen","Wolfsburg","Manchester City"],"facts":["Won the 2023 treble","Two-time PFA Players' Player of the Year"]},
+ {"id":"modric","name":"Luka Modrić","nationality":"Croatia","position":"Midfielder","clubs":["Dinamo Zagreb","Tottenham Hotspur","Real Madrid"],"facts":["Won the 2018 Ballon d'Or","Captained Croatia to the 2018 World Cup final"]},
+ {"id":"henry","name":"Thierry Henry","nationality":"France","position":"Forward","clubs":["Monaco","Juventus","Arsenal","Barcelona","New York Red Bulls"],"facts":["Arsenal's record scorer","Won the 1998 World Cup"]},
+ {"id":"okocha","name":"Jay-Jay Okocha","nationality":"Nigeria","position":"Midfielder","clubs":["Eintracht Frankfurt","Fenerbahçe","Paris Saint-Germain","Bolton Wanderers","Qatar SC","Hull City"],"facts":["Won the 1994 AFCON","Captained Nigeria"]},
+ {"id":"kanu","name":"Nwankwo Kanu","nationality":"Nigeria","position":"Forward","clubs":["Iwuanyanwu Nationale","Ajax","Inter Milan","Arsenal","West Bromwich Albion","Portsmouth"],"facts":["Two-time African Player of the Year","Won Olympic gold in 1996"]},
+ {"id":"drogba","name":"Didier Drogba","nationality":"Ivory Coast","position":"Striker","clubs":["Le Mans","Guingamp","Marseille","Chelsea","Shanghai Shenhua","Galatasaray","Montreal Impact","Phoenix Rising"],"facts":["Scored in the 2012 Champions League final","Four-time Premier League champion"]},
+ {"id":"zidane","name":"Zinedine Zidane","nationality":"France","position":"Midfielder","clubs":["Cannes","Bordeaux","Juventus","Real Madrid"],"facts":["Won the 1998 Ballon d'Or","Scored twice in the 1998 World Cup final"]},
+ {"id":"ronaldinho","name":"Ronaldinho","nationality":"Brazil","position":"Attacking midfielder","clubs":["Grêmio","Paris Saint-Germain","Barcelona","AC Milan","Flamengo","Atlético Mineiro","Querétaro","Fluminense"],"facts":["Won the 2005 Ballon d'Or","Won the 2002 World Cup"]},
+ {"id":"son","name":"Son Heung-min","nationality":"South Korea","position":"Forward","clubs":["Hamburger SV","Bayer Leverkusen","Tottenham Hotspur"],"facts":["Shared the 2022 Premier League Golden Boot","Captain of South Korea"]},
+ {"id":"palmer","name":"Cole Palmer","nationality":"England","position":"Attacking midfielder","clubs":["Manchester City","Chelsea"],"facts":["Joined Chelsea in 2023","Scored four goals against Everton in April 2024"]},
+ {"id":"yamal","name":"Lamine Yamal","nationality":"Spain","position":"Winger","clubs":["Barcelona"],"facts":["Youngest scorer in European Championship history","Won Euro 2024"]},
+ {"id":"vinicius","name":"Vinícius Júnior","nationality":"Brazil","position":"Winger","clubs":["Flamengo","Real Madrid"],"facts":["Scored in two Champions League finals","Joined Real Madrid from Flamengo"]}
+]
+

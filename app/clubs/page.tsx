@@ -1,0 +1,2 @@
+import clubs from "@/data/clubs.json";import Link from "next/link";export default function Clubs(){return <main className="shell page"><header className="page-head"><span>CLUB MODE</span><h1>REP YOUR<br/>COLOURS.</h1><p>Choose a club. Club-filtered challenge packs are structured for the next content release.</p></header><section className="club-grid">{clubs.slice(0,13).map(c=><Link href="/play/whos-that-baller" key={c.id}><b>{c.short}</b><div><strong>{c.name}</strong><span>{c.league}</span></div></Link>)}</section></main>}
+

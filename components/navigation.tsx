@@ -1,0 +1,4 @@
+"use client";import Link from "next/link";import {usePathname} from "next/navigation";import {Home,Joystick,Medal,UserRound,VolumeX} from "lucide-react";
+const links=[{href:"/",label:"Home",icon:Home},{href:"/play",label:"Play",icon:Joystick},{href:"/leaderboard",label:"Leaderboard",icon:Medal},{href:"/profile",label:"Profile",icon:UserRound}];
+export function Navigation(){const path=usePathname();return <><header className="top-nav"><Link href="/" className="logo"><i>⚽</i>BALLER<span>.</span></Link><nav>{links.map(l=><Link key={l.href} href={l.href} className={path===l.href?"active":""}>{l.label}</Link>)}</nav><button className="sound" aria-label="Sound off" title="Sound is off"><VolumeX/></button></header><nav className="bottom-nav">{links.map(l=><Link key={l.href} href={l.href} className={path===l.href?"active":""}><l.icon/><span>{l.label}</span></Link>)}</nav></>}
+
