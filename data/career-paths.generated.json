@@ -1,0 +1,365 @@
+[
+  {
+    "id": "career-messi",
+    "clubs": [
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Inter Miami"
+    ],
+    "answer": "Lionel Messi",
+    "choices": [
+      "Jay-Jay Okocha",
+      "Lionel Messi",
+      "Kylian Mbappé",
+      "Jude Bellingham"
+    ],
+    "nationality": "Argentina",
+    "position": "Forward"
+  },
+  {
+    "id": "career-ronaldo",
+    "clubs": [
+      "Sporting CP",
+      "Manchester United",
+      "Real Madrid",
+      "Juventus",
+      "Al Nassr"
+    ],
+    "answer": "Cristiano Ronaldo",
+    "choices": [
+      "Erling Haaland",
+      "Cristiano Ronaldo",
+      "Son Heung-min",
+      "Zinedine Zidane"
+    ],
+    "nationality": "Portugal",
+    "position": "Forward"
+  },
+  {
+    "id": "career-salah",
+    "clubs": [
+      "Basel",
+      "Chelsea",
+      "Fiorentina",
+      "Roma",
+      "Liverpool"
+    ],
+    "answer": "Mohamed Salah",
+    "choices": [
+      "Bukayo Saka",
+      "Victor Osimhen",
+      "Lionel Messi",
+      "Mohamed Salah"
+    ],
+    "nationality": "Egypt",
+    "position": "Forward"
+  },
+  {
+    "id": "career-osimhen",
+    "clubs": [
+      "Wolfsburg",
+      "Charleroi",
+      "Lille",
+      "Napoli",
+      "Galatasaray"
+    ],
+    "answer": "Victor Osimhen",
+    "choices": [
+      "Jay-Jay Okocha",
+      "Erling Haaland",
+      "Zinedine Zidane",
+      "Victor Osimhen"
+    ],
+    "nationality": "Nigeria",
+    "position": "Striker"
+  },
+  {
+    "id": "career-saka",
+    "clubs": [
+      "Arsenal"
+    ],
+    "answer": "Bukayo Saka",
+    "choices": [
+      "Bukayo Saka",
+      "Zinedine Zidane",
+      "Lamine Yamal",
+      "Mohamed Salah"
+    ],
+    "nationality": "England",
+    "position": "Winger"
+  },
+  {
+    "id": "career-bellingham",
+    "clubs": [
+      "Birmingham City",
+      "Borussia Dortmund",
+      "Real Madrid"
+    ],
+    "answer": "Jude Bellingham",
+    "choices": [
+      "Nwankwo Kanu",
+      "Jude Bellingham",
+      "Lionel Messi",
+      "Son Heung-min"
+    ],
+    "nationality": "England",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-mbappe",
+    "clubs": [
+      "Monaco",
+      "Paris Saint-Germain",
+      "Real Madrid"
+    ],
+    "answer": "Kylian Mbappé",
+    "choices": [
+      "Thierry Henry",
+      "Luka Modrić",
+      "Kylian Mbappé",
+      "Jude Bellingham"
+    ],
+    "nationality": "France",
+    "position": "Forward"
+  },
+  {
+    "id": "career-haaland",
+    "clubs": [
+      "Bryne",
+      "Molde",
+      "Red Bull Salzburg",
+      "Borussia Dortmund",
+      "Manchester City"
+    ],
+    "answer": "Erling Haaland",
+    "choices": [
+      "Jay-Jay Okocha",
+      "Erling Haaland",
+      "Kylian Mbappé",
+      "Cristiano Ronaldo"
+    ],
+    "nationality": "Norway",
+    "position": "Striker"
+  },
+  {
+    "id": "career-debruyne",
+    "clubs": [
+      "Genk",
+      "Chelsea",
+      "Werder Bremen",
+      "Wolfsburg",
+      "Manchester City"
+    ],
+    "answer": "Kevin De Bruyne",
+    "choices": [
+      "Kevin De Bruyne",
+      "Victor Osimhen",
+      "Ronaldinho",
+      "Didier Drogba"
+    ],
+    "nationality": "Belgium",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-modric",
+    "clubs": [
+      "Dinamo Zagreb",
+      "Tottenham Hotspur",
+      "Real Madrid"
+    ],
+    "answer": "Luka Modrić",
+    "choices": [
+      "Didier Drogba",
+      "Son Heung-min",
+      "Lamine Yamal",
+      "Luka Modrić"
+    ],
+    "nationality": "Croatia",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-henry",
+    "clubs": [
+      "Monaco",
+      "Juventus",
+      "Arsenal",
+      "Barcelona",
+      "New York Red Bulls"
+    ],
+    "answer": "Thierry Henry",
+    "choices": [
+      "Victor Osimhen",
+      "Thierry Henry",
+      "Cole Palmer",
+      "Jude Bellingham"
+    ],
+    "nationality": "France",
+    "position": "Forward"
+  },
+  {
+    "id": "career-okocha",
+    "clubs": [
+      "Eintracht Frankfurt",
+      "Fenerbahçe",
+      "Paris Saint-Germain",
+      "Bolton Wanderers",
+      "Qatar SC",
+      "Hull City"
+    ],
+    "answer": "Jay-Jay Okocha",
+    "choices": [
+      "Jay-Jay Okocha",
+      "Zinedine Zidane",
+      "Nwankwo Kanu",
+      "Ronaldinho"
+    ],
+    "nationality": "Nigeria",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-kanu",
+    "clubs": [
+      "Iwuanyanwu Nationale",
+      "Ajax",
+      "Inter Milan",
+      "Arsenal",
+      "West Bromwich Albion",
+      "Portsmouth"
+    ],
+    "answer": "Nwankwo Kanu",
+    "choices": [
+      "Kevin De Bruyne",
+      "Kylian Mbappé",
+      "Nwankwo Kanu",
+      "Bukayo Saka"
+    ],
+    "nationality": "Nigeria",
+    "position": "Forward"
+  },
+  {
+    "id": "career-drogba",
+    "clubs": [
+      "Le Mans",
+      "Guingamp",
+      "Marseille",
+      "Chelsea",
+      "Shanghai Shenhua",
+      "Galatasaray",
+      "Montreal Impact",
+      "Phoenix Rising"
+    ],
+    "answer": "Didier Drogba",
+    "choices": [
+      "Thierry Henry",
+      "Didier Drogba",
+      "Nwankwo Kanu",
+      "Bukayo Saka"
+    ],
+    "nationality": "Ivory Coast",
+    "position": "Striker"
+  },
+  {
+    "id": "career-zidane",
+    "clubs": [
+      "Cannes",
+      "Bordeaux",
+      "Juventus",
+      "Real Madrid"
+    ],
+    "answer": "Zinedine Zidane",
+    "choices": [
+      "Mohamed Salah",
+      "Zinedine Zidane",
+      "Cole Palmer",
+      "Victor Osimhen"
+    ],
+    "nationality": "France",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-ronaldinho",
+    "clubs": [
+      "Grêmio",
+      "Paris Saint-Germain",
+      "Barcelona",
+      "AC Milan",
+      "Flamengo",
+      "Atlético Mineiro",
+      "Querétaro",
+      "Fluminense"
+    ],
+    "answer": "Ronaldinho",
+    "choices": [
+      "Didier Drogba",
+      "Ronaldinho",
+      "Victor Osimhen",
+      "Nwankwo Kanu"
+    ],
+    "nationality": "Brazil",
+    "position": "Attacking midfielder"
+  },
+  {
+    "id": "career-son",
+    "clubs": [
+      "Hamburger SV",
+      "Bayer Leverkusen",
+      "Tottenham Hotspur"
+    ],
+    "answer": "Son Heung-min",
+    "choices": [
+      "Son Heung-min",
+      "Vinícius Júnior",
+      "Mohamed Salah",
+      "Zinedine Zidane"
+    ],
+    "nationality": "South Korea",
+    "position": "Forward"
+  },
+  {
+    "id": "career-palmer",
+    "clubs": [
+      "Manchester City",
+      "Chelsea"
+    ],
+    "answer": "Cole Palmer",
+    "choices": [
+      "Luka Modrić",
+      "Cole Palmer",
+      "Kevin De Bruyne",
+      "Nwankwo Kanu"
+    ],
+    "nationality": "England",
+    "position": "Attacking midfielder"
+  },
+  {
+    "id": "career-yamal",
+    "clubs": [
+      "Barcelona"
+    ],
+    "answer": "Lamine Yamal",
+    "choices": [
+      "Bukayo Saka",
+      "Zinedine Zidane",
+      "Lamine Yamal",
+      "Jay-Jay Okocha"
+    ],
+    "nationality": "Spain",
+    "position": "Winger"
+  },
+  {
+    "id": "career-vinicius",
+    "clubs": [
+      "Flamengo",
+      "Real Madrid"
+    ],
+    "answer": "Vinícius Júnior",
+    "choices": [
+      "Jude Bellingham",
+      "Thierry Henry",
+      "Cristiano Ronaldo",
+      "Vinícius Júnior"
+    ],
+    "nationality": "Brazil",
+    "position": "Winger"
+  }
+]

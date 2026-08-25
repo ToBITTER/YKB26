@@ -1,0 +1,6402 @@
+[
+  {
+    "id": "head-born-34145395-34163672",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Danny Welbeck",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Amine Gouiri",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Amine Gouiri",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145410-34163685",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alex Oxlade-Chamberlain",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aleksandr Golovin",
+      "value": 10,
+      "label": "squad number"
+    },
+    "answer": "Alex Oxlade-Chamberlain",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145419-34163698",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alex Iwobi",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ben White",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Ben White",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145423-34163719",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Emiliano Martinez",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Antoine Semenyo",
+      "value": 42,
+      "label": "squad number"
+    },
+    "answer": "Antoine Semenyo",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145435-34163809",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alexis Sánchez",
+      "value": 1988,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Andre-Frank Zambo Anguissa",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "answer": "Andre-Frank Zambo Anguissa",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145444-34163810",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ainsley Maitland-Niles",
+      "value": 98,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Çağlar Söyüncü",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Ainsley Maitland-Niles",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145474-34163865",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Benjamin Siegrist",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dujon Sterling",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Dujon Sterling",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145493-34163947",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Andreas Christensen",
+      "value": 15,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Clinton Mata",
+      "value": 22,
+      "label": "squad number"
+    },
+    "answer": "Clinton Mata",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145498-34164100",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "César Azpilicueta",
+      "value": 1989,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dayot Upamecano",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Dayot Upamecano",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145539-34164178",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dominic Solanke",
+      "value": 19,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Donyell Malen",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Dominic Solanke",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145637-34164182",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "David de Gea",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Cody Gakpo",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Cody Gakpo",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34145676-34164235",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daley Blind",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Duván Zapata",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "answer": "Duván Zapata",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145741-34164241",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "James Ward-Prowse",
+      "value": 20,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Christian Kouamé",
+      "value": 99,
+      "label": "squad number"
+    },
+    "answer": "Christian Kouamé",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145745-34164243",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Harrison Reed",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Cristian Romero",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Cristian Romero",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145874-34164269",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Abdoulaye Faye",
+      "value": 25,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Amadou Haidara",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Abdoulaye Faye",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145891-34164270",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Andrew Robertson",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alphonso Davies",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Alphonso Davies",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34145936-34164282",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Emre Can",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Francesco Acerbi",
+      "value": 15,
+      "label": "squad number"
+    },
+    "answer": "Emre Can",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34145978-34164381",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Adrian",
+      "value": 1987,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Álex Berenguer",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "answer": "Álex Berenguer",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146052-34164383",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ashley Barnes",
+      "value": 35,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bremer",
+      "value": 3,
+      "label": "squad number"
+    },
+    "answer": "Ashley Barnes",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146086-34164460",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Adam Armstrong",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Danilo Cataldi",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "answer": "Adam Armstrong",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146101-34164499",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ayoze Pérez",
+      "value": 22,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Christian Nørgaard",
+      "value": 23,
+      "label": "squad number"
+    },
+    "answer": "Christian Nørgaard",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146210-34164503",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Christian Eriksen",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dávid Hancko",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Dávid Hancko",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146220-34164505",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Harry Kane",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Federico Chiesa",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Federico Chiesa",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146232-34164522",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ben Davies",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alfonso Pedraza",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Alfonso Pedraza",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146235-34166118",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Eric Dier",
+      "value": 3,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Axel Disasi",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Axel Disasi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146469-34166121",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dani Garcia",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Hassane Kamara",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "answer": "Hassane Kamara",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146499-34166154",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bryan Cristante",
+      "value": 4,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Adrien Tameze",
+      "value": 61,
+      "label": "squad number"
+    },
+    "answer": "Adrien Tameze",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146524-34166841",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Andre Almeida",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Harry Wilson",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Harry Wilson",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146678-34167060",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ellyes Skhiri",
+      "value": 15,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Andrej Kramarić",
+      "value": 27,
+      "label": "squad number"
+    },
+    "answer": "Andrej Kramarić",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146684-34167119",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dante",
+      "value": 1983,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "David Neres",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "David Neres",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146809-34167123",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Axel Witsel",
+      "value": 20,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Frenkie de Jong",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Frenkie de Jong",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146872-34167575",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Andre Pinto",
+      "value": 1989,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Aaron Wan-Bissaka",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Aaron Wan-Bissaka",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34146911-34167607",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ederson",
+      "value": 31,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ermedin Demirović",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Ederson",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34146986-34167652",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daniele Padelli",
+      "value": 1985,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ante Budimir",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "answer": "Ante Budimir",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34147051-34167753",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Callum McGregor",
+      "value": 42,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Arnaut Danjuma",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Callum McGregor",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34147090-34167829",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Cristiano Biraghi",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Daniel James",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Daniel James",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34147121-34168133",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Federico Dimarco",
+      "value": 32,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aurélien Tchouaméni",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Federico Dimarco",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34147327-34168142",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Davy Klaassen",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Benoit Badiashile",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Benoit Badiashile",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34147839-34168363",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alex Cairns",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dani Olmo",
+      "value": 20,
+      "label": "squad number"
+    },
+    "answer": "Alex Cairns",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34148011-34168938",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Florian Thauvin",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Chiquinho",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "answer": "Chiquinho",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34148020-34168991",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Brice Samba",
+      "value": 30,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Curtis Jones",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Brice Samba",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34148059-34169011",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daniele Rugani",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Edson Álvarez",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Edson Álvarez",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34148089-34169017",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alessio Romagnoli",
+      "value": 13,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Denis Vavro",
+      "value": 3,
+      "label": "squad number"
+    },
+    "answer": "Alessio Romagnoli",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34148287-34169114",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Caleb Ekuban",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Hee-chan Hwang",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Hee-chan Hwang",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34148376-34169116",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Davide Zappacosta",
+      "value": 77,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Erling Haaland",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Davide Zappacosta",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34148385-34169130",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Francesco Rossi",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Evan Ndicka",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Evan Ndicka",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34148472-34169134",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Federico Bernardeschi",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Djibril Sow",
+      "value": 20,
+      "label": "squad number"
+    },
+    "answer": "Djibril Sow",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34148493-34169137",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Gianluca Mancini",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daichi Kamada",
+      "value": 18,
+      "label": "squad number"
+    },
+    "answer": "Gianluca Mancini",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34148591-34169189",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dan Burn",
+      "value": 33,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dodi Lukébakio",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Dan Burn",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34148681-34169203",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "David Raya",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dejan Kulusevski",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Dejan Kulusevski",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34148993-34169205",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Brandon Mechele",
+      "value": 44,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dennis Geiger",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Brandon Mechele",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34149020-34169209",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Anthony Lopes",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Christoph Baumgartner",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Christoph Baumgartner",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34149045-34169228",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Corentin Tolisso",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Exequiel Palacios",
+      "value": 25,
+      "label": "squad number"
+    },
+    "answer": "Exequiel Palacios",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34149265-34169229",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Borja Iglesias",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alassane Pléa",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Alassane Pléa",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34149296-34169230",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Aymeric Laporte",
+      "value": 14,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Denis Zakaria",
+      "value": 6,
+      "label": "squad number"
+    },
+    "answer": "Aymeric Laporte",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34149416-34169242",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Christian Stuani",
+      "value": 1986,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Florian Neuhaus",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Florian Neuhaus",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34149475-34169292",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Emi Buendía",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ethan Ampadu",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Emi Buendía",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34149478-34169295",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dimitri Foulquier",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Juan Miranda",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Juan Miranda",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34149700-34169300",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Gerónimo Rulli",
+      "value": 28,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Fabian Reese",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Gerónimo Rulli",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34149722-34169341",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daniel Parejo",
+      "value": 1989,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Elvis Rexhbeçaj",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Elvis Rexhbeçaj",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34149744-34169420",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Aitor Fernandez",
+      "value": 13,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Charalambos Lykogiannis",
+      "value": 22,
+      "label": "squad number"
+    },
+    "answer": "Charalambos Lykogiannis",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34149766-34169455",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Gerard Moreno",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alessandro Bastoni",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Alessandro Bastoni",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34152573-34169492",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Adrien Rabiot",
+      "value": 12,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Eljif Elmas",
+      "value": 20,
+      "label": "squad number"
+    },
+    "answer": "Eljif Elmas",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34152584-34169528",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alphonse Areola",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Giacomo Raspadori",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Giacomo Raspadori",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34152742-34169562",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bernardo Silva",
+      "value": 20,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Amir Rrahmani",
+      "value": 13,
+      "label": "squad number"
+    },
+    "answer": "Bernardo Silva",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34152850-34169691",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Franck Honorat",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alexis Saelemaekers",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Alexis Saelemaekers",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34152856-34169692",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Joris Delle",
+      "value": 1,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Edmond Tapsoba",
+      "value": 12,
+      "label": "squad number"
+    },
+    "answer": "Edmond Tapsoba",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34152864-34169840",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Benjamin Lecomte",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Adam Buksa",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Adam Buksa",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34153361-34169971",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Christian Kabasele",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Billy Gilmour",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Billy Gilmour",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34153393-34170047",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Adam Marusic",
+      "value": 77,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Giovanni Reyna",
+      "value": 13,
+      "label": "squad number"
+    },
+    "answer": "Adam Marusic",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34154877-34170133",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ciro Immobile",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alexis Mac Allister",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Alexis Mac Allister",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34155126-34170134",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Jens Grahl",
+      "value": 33,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bernardo",
+      "value": 13,
+      "label": "squad number"
+    },
+    "answer": "Jens Grahl",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34155217-34170142",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Antonio Rüdiger",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Anthony Gordon",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Anthony Gordon",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34155244-34170146",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Filip Kostic",
+      "value": 18,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Caoimhín Kelleher",
+      "value": 1,
+      "label": "squad number"
+    },
+    "answer": "Filip Kostic",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34155372-34170150",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bernd Leno",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Angel Gomes",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Angel Gomes",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34155400-34170177",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Arkadiusz Milik",
+      "value": 14,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Álex Moreno",
+      "value": 24,
+      "label": "squad number"
+    },
+    "answer": "Álex Moreno",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34155404-34170209",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Hakan Çalhanoğlu",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Adrià Pedrosa",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Adrià Pedrosa",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34156789-34170245",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bruma",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aitor Ruibal",
+      "value": 24,
+      "label": "squad number"
+    },
+    "answer": "Aitor Ruibal",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34156820-34170248",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Atiba Hutchinson",
+      "value": 1983,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bryan Gil",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Bryan Gil",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34157093-34170301",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Andriy Yarmolenko",
+      "value": 1989,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Diego Carlos",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "answer": "Diego Carlos",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34157531-34170307",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Connor Roberts",
+      "value": 14,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Andoni Gorosabel",
+      "value": 2,
+      "label": "squad number"
+    },
+    "answer": "Connor Roberts",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34158489-34170347",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Abdülkerim Bardakcı",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Crysencio Summerville",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Crysencio Summerville",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34158758-34170382",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alan Browne",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Albert Guðmundsson",
+      "value": 10,
+      "label": "squad number"
+    },
+    "answer": "Albert Guðmundsson",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34159023-34170408",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dominic Calvert-Lewin",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Gabriel Gudmundsson",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Gabriel Gudmundsson",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34159026-34170550",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Che Adams",
+      "value": 19,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Chidera Ejuke",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Chidera Ejuke",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34159893-34170567",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alef Dos Santos Saldanha",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Janis Blaswich",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "answer": "Alef Dos Santos Saldanha",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34160529-34171323",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Adama Traoré",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Charles De Ketelaere",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Charles De Ketelaere",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34160535-34171965",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Álvaro Morata",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dominik Szoboszlai",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Dominik Szoboszlai",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34160664-34172095",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Fabian Schär",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dodô",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Dodô",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34160884-34172187",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Granit Xhaka",
+      "value": 34,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bruno Guimarães",
+      "value": 39,
+      "label": "squad number"
+    },
+    "answer": "Bruno Guimarães",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34160895-34172195",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Callum Wilson",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Hendrik Van Crombrugge",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "answer": "Hendrik Van Crombrugge",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34160896-34172215",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Adam Smith",
+      "value": 15,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dominik Livaković",
+      "value": 40,
+      "label": "squad number"
+    },
+    "answer": "Dominik Livaković",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34160914-34172218",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Fikayo Tomori",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Duje Ćaleta-Car",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Fikayo Tomori",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34160942-34172241",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Axel Tuanzebe",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Eric García",
+      "value": 24,
+      "label": "squad number"
+    },
+    "answer": "Eric García",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34160998-34172242",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ben Chilwell",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ansu Fati",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Ansu Fati",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34161018-34172277",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Cameron Carter-Vickers",
+      "value": 20,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Caio Henrique",
+      "value": 12,
+      "label": "squad number"
+    },
+    "answer": "Cameron Carter-Vickers",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34161149-34172278",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ademola Lookman",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Eberechi Eze",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Eberechi Eze",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34161388-34172286",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Álvaro Odriozola",
+      "value": 20,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alexander Sørloth",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Álvaro Odriozola",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34161460-34172295",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ethan Pinnock",
+      "value": 5,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Benjamin Henrichs",
+      "value": 39,
+      "label": "squad number"
+    },
+    "answer": "Benjamin Henrichs",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34161482-34172386",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Antonee Robinson",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ardian Ismajli",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Antonee Robinson",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34161584-34172388",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Declan Rice",
+      "value": 41,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Guus Til",
+      "value": 20,
+      "label": "squad number"
+    },
+    "answer": "Declan Rice",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34161602-34172407",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Brahim Díaz",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Fábio Silva",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Fábio Silva",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34161898-34172526",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Anthony Ralston",
+      "value": 56,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aaron Hickey",
+      "value": 2,
+      "label": "squad number"
+    },
+    "answer": "Anthony Ralston",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34162097-34172633",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Christopher Nkunku",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Gianluca Scamacca",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Gianluca Scamacca",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34162104-34172672",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Carlo Pinsoglio",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daniel Maldini",
+      "value": 70,
+      "label": "squad number"
+    },
+    "answer": "Daniel Maldini",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34162140-34172789",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Denys Boyko",
+      "value": 1988,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Conor Gallagher",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Conor Gallagher",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34162147-34172986",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Emerson Palmieri",
+      "value": 33,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Folarin Balogun",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Emerson Palmieri",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34162303-34172989",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Gianluigi Donnarumma",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Antony",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Antony",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34162494-34173019",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Franco Cervi",
+      "value": 11,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Amad Diallo",
+      "value": 16,
+      "label": "squad number"
+    },
+    "answer": "Amad Diallo",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163007-34173035",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bruno Fernandes",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Jamal Musiala",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Jamal Musiala",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34163093-34173083",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "João Palhinha",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Amos Pieper",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Amos Pieper",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163267-34173096",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Daniel Podence",
+      "value": 56,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Gregor Kobel",
+      "value": 1,
+      "label": "squad number"
+    },
+    "answer": "Daniel Podence",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163366-34173109",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Álex Remiro",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Atakan Karazor",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Atakan Karazor",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34163434-34173134",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Benjamin Pavard",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Adrien Truffert",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Adrien Truffert",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163438-34173162",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Andriy Lunin",
+      "value": 13,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Chris Richards",
+      "value": 26,
+      "label": "squad number"
+    },
+    "answer": "Chris Richards",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34163445-34173164",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dan-Axel Zagadou",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Boubacar Kamara",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Dan-Axel Zagadou",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34163447-34173195",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alexander Isak",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Anatoliy Trubin",
+      "value": 81,
+      "label": "squad number"
+    },
+    "answer": "Anatoliy Trubin",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163452-34173197",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aarón Martín",
+      "value": 1987,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bright Arrey-Mbi",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Bright Arrey-Mbi",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163470-34173203",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Christian Pulisic",
+      "value": 11,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Denys Popov",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Christian Pulisic",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163475-34173230",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Carlos Soler",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Brian Brobbey",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Brian Brobbey",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163489-34173339",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alexander Nübel",
+      "value": 33,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Boulaye Dia",
+      "value": 19,
+      "label": "squad number"
+    },
+    "answer": "Alexander Nübel",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163490-34173355",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Breel Embolo",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Enzo Le Fée",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Enzo Le Fée",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163492-34173374",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Clément Lenglet",
+      "value": 15,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Adrien Thomasson",
+      "value": 28,
+      "label": "squad number"
+    },
+    "answer": "Adrien Thomasson",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163539-34173402",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Andriy Pyatov",
+      "value": 1984,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Facundo Medina",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Facundo Medina",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163551-34173412",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alisson Becker",
+      "value": 1,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Florian Sotoca",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Florian Sotoca",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163596-34173454",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dentinho",
+      "value": 1989,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Arnaud Nordin",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Arnaud Nordin",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163610-34173526",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alex Meret",
+      "value": 1,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Elye Wahi",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Elye Wahi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163663-34173542",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Cengiz Ünder",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Lilian Brassier",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Lilian Brassier",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163672-34173594",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Amine Gouiri",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bryan Mbeumo",
+      "value": 19,
+      "label": "squad number"
+    },
+    "answer": "Bryan Mbeumo",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163685-34173595",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aleksandr Golovin",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Djed Spence",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Djed Spence",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163698-34173733",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ben White",
+      "value": 4,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Casper Tengstedt",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Casper Tengstedt",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163719-34173868",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Antoine Semenyo",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Fraser Hornby",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Antoine Semenyo",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163809-34173880",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Andre-Frank Zambo Anguissa",
+      "value": 99,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Hicham Boudaoui",
+      "value": 6,
+      "label": "squad number"
+    },
+    "answer": "Andre-Frank Zambo Anguissa",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163810-34173907",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Çağlar Söyüncü",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dani Raba",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "answer": "Çağlar Söyüncü",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34163865-34174026",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dujon Sterling",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Chris Führich",
+      "value": 10,
+      "label": "squad number"
+    },
+    "answer": "Dujon Sterling",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34163947-34174051",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Clinton Mata",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Karl Hein",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Karl Hein",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164100-34174104",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dayot Upamecano",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Álex Baena",
+      "value": 10,
+      "label": "squad number"
+    },
+    "answer": "Álex Baena",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164178-34174140",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Donyell Malen",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Jessic Ngankam",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Jessic Ngankam",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164182-34174170",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Cody Gakpo",
+      "value": 18,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Couhaib Driouech",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Cody Gakpo",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164230-34174176",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Berat Djimsiti",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bart Nieuwkoop",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Bart Nieuwkoop",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164235-34174214",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Duván Zapata",
+      "value": 91,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Jordan Teze",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Duván Zapata",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164241-34174227",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Christian Kouamé",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Brenden Aaronson",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Brenden Aaronson",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164243-34174228",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Cristian Romero",
+      "value": 3,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alberto Paleari",
+      "value": 1,
+      "label": "squad number"
+    },
+    "answer": "Cristian Romero",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164269-34174229",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Amadou Haidara",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alessandro Buongiorno",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Alessandro Buongiorno",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164270-34174253",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alphonso Davies",
+      "value": 19,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alfon",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Alphonso Davies",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164282-34174382",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Francesco Acerbi",
+      "value": 1988,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Andrea Cambiaso",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Andrea Cambiaso",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164381-34174575",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Álex Berenguer",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Carlos Neves",
+      "value": 30,
+      "label": "squad number"
+    },
+    "answer": "Carlos Neves",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164383-34174576",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bremer",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Davide Frattesi",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Davide Frattesi",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164460-34174589",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Danilo Cataldi",
+      "value": 32,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Amadou Onana",
+      "value": 24,
+      "label": "squad number"
+    },
+    "answer": "Danilo Cataldi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164499-34174593",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Christian Nørgaard",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alexander Meyer",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "answer": "Christian Nørgaard",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164503-34174683",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dávid Hancko",
+      "value": 17,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "David Raum",
+      "value": 22,
+      "label": "squad number"
+    },
+    "answer": "David Raum",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34164505-34174762",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Federico Chiesa",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Anton Stach",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Anton Stach",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34164522-34174778",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alfonso Pedraza",
+      "value": 24,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bafodé Diakité",
+      "value": 18,
+      "label": "squad number"
+    },
+    "answer": "Alfonso Pedraza",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34166118-34174780",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Axel Disasi",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Amine Adli",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Amine Adli",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34166121-34174962",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Hassane Kamara",
+      "value": 11,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alidu Seidu",
+      "value": 36,
+      "label": "squad number"
+    },
+    "answer": "Alidu Seidu",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34166154-34174990",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Adrien Tameze",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Anthony Rouault",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Anthony Rouault",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34166841-34174993",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Harry Wilson",
+      "value": 17,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Branco Boomen",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Branco Boomen",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34167060-34175091",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Andrej Kramarić",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Álvaro Valles",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Álvaro Valles",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34167119-34175155",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "David Neres",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aleix Febas",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Aleix Febas",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34167123-34175161",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Frenkie de Jong",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alejandro Catena",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "answer": "Frenkie de Jong",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34167607-34175285",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ermedin Demirović",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Álvaro Fidalgo",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Ermedin Demirović",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34167753-34175393",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Arnaut Danjuma",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Elliot Anderson",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Elliot Anderson",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34167829-34175422",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Daniel James",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Gernot Trauner",
+      "value": 18,
+      "label": "squad number"
+    },
+    "answer": "Gernot Trauner",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34168133-34175574",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aurélien Tchouaméni",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Charles Vanhoutte",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Aurélien Tchouaméni",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34168363-34175631",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dani Olmo",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Benjamin Nygren",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Benjamin Nygren",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34168938-34175659",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Chiquinho",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daan Heymans",
+      "value": 38,
+      "label": "squad number"
+    },
+    "answer": "Daan Heymans",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34168991-34175773",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Curtis Jones",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bryan Heynen",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Curtis Jones",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169011-34175791",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Edson Álvarez",
+      "value": 4,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Felix Nmecha",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Felix Nmecha",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169017-34175798",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Denis Vavro",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Devyne Rensch",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Devyne Rensch",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169114-34175869",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Hee-chan Hwang",
+      "value": 11,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daniel Svensson",
+      "value": 24,
+      "label": "squad number"
+    },
+    "answer": "Daniel Svensson",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169116-34175873",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Erling Haaland",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Jens Stage",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Erling Haaland",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169130-34176004",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Evan Ndicka",
+      "value": 5,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Fredrik Aursnes",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Fredrik Aursnes",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34169134-34176066",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Djibril Sow",
+      "value": 20,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Gijs Smal",
+      "value": 5,
+      "label": "squad number"
+    },
+    "answer": "Djibril Sow",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34169137-34176074",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Daichi Kamada",
+      "value": 18,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Anel Ahmedhodzic",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Anel Ahmedhodzic",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169189-34176120",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dodi Lukébakio",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Isak Jansson",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Isak Jansson",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169203-34176205",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dejan Kulusevski",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Felix Agu",
+      "value": 27,
+      "label": "squad number"
+    },
+    "answer": "Felix Agu",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34169209-34176351",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Christoph Baumgartner",
+      "value": 14,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Destiny Udogie",
+      "value": 13,
+      "label": "squad number"
+    },
+    "answer": "Christoph Baumgartner",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169228-34176383",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Exequiel Palacios",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ellery Balcombe",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Ellery Balcombe",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169229-34176853",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alassane Pléa",
+      "value": 14,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dennis Man",
+      "value": 27,
+      "label": "squad number"
+    },
+    "answer": "Dennis Man",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169230-34176867",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Denis Zakaria",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Aleix García",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Aleix García",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169242-34177105",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Florian Neuhaus",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Fran Kirby",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Fran Kirby",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169292-34177246",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ethan Ampadu",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Brennan Johnson",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Brennan Johnson",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169295-34177306",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Juan Miranda",
+      "value": 33,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dane Scarlett",
+      "value": 44,
+      "label": "squad number"
+    },
+    "answer": "Dane Scarlett",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169300-34177376",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Fabian Reese",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Hussein El Shahat",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "answer": "Fabian Reese",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169341-34177384",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Elvis Rexhbeçaj",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aliou Dieng",
+      "value": 23,
+      "label": "squad number"
+    },
+    "answer": "Aliou Dieng",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169420-34177778",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Charalambos Lykogiannis",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alexander Bah",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Alexander Bah",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169455-34177787",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alessandro Bastoni",
+      "value": 95,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Abdallah Sima",
+      "value": 19,
+      "label": "squad number"
+    },
+    "answer": "Alessandro Bastoni",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169492-34177810",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Eljif Elmas",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Al-Musrati",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "answer": "Eljif Elmas",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169528-34177829",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Giacomo Raspadori",
+      "value": 22,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Abel Ruiz",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Giacomo Raspadori",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169562-34177858",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Amir Rrahmani",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ian Maatsen",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Ian Maatsen",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169691-34177875",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alexis Saelemaekers",
+      "value": 56,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Armando Broja",
+      "value": 27,
+      "label": "squad number"
+    },
+    "answer": "Alexis Saelemaekers",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169692-34178143",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Edmond Tapsoba",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Arsen Zakharyan",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Arsen Zakharyan",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169840-34178200",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Adam Buksa",
+      "value": 18,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Carl Starfelt",
+      "value": 2,
+      "label": "squad number"
+    },
+    "answer": "Adam Buksa",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34169884-34178240",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bukayo Saka",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Georgiy Sudakov",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Georgiy Sudakov",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34169971-34178275",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Billy Gilmour",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daniel Ballard",
+      "value": 5,
+      "label": "squad number"
+    },
+    "answer": "Billy Gilmour",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170047-34178338",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Giovanni Reyna",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Iliman Ndiaye",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Giovanni Reyna",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170133-34178370",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alexis Mac Allister",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Denis Onyango",
+      "value": 1,
+      "label": "squad number"
+    },
+    "answer": "Alexis Mac Allister",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170134-34178391",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bernardo",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ahmed Ramadan",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Ahmed Ramadan",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170142-34178395",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Anthony Gordon",
+      "value": 17,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aubrey Modiba",
+      "value": 6,
+      "label": "squad number"
+    },
+    "answer": "Anthony Gordon",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34170150-34178465",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Angel Gomes",
+      "value": 47,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ansgar Knauff",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Angel Gomes",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170177-34178568",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Álex Moreno",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Amir Hadžiahmetović",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Amir Hadžiahmetović",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170209-34178575",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Adrià Pedrosa",
+      "value": 3,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Andrew Omobamidele",
+      "value": 2,
+      "label": "squad number"
+    },
+    "answer": "Adrià Pedrosa",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170245-34178798",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aitor Ruibal",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Angelo Stiller",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Angelo Stiller",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170248-34179091",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bryan Gil",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Adam Hložek",
+      "value": 23,
+      "label": "squad number"
+    },
+    "answer": "Adam Hložek",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170279-34179197",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Cucho Hernández",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Artem Dovbyk",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Cucho Hernández",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170301-34179444",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Diego Carlos",
+      "value": 34,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Chimy Ávila",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Diego Carlos",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170305-34179725",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aihen Muñoz",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ao Tanaka",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Ao Tanaka",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170307-34179828",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Andoni Gorosabel",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Fabio Carvalho",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Fabio Carvalho",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170308-34179948",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ander Barrenetxea",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Anthony Elanga",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Anthony Elanga",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170347-34180022",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Crysencio Summerville",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Armando Obispo",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Crysencio Summerville",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170382-34180111",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Albert Guðmundsson",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Daniel Jebbison",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Daniel Jebbison",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170408-34180376",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Gabriel Gudmundsson",
+      "value": 3,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ayase Ueda",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Ayase Ueda",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34170550-34180739",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Chidera Ejuke",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Carney Chukwuemeka",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Carney Chukwuemeka",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34170567-34180884",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Janis Blaswich",
+      "value": 28,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Auston Trusty",
+      "value": 6,
+      "label": "squad number"
+    },
+    "answer": "Janis Blaswich",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34171310-34180906",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Eduard Sobol",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alistair Johnston",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Alistair Johnston",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34171965-34181130",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dominik Szoboszlai",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Daniel Bragança",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Dominik Szoboszlai",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34172095-34183859",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dodô",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ayoub El Kaabi",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Ayoub El Kaabi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34172187-34183864",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bruno Guimarães",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bruce Bvuma",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "answer": "Bruno Guimarães",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34172215-34184096",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dominik Livaković",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Gabriel Slonina",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Gabriel Slonina",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34172218-34184214",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Duje Ćaleta-Car",
+      "value": 16,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Brandon Austin",
+      "value": 40,
+      "label": "squad number"
+    },
+    "answer": "Brandon Austin",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34172241-34190548",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Eric García",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Isak Hien",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Eric García",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34172277-34191400",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Caio Henrique",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Antonio Adán",
+      "value": 1987,
+      "label": "birth year"
+    },
+    "answer": "Caio Henrique",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34172281-34191411",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alexander Schlager",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Eduardo Quaresma",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Eduardo Quaresma",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34172286-34191417",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alexander Sørloth",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dário Essugo",
+      "value": 16,
+      "label": "squad number"
+    },
+    "answer": "Dário Essugo",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34172386-34191587",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ardian Ismajli",
+      "value": 44,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Beto",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Ardian Ismajli",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34172388-34192206",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Guus Til",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Benjamin Šeško",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Benjamin Šeško",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34172407-34192430",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Fábio Silva",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Cole Palmer",
+      "value": 10,
+      "label": "squad number"
+    },
+    "answer": "Fábio Silva",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34172526-34192506",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Aaron Hickey",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Castello Lukeba",
+      "value": 23,
+      "label": "squad number"
+    },
+    "answer": "Castello Lukeba",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34172633-34192542",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Gianluca Scamacca",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Azzedine Ounahi",
+      "value": 18,
+      "label": "squad number"
+    },
+    "answer": "Azzedine Ounahi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34172672-34192695",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daniel Maldini",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alex Scott",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Alex Scott",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34172789-34192983",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Conor Gallagher",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alessio Besio",
+      "value": 31,
+      "label": "squad number"
+    },
+    "answer": "Alessio Besio",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34172986-34193001",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Folarin Balogun",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Emil Holm",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Folarin Balogun",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34172989-34193011",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Antony",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aitor Paredes",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Antony",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173019-34193141",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Amad Diallo",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Andrey Santos",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Andrey Santos",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173035-34193148",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Jamal Musiala",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Arthur Sales",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Jamal Musiala",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173038-34193281",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Emile Smith-Rowe",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Deiver Machado",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "answer": "Emile Smith-Rowe",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173083-34193286",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Amos Pieper",
+      "value": 5,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Conor Bradley",
+      "value": 12,
+      "label": "squad number"
+    },
+    "answer": "Conor Bradley",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173096-34193291",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Gregor Kobel",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alessandro Zanoli",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Alessandro Zanoli",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173109-34193337",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Atakan Karazor",
+      "value": 16,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Christos Tzolis",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Christos Tzolis",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173113-34193417",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Borna Sosa",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Gavi",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Gavi",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34173162-34193527",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Chris Richards",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Emanuel Emegha",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Emanuel Emegha",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173164-34193542",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Boubacar Kamara",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Hiroki Itō",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Hiroki Itō",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173195-34193683",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Anatoliy Trubin",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dominik Greif",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Anatoliy Trubin",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173197-34193803",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bright Arrey-Mbi",
+      "value": 26,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Danylo Sikan",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Bright Arrey-Mbi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173203-34194006",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Denys Popov",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "João Mário",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "João Mário",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173230-34194105",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Brian Brobbey",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Cristian Rivero",
+      "value": 13,
+      "label": "squad number"
+    },
+    "answer": "Cristian Rivero",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173339-34194118",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Boulaye Dia",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Cristhian Mosquera",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Cristhian Mosquera",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173355-34194136",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Enzo Le Fée",
+      "value": 28,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Diego López",
+      "value": 16,
+      "label": "squad number"
+    },
+    "answer": "Enzo Le Fée",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173374-34194182",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Adrien Thomasson",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Diego Conde",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Diego Conde",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173402-34194421",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Facundo Medina",
+      "value": 32,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ameen Dakhil",
+      "value": 2,
+      "label": "squad number"
+    },
+    "answer": "Facundo Medina",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173412-34194497",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Florian Sotoca",
+      "value": 1990,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ertuğrul Çetin",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Ertuğrul Çetin",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173454-34194505",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Arnaud Nordin",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Arda Güler",
+      "value": 15,
+      "label": "squad number"
+    },
+    "answer": "Arda Güler",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173526-34194579",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Elye Wahi",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Federico Gatti",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Elye Wahi",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173542-34194984",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Lilian Brassier",
+      "value": 3,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Abde Ezzalzouli",
+      "value": 10,
+      "label": "squad number"
+    },
+    "answer": "Abde Ezzalzouli",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173594-34195006",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bryan Mbeumo",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Cyril Ngonge",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Cyril Ngonge",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173595-34195020",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Djed Spence",
+      "value": 24,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Beñat Turrientes",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Djed Spence",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34173733-34195099",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Casper Tengstedt",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Fabio Miretti",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Fabio Miretti",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34173868-34195135",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Fraser Hornby",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aji Alese",
+      "value": 42,
+      "label": "squad number"
+    },
+    "answer": "Aji Alese",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34173880-34195254",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Hicham Boudaoui",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ferran Jutglà",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Ferran Jutglà",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34173907-34195754",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dani Raba",
+      "value": 19,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ilias Akhomach",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Dani Raba",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174026-34195777",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Chris Führich",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ahmed Hamdy",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Chris Führich",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174051-34195826",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Karl Hein",
+      "value": 13,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bruna Vilamala",
+      "value": 20,
+      "label": "squad number"
+    },
+    "answer": "Bruna Vilamala",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34174104-34195918",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Álex Baena",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ahmed Fatouh",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Álex Baena",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34174140-34196044",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Jessic Ngankam",
+      "value": 32,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Giorgio Scalvini",
+      "value": 42,
+      "label": "squad number"
+    },
+    "answer": "Giorgio Scalvini",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34174170-34196095",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Couhaib Driouech",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Éderson",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Couhaib Driouech",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34174176-34196334",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bart Nieuwkoop",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Cédric Bakambu",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Cédric Bakambu",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34174214-34196353",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Jordan Teze",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Adam Karabec",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Adam Karabec",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34174227-34196398",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Brenden Aaronson",
+      "value": 11,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Artem Bondarenko",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Artem Bondarenko",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34174228-34196432",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alberto Paleari",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dango Ouattara",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Dango Ouattara",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34174229-34196442",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alessandro Buongiorno",
+      "value": 4,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Andy Diouf",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Andy Diouf",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174253-34196464",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alfon",
+      "value": 17,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Edon Zhegrova",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Alfon",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174382-34196500",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Andrea Cambiaso",
+      "value": 27,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alexandros  Paschalakis",
+      "value": 1,
+      "label": "squad number"
+    },
+    "answer": "Andrea Cambiaso",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174575-34196517",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Carlos Neves",
+      "value": 30,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "David Carmo",
+      "value": 6,
+      "label": "squad number"
+    },
+    "answer": "Carlos Neves",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174576-34196608",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Davide Frattesi",
+      "value": 16,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alex Freeman",
+      "value": 3,
+      "label": "squad number"
+    },
+    "answer": "Davide Frattesi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174589-34196651",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Amadou Onana",
+      "value": 24,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "André",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Amadou Onana",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174593-34196747",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alexander Meyer",
+      "value": 33,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Conrad Egan-Riley",
+      "value": 4,
+      "label": "squad number"
+    },
+    "answer": "Alexander Meyer",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34174762-34197264",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Anton Stach",
+      "value": 18,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Jamie Gittens",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Anton Stach",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34174778-34197351",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bafodé Diakité",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "El Chadaille Bitshiabu",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "El Chadaille Bitshiabu",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34174780-34197709",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Amine Adli",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Jonathan Rowe",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Amine Adli",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34174962-34198442",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alidu Seidu",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Damir Redzic",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Damir Redzic",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34174990-34198448",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Anthony Rouault",
+      "value": 24,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Enzo Fernández",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Anthony Rouault",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34174993-34198578",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Branco Boomen",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alejandro Garnacho",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Alejandro Garnacho",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34175091-34198606",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Álvaro Valles",
+      "value": 1,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Iker Benito",
+      "value": 2,
+      "label": "squad number"
+    },
+    "answer": "Iker Benito",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34175155-34198800",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aleix Febas",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alexander Prass",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Alexander Prass",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34175161-34199475",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alejandro Catena",
+      "value": 24,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Calvin Ramsay",
+      "value": 47,
+      "label": "squad number"
+    },
+    "answer": "Calvin Ramsay",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34175217-34199499",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alejandro Francés",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Esmir Bajraktarević",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Esmir Bajraktarević",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34175349-34199704",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Cammy Devlin",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Arnau Martínez",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Arnau Martínez",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34175393-34199716",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Elliot Anderson",
+      "value": 5,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Chadi Riad",
+      "value": 34,
+      "label": "squad number"
+    },
+    "answer": "Chadi Riad",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34175422-34199847",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Gernot Trauner",
+      "value": 1992,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Cheick Doucouré",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Cheick Doucouré",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34175574-34199896",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Charles Vanhoutte",
+      "value": 24,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Calvin Bassey",
+      "value": 3,
+      "label": "squad number"
+    },
+    "answer": "Charles Vanhoutte",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34175627-34200041",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daniel Muñoz",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ismael Saibari",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Ismael Saibari",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34175631-34200113",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Benjamin Nygren",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Deniz Undav",
+      "value": 26,
+      "label": "squad number"
+    },
+    "answer": "Deniz Undav",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34175659-34200134",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daan Heymans",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Emirhan İlkhan",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Emirhan İlkhan",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34175773-34200178",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bryan Heynen",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aimar Oroz",
+      "value": 10,
+      "label": "squad number"
+    },
+    "answer": "Aimar Oroz",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34175791-34200205",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Felix Nmecha",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Habib Diarra",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Habib Diarra",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34175869-34200257",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daniel Svensson",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Cesare Casadei",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Cesare Casadei",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34176004-34200393",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Fredrik Aursnes",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "André Almeida",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "André Almeida",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34176066-34200397",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Gijs Smal",
+      "value": 5,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aaron Ramsey",
+      "value": 30,
+      "label": "squad number"
+    },
+    "answer": "Aaron Ramsey",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34176074-34200483",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Anel Ahmedhodzic",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Amar Dedić",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Amar Dedić",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34176120-34200488",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Isak Jansson",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "António Silva",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Isak Jansson",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34176205-34200497",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Felix Agu",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Abakar Sylla",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Abakar Sylla",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34176351-34200552",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Destiny Udogie",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Antonio Nusa",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Antonio Nusa",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34176383-34200579",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ellery Balcombe",
+      "value": 31,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Álvaro Djaló",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Ellery Balcombe",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34176853-34200626",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dennis Man",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ethan Nwaneri",
+      "value": 2007,
+      "label": "birth year"
+    },
+    "answer": "Ethan Nwaneri",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34176867-34200627",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Aleix García",
+      "value": 24,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Farès Chaïbi",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Aleix García",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34177105-34200757",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Fran Kirby",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Derek Cornelius",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "answer": "Derek Cornelius",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34177246-34200795",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Brennan Johnson",
+      "value": 22,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Denis Huseinbasic",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Brennan Johnson",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34177306-34200952",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dane Scarlett",
+      "value": 44,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Hugo Larsson",
+      "value": 16,
+      "label": "squad number"
+    },
+    "answer": "Dane Scarlett",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34177376-34201891",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Hussein El Shahat",
+      "value": 14,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Carlos Baleba",
+      "value": 20,
+      "label": "squad number"
+    },
+    "answer": "Carlos Baleba",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34177384-34201921",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aliou Dieng",
+      "value": 1997,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Hugo Bueno",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Hugo Bueno",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34177778-34202082",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alexander Bah",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ibrahim Sulemana",
+      "value": 77,
+      "label": "squad number"
+    },
+    "answer": "Ibrahim Sulemana",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34177787-34202433",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Abdallah Sima",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dmytro Kryskiv",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Abdallah Sima",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34177810-34202435",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Al-Musrati",
+      "value": 73,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Enzo Barrenechea",
+      "value": 5,
+      "label": "squad number"
+    },
+    "answer": "Al-Musrati",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34177829-34202559",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Abel Ruiz",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Antoine Mendy",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Antoine Mendy",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34177858-34202599",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ian Maatsen",
+      "value": 22,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Andreas Schjelderup",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Ian Maatsen",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34177875-34202601",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Armando Broja",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ernest Nuamah",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Ernest Nuamah",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34178143-34202607",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Arsen Zakharyan",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ardon Jashari",
+      "value": 30,
+      "label": "squad number"
+    },
+    "answer": "Ardon Jashari",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34178200-34202611",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Carl Starfelt",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bilal El Khannouss",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Bilal El Khannouss",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34178240-34202671",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Georgiy Sudakov",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Ali Abdi",
+      "value": 2,
+      "label": "squad number"
+    },
+    "answer": "Georgiy Sudakov",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34178275-34203074",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Daniel Ballard",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ben Gannon-Doak",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Ben Gannon-Doak",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34178338-34203098",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Iliman Ndiaye",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Eliesse Ben Seghir",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Eliesse Ben Seghir",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34178370-34203118",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Denis Onyango",
+      "value": 1985,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Christian Mawissa",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Christian Mawissa",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34178391-34203230",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ahmed Ramadan",
+      "value": 4,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bashir Humphreys",
+      "value": 12,
+      "label": "squad number"
+    },
+    "answer": "Bashir Humphreys",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34178395-34203397",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aubrey Modiba",
+      "value": 1995,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Arne Engels",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Arne Engels",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34178465-34203476",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ansgar Knauff",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Carlos Alcaraz",
+      "value": 24,
+      "label": "squad number"
+    },
+    "answer": "Carlos Alcaraz",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34178568-34203485",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Amir Hadžiahmetović",
+      "value": 20,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Brooke Norton-Cuffy",
+      "value": 15,
+      "label": "squad number"
+    },
+    "answer": "Amir Hadžiahmetović",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34178575-34203491",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Andrew Omobamidele",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Hayden Hackney",
+      "value": 30,
+      "label": "squad number"
+    },
+    "answer": "Hayden Hackney",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34178798-34203585",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Angelo Stiller",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Badredine Bouanani",
+      "value": 27,
+      "label": "squad number"
+    },
+    "answer": "Badredine Bouanani",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34179091-34203667",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Adam Hložek",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Filip Jörgensen",
+      "value": 1,
+      "label": "squad number"
+    },
+    "answer": "Adam Hložek",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34179444-34215663",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Chimy Ávila",
+      "value": 1994,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Félix Lemaréchal",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Félix Lemaréchal",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34179725-34215702",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ao Tanaka",
+      "value": 22,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Abdoullah Ba",
+      "value": 46,
+      "label": "squad number"
+    },
+    "answer": "Abdoullah Ba",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34179828-34215704",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Fabio Carvalho",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Christopher Rigg",
+      "value": 2007,
+      "label": "birth year"
+    },
+    "answer": "Christopher Rigg",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34179948-34215924",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Anthony Elanga",
+      "value": 19,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Álvaro Rodríguez",
+      "value": 30,
+      "label": "squad number"
+    },
+    "answer": "Álvaro Rodríguez",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34180022-34216000",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Armando Obispo",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Christian Früchtl",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Christian Früchtl",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34180111-34216003",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Daniel Jebbison",
+      "value": 29,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Can Keles",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Daniel Jebbison",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34180376-34216135",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ayase Ueda",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Álvaro Carreras",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Álvaro Carreras",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34180739-34216573",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Carney Chukwuemeka",
+      "value": 17,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Jens Odgaard",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Jens Odgaard",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34180884-34216645",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Auston Trusty",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Jean-Mattéo Bahoya",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Jean-Mattéo Bahoya",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34180906-34216646",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alistair Johnston",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Fisnik Asllani",
+      "value": 11,
+      "label": "squad number"
+    },
+    "answer": "Fisnik Asllani",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34181129-34216718",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Gonçalo Ramos",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Fabio Chiarodia",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Fabio Chiarodia",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34181130-34216800",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Daniel Bragança",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Dzenan Pejcinovic",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Daniel Bragança",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34183859-34216827",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ayoub El Kaabi",
+      "value": 1993,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "David Jurásek",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "David Jurásek",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34183864-34216897",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Bruce Bvuma",
+      "value": 44,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Alberto Moleiro",
+      "value": 20,
+      "label": "squad number"
+    },
+    "answer": "Bruce Bvuma",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34183869-34216960",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bernard Parker",
+      "value": 1986,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Flavien Enzo Boyomo",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Flavien Enzo Boyomo",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34184096-34216985",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Gabriel Slonina",
+      "value": 44,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Jonas Urbig",
+      "value": 40,
+      "label": "squad number"
+    },
+    "answer": "Gabriel Slonina",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34184214-34217528",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Brandon Austin",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Adam Wharton",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Adam Wharton",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34190548-34217552",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Isak Hien",
+      "value": 4,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Iker Muñoz",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Iker Muñoz",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34191396-34218004",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Diogo Sousa",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Arthur Vermeeren",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Arthur Vermeeren",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34191400-34218047",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Antonio Adán",
+      "value": 1,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daiki Hashioka",
+      "value": 27,
+      "label": "squad number"
+    },
+    "answer": "Daiki Hashioka",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34191401-34218144",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "André Paulo",
+      "value": 1996,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "David Møller Wolfe",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "David Møller Wolfe",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34191411-34218166",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Eduardo Quaresma",
+      "value": 72,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Akor Adams",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Eduardo Quaresma",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34191417-34218537",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Dário Essugo",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Enric Llansana Beuse",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Dário Essugo",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34191587-34218908",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Beto",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Benjamín Domínguez",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Benjamín Domínguez",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34192206-34218994",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Benjamin Šeško",
+      "value": 30,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Bojan Miovski",
+      "value": 28,
+      "label": "squad number"
+    },
+    "answer": "Benjamin Šeško",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34192430-34219025",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Cole Palmer",
+      "value": 10,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Connor Barron",
+      "value": 8,
+      "label": "squad number"
+    },
+    "answer": "Cole Palmer",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34192506-34219103",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Castello Lukeba",
+      "value": 23,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Carlos Martín",
+      "value": 12,
+      "label": "squad number"
+    },
+    "answer": "Castello Lukeba",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34192542-34219244",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Azzedine Ounahi",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ibrahim Maza",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Ibrahim Maza",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34192695-34219547",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alex Scott",
+      "value": 8,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Barış Alper Yılmaz",
+      "value": 53,
+      "label": "squad number"
+    },
+    "answer": "Barış Alper Yılmaz",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34192983-34219808",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alessio Besio",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Gerard Martín",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Alessio Besio",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34193001-34219811",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Emil Holm",
+      "value": 2,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Fermín",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Fermín",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34193011-34219978",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aitor Paredes",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Archie Gray",
+      "value": 2006,
+      "label": "birth year"
+    },
+    "answer": "Archie Gray",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34193148-34220024",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Arthur Sales",
+      "value": 9,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Arouna Sangante",
+      "value": 93,
+      "label": "squad number"
+    },
+    "answer": "Arouna Sangante",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34193281-34220033",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Deiver Machado",
+      "value": 27,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Amir Richardson",
+      "value": 24,
+      "label": "squad number"
+    },
+    "answer": "Deiver Machado",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34193286-34220039",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Conor Bradley",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Georges Mikautadze",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Conor Bradley",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34193291-34220155",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Alessandro Zanoli",
+      "value": 59,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daniele Sommariva",
+      "value": 39,
+      "label": "squad number"
+    },
+    "answer": "Alessandro Zanoli",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34193337-34220162",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Christos Tzolis",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bryan Zaragoza",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "answer": "Christos Tzolis",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34193417-34220191",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Gavi",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Daniele Ghilardi",
+      "value": 87,
+      "label": "squad number"
+    },
+    "answer": "Daniele Ghilardi",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34193418-34220275",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alejandro Balde",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Diego Moreira",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Diego Moreira",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34193527-34220296",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Emanuel Emegha",
+      "value": 22,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Enso González",
+      "value": 30,
+      "label": "squad number"
+    },
+    "answer": "Enso González",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34193542-34220324",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Hiroki Itō",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Justin Njinmah",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Justin Njinmah",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34193803-34220489",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Danylo Sikan",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Assan Ouédraogo",
+      "value": 2006,
+      "label": "birth year"
+    },
+    "answer": "Assan Ouédraogo",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34194006-34220548",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "João Mário",
+      "value": 25,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "César Tárrega Requeni",
+      "value": 5,
+      "label": "squad number"
+    },
+    "answer": "João Mário",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34194105-34220551",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Cristian Rivero",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Abdukodir Khusanov",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Abdukodir Khusanov",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34194118-34220607",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Cristhian Mosquera",
+      "value": 3,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Gustaf Nilsson",
+      "value": 19,
+      "label": "squad number"
+    },
+    "answer": "Gustaf Nilsson",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34194136-34220631",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Diego López",
+      "value": 16,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Jarne Steuckers",
+      "value": 7,
+      "label": "squad number"
+    },
+    "answer": "Diego López",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34194182-34220651",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Diego Conde",
+      "value": 13,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Archie Brown",
+      "value": 3,
+      "label": "squad number"
+    },
+    "answer": "Diego Conde",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34194421-34220695",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ameen Dakhil",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ernest Poku",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Ernest Poku",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34194497-34220699",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ertuğrul Çetin",
+      "value": 54,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Carlos Forbs Borges",
+      "value": 9,
+      "label": "squad number"
+    },
+    "answer": "Ertuğrul Çetin",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34194505-34220719",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Arda Güler",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Anass Salah-Eddine",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Arda Güler",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34194579-34220855",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Federico Gatti",
+      "value": 4,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Anton Gaaei",
+      "value": 3,
+      "label": "squad number"
+    },
+    "answer": "Federico Gatti",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34194984-34221107",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Abde Ezzalzouli",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "César Huerta",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "answer": "Abde Ezzalzouli",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34195006-34221674",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Cyril Ngonge",
+      "value": 26,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Carlos Romero",
+      "value": 22,
+      "label": "squad number"
+    },
+    "answer": "Cyril Ngonge",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34195020-34221685",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Beñat Turrientes",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Alan Matturro",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Alan Matturro",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34195099-34221717",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Fabio Miretti",
+      "value": 21,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Arthur Atta",
+      "value": 14,
+      "label": "squad number"
+    },
+    "answer": "Fabio Miretti",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34195135-34221787",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Aji Alese",
+      "value": 2001,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Giorgi Chakvetadze",
+      "value": 1999,
+      "label": "birth year"
+    },
+    "answer": "Aji Alese",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34195754-34221975",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ilias Akhomach",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Guéla Doué",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "answer": "Ilias Akhomach",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34195777-34221978",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ahmed Hamdy",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Anan Khalaili",
+      "value": 25,
+      "label": "squad number"
+    },
+    "answer": "Anan Khalaili",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34195826-34222026",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Bruna Vilamala",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Bilal Nadir",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Bilal Nadir",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34195918-34222389",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Ahmed Fatouh",
+      "value": 13,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "David Ozoh",
+      "value": 52,
+      "label": "squad number"
+    },
+    "answer": "David Ozoh",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34196044-34222391",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Giorgio Scalvini",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Cher Ndour",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Cher Ndour",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34196095-34222413",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Éderson",
+      "value": 13,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Christos Mandas",
+      "value": 35,
+      "label": "squad number"
+    },
+    "answer": "Christos Mandas",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34196334-34222435",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Cédric Bakambu",
+      "value": 1991,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Eliezer Mayenda",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Eliezer Mayenda",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-born-34196398-34222507",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Artem Bondarenko",
+      "value": 2000,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Afonso Bastardo Moreira",
+      "value": 2005,
+      "label": "birth year"
+    },
+    "answer": "Afonso Bastardo Moreira",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34196432-34222722",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Dango Ouattara",
+      "value": 11,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Aleksandar Pavlović",
+      "value": 45,
+      "label": "squad number"
+    },
+    "answer": "Aleksandar Pavlović",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34196442-34223321",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Andy Diouf",
+      "value": 17,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Antonín Kinský",
+      "value": 31,
+      "label": "squad number"
+    },
+    "answer": "Antonín Kinský",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-number-34196464-34224684",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "Edon Zhegrova",
+      "value": 11,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Albian Hajdari",
+      "value": 21,
+      "label": "squad number"
+    },
+    "answer": "Albian Hajdari",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34196500-34224690",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alexandros  Paschalakis",
+      "value": 1989,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Dominik Schmid",
+      "value": 1998,
+      "label": "birth year"
+    },
+    "answer": "Dominik Schmid",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34196517-34224713",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "David Carmo",
+      "value": 6,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Adrian Leon Barisic",
+      "value": 26,
+      "label": "squad number"
+    },
+    "answer": "Adrian Leon Barisic",
+    "category": "Current Squads"
+  },
+  {
+    "id": "head-born-34196608-34225189",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Alex Freeman",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Aisha Masaka",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "answer": "Alex Freeman",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-number-34196651-34225262",
+    "prompt": "Who is listed with the higher squad number?",
+    "left": {
+      "name": "André",
+      "value": 7,
+      "label": "squad number"
+    },
+    "right": {
+      "name": "Antoni Milambo",
+      "value": 17,
+      "label": "squad number"
+    },
+    "answer": "Antoni Milambo",
+    "category": "Current Squads"
+  }
+]
