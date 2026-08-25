@@ -19,6 +19,7 @@ for (const width of [320, 390, 430]) {
         const rect = element.getBoundingClientRect();
         return rect.right > innerWidth + 1 || rect.left < -1;
       }).slice(0, 12).map((element) => ({ tag: element.tagName, className: element.className, text: element.textContent?.trim().slice(0, 50), rect: element.getBoundingClientRect().toJSON() })),
+      clippedText: [...document.querySelectorAll("h1,h2,h3,p,strong,span,small,button,a")].filter((element) => element.childElementCount === 0 && (element.scrollWidth > element.clientWidth + 1 || element.scrollHeight > element.clientHeight + 1)).slice(0, 12).map((element) => ({ tag: element.tagName, className: element.className, text: element.textContent?.trim().slice(0, 70), client: [element.clientWidth, element.clientHeight], scroll: [element.scrollWidth, element.scrollHeight] })),
     }));
     console.log(JSON.stringify({ width, route, ...audit }));
     await page.screenshot({ path: `artifacts/mobile/${width}-${route.replaceAll("/", "-") || "home"}.png`, fullPage: true });
