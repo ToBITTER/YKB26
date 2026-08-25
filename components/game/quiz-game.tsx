@@ -138,7 +138,7 @@ function QuizRound({ questions, mode, daily, again }: { questions: QuizQuestion[
       <h1>{q.prompt}</h1>
       {q.clues && <div className="clues">
         {q.clues.slice(0, clue + 1).map((item, i) => <motion.div key={item} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}><span>CLUE {i + 1}</span><strong>{item}</strong></motion.div>)}
-        {clue < q.clues.length - 1 && !selected && <button onClick={() => setClue((value) => value + 1)}><Lightbulb />REVEAL CLUE <small>-100 potential XP</small></button>}
+        {clue < q.clues.length - 1 && !selected && <button onClick={() => setClue((value) => value + 1)}><Lightbulb />REVEAL CLUE <small>-2 potential XP</small></button>}
       </div>}
       <div className="answers">{q.choices.map((choice) => <button key={choice} disabled={!!selected} onClick={() => answer(choice)} className={selected ? (choice === q.answer ? "correct" : choice === selected ? "wrong" : "dim") : ""}><span>{choice}</span>{selected && choice === q.answer ? <Check /> : selected === choice ? <X /> : null}</button>)}</div>
       <AnimatePresence>{selected && <motion.div className={selected === q.answer ? "feedback good" : "feedback bad"} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}>
