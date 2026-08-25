@@ -22,8 +22,9 @@ export function QuizGame({ mode = "whos-that-baller", daily = false, category, c
   const questions = useMemo(() => {
     const generated = generatedQuestions as QuizQuestion[];
     const curated = curatedQuestions as QuizQuestion[];
+    const nigerianRecords = new Set(generated.filter((q) => (q.kind === "nationality" || q.kind === "birth-country") && q.answer.toLowerCase() === "nigeria").map((q) => q.sourceRecordId));
     const fullBank = mode === "nigeria"
-      ? [...curated.filter((q) => q.mode === "nigeria"), ...generated.filter((q) => q.answer.toLowerCase().includes("nigeria") || q.explanation.toLowerCase().includes("nigeria"))]
+      ? [...curated.filter((q) => q.mode === "nigeria"), ...generated.filter((q) => nigerianRecords.has(q.sourceRecordId))]
       : generated;
     const league = competition?.toLowerCase();
     const leagueClubs = league ? clubs.filter((club) => club.league.toLowerCase() === league).map((club) => club.name.toLowerCase()) : [];
@@ -44,7 +45,7 @@ export function QuizGame({ mode = "whos-that-baller", daily = false, category, c
   }, [historyReady, questions]);
 
   if (!historyReady) return <main className="game-shell"><p>Loading your unseen questions…</p></main>;
-  if (!questions.length) return <main className="game-shell"><section className="question-card"><div className="mode-label">CATEGORY COMPLETE</div><h1>YOU’VE CLEARED EVERY QUESTION HERE.</h1><p>Choose another club or competition while we add fresh verified questions.</p></section></main>;
+  if (questions.length < (daily ? 1 : QUESTIONS_PER_SESSION)) return <main className="game-shell"><section className="question-card"><div className="mode-label">CATEGORY COMPLETE</div><h1>YOU’VE CLEARED THIS 20-QUESTION CATEGORY.</h1><p>We will never recycle questions you have already seen. Choose another club or competition while fresh verified questions are added.</p></section></main>;
   return <QuizRound key={run} questions={questions} mode={mode} daily={daily} again={() => setRun((value) => value + 1)} />;
 }
 
