@@ -1,7 +1,7 @@
 import type { GameResult, Progress } from "@/types";
 export const LEVELS=[{level:1,name:"Casual Fan",xp:0},{level:5,name:"Football Fan",xp:2000},{level:10,name:"Football Nerd",xp:6000},{level:20,name:"Tactical Expert",xp:16000},{level:30,name:"Scout",xp:30000},{level:50,name:"Football Historian",xp:60000},{level:100,name:"BALLER",xp:150000}];
 export const BADGES=[{id:"first-kick",name:"First Kick",description:"Complete your first game"},{id:"speed-demon",name:"Speed Demon",description:"Answer within 3 seconds"},{id:"super-eagle",name:"Super Eagle",description:"Answer 10 Nigeria questions"},{id:"unbeatable",name:"Unbeatable",description:"Reach a 10-answer streak"},{id:"perfect",name:"Perfect",description:"Complete a perfect game"},{id:"goat",name:"GOAT",description:"Reach level 50"}];
-export const DEFAULT_PROGRESS:Progress={username:"Guest Baller",country:"Nigeria",xp:0,gamesPlayed:0,correct:0,answers:0,bestStreak:0,gameStreak:0,dailyStreak:0,lastDaily:null,badges:[],categoryScores:{}};
+export const DEFAULT_PROGRESS:Progress={username:"Guest Baller",country:"Nigeria",xp:0,gamesPlayed:0,correct:0,answers:0,bestStreak:0,gameStreak:0,dailyStreak:0,lastDaily:null,badges:[],categoryScores:{},seenQuestionIds:[]};
 export function calculateScore(mode:string,correct:number,total:number,streak:number,cluesUsed=0){if(correct<=0)return 0;const base=mode==="whos-that-baller"?Math.max(15,40-cluesUsed*8):30;const streakBonus=Math.min(10,Math.max(0,streak-1)*2);return Math.round((correct/Math.max(1,total))*(base+streakBonus))}
 export function getLevelFromXP(xp:number){return Math.min(100,Math.floor(Math.sqrt(xp/15))+1)}
 export function getLevelTitle(level:number){return [...LEVELS].reverse().find(x=>level>=x.level)?.name??"Casual Fan"}

@@ -5,9 +5,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Check, Clock3, Lightbulb, X, Zap } from "lucide-react";
 import curatedQuestions from "@/data/questions.json";
 import generatedQuestions from "@/data/questions.generated.json";
+import clubs from "@/data/clubs.json";
 import type { GameResult, Mode, QuizQuestion } from "@/types";
 import { calculateScore, dailyIndex } from "@/lib/game";
-import { selectQuestionSet } from "@/lib/question-selection";
+import { selectUnseenQuestionSet } from "@/lib/question-selection";
 import { useProgress } from "@/components/progress-provider";
 import { Result } from "./result";
 
@@ -15,7 +16,8 @@ const QUESTIONS_PER_SESSION = 20;
 const SECONDS_PER_QUESTION = 10;
 const TIMEOUT = "__timeout__";
 
-export function QuizGame({ mode = "whos-that-baller", daily = false, category }: { mode?: Mode; daily?: boolean; category?: string }) {
+export function QuizGame({ mode = "whos-that-baller", daily = false, category, competition }: { mode?: Mode; daily?: boolean; category?: string; competition?: string }) {
+  const { progress, historyReady, markQuestionsSeen } = useProgress();
   const [run, setRun] = useState(0);
   const questions = useMemo(() => {
     const generated = generatedQuestions as QuizQuestion[];
@@ -23,15 +25,26 @@ export function QuizGame({ mode = "whos-that-baller", daily = false, category }:
     const fullBank = mode === "nigeria"
       ? [...curated.filter((q) => q.mode === "nigeria"), ...generated.filter((q) => q.answer.toLowerCase().includes("nigeria") || q.explanation.toLowerCase().includes("nigeria"))]
       : generated;
-    const filtered = category ? fullBank.filter((q) => q.category.toLowerCase() === category.toLowerCase()) : fullBank;
-    const bank = filtered.length >= QUESTIONS_PER_SESSION ? filtered : fullBank;
+    const league = competition?.toLowerCase();
+    const leagueClubs = league ? clubs.filter((club) => club.league.toLowerCase() === league).map((club) => club.name.toLowerCase()) : [];
+    const filtered = category
+      ? fullBank.filter((q) => q.category.toLowerCase() === category.toLowerCase())
+      : leagueClubs.length ? fullBank.filter((q) => leagueClubs.includes(q.category.toLowerCase())) : fullBank;
+    const seen = new Set(progress.seenQuestionIds);
+    const bank = filtered.filter((q) => !seen.has(q.id));
     if (daily) {
       const today = new Date().toISOString().slice(0, 10);
-      return [bank[dailyIndex(today, bank.length)]!];
+      return bank.length ? [bank[dailyIndex(today, bank.length)]!] : [];
     }
-    return selectQuestionSet(bank, QUESTIONS_PER_SESSION);
-  }, [category, daily, mode, run]);
+    return selectUnseenQuestionSet(filtered, progress.seenQuestionIds, QUESTIONS_PER_SESSION);
+  }, [category, competition, daily, historyReady, mode, run]);
 
+  useEffect(() => {
+    if (historyReady && questions.length) markQuestionsSeen(questions.map((question) => question.id));
+  }, [historyReady, questions]);
+
+  if (!historyReady) return <main className="game-shell"><p>Loading your unseen questions…</p></main>;
+  if (!questions.length) return <main className="game-shell"><section className="question-card"><div className="mode-label">CATEGORY COMPLETE</div><h1>YOU’VE CLEARED EVERY QUESTION HERE.</h1><p>Choose another club or competition while we add fresh verified questions.</p></section></main>;
   return <QuizRound key={run} questions={questions} mode={mode} daily={daily} again={() => setRun((value) => value + 1)} />;
 }
 

@@ -1,0 +1,1 @@
+ALTER TABLE "UserStats" ADD COLUMN "seenQuestionIds" TEXT[] NOT NULL DEFAULT ARRAY[]::TEXT[];
