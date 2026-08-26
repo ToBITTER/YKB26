@@ -1,0 +1,842 @@
+[
+  {
+    "id": "133667",
+    "name": "AC Milan",
+    "formed": "1899",
+    "stadium": "Stadio Giuseppe Meazza",
+    "capacity": "80018",
+    "location": "San Siro, Milan",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133772",
+    "name": "Ajax",
+    "formed": "1900",
+    "stadium": "Johan Cruijff ArenA",
+    "capacity": "54990",
+    "location": "Amsterdam, Netherlands",
+    "country": "The Netherlands",
+    "league": "Dutch Eredivisie"
+  },
+  {
+    "id": "138995",
+    "name": "Al Ahly",
+    "formed": "1907",
+    "stadium": "Cairo International Stadium",
+    "capacity": "30000",
+    "location": "Cairo",
+    "country": "Egypt",
+    "league": "Egyptian Premier League"
+  },
+  {
+    "id": "133776",
+    "name": "Anderlecht",
+    "formed": "1908",
+    "stadium": "Lotto Park",
+    "capacity": "22500",
+    "location": "Anderlecht, Belgium",
+    "country": "Belgium",
+    "league": "Belgian Pro League"
+  },
+  {
+    "id": "133604",
+    "name": "Arsenal",
+    "formed": "1892",
+    "stadium": "Emirates Stadium",
+    "capacity": "60338",
+    "location": "Holloway, London, England",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133601",
+    "name": "Aston Villa",
+    "formed": "1874",
+    "stadium": "Villa Park",
+    "capacity": "42785",
+    "location": "Aston, Birmingham",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "134782",
+    "name": "Atalanta",
+    "formed": "1907",
+    "stadium": "New Balance Arena",
+    "capacity": "21300",
+    "location": "Bergamo, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133727",
+    "name": "Athletic Bilbao",
+    "formed": "1898",
+    "stadium": "San Mamés Barria",
+    "capacity": "53289",
+    "location": "Bilbao, Vizcaya",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133729",
+    "name": "Atlético Madrid",
+    "formed": "1903",
+    "stadium": "Riyadh Air Metropolitano",
+    "capacity": "67703",
+    "location": "Madrid",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133739",
+    "name": "Barcelona",
+    "formed": "1899",
+    "stadium": "Spotify Camp Nou",
+    "capacity": "99354",
+    "location": "Barcelona",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133666",
+    "name": "Bayer Leverkusen",
+    "formed": "1904",
+    "stadium": "BayArena",
+    "capacity": "30210",
+    "location": "Leverkusen, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "133664",
+    "name": "Bayern Munich",
+    "formed": "1900",
+    "stadium": "Allianz Arena",
+    "capacity": "75024",
+    "location": "Munich, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "134108",
+    "name": "Benfica",
+    "formed": "1904",
+    "stadium": "Estádio da Luz",
+    "capacity": "65647",
+    "location": "Lisboa, Portugal",
+    "country": "Portugal",
+    "league": "Portuguese Primeira Liga"
+  },
+  {
+    "id": "133794",
+    "name": "Beşiktaş",
+    "formed": "1903",
+    "stadium": "Tüpraş Stadyumu",
+    "capacity": "41903",
+    "location": "Beşiktaş, Istanbul, Turkey",
+    "country": "Turkey",
+    "league": "Turkish Super Lig"
+  },
+  {
+    "id": "134781",
+    "name": "Bologna",
+    "formed": "1909",
+    "stadium": "Stadio Renato Dall'Ara",
+    "capacity": "38279",
+    "location": "Bologna, Emilia-Romagna",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133650",
+    "name": "Borussia Dortmund",
+    "formed": "1909",
+    "stadium": "Signal Iduna Park",
+    "capacity": "80720",
+    "location": "Dortmund, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "134779",
+    "name": "Borussia Mönchengladbach",
+    "formed": "1900",
+    "stadium": "Stadion im Borussia-Park",
+    "capacity": "54057",
+    "location": "Mönchengladbach, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "134301",
+    "name": "Bournemouth",
+    "formed": "1890",
+    "stadium": "Vitality Stadium",
+    "capacity": "11464",
+    "location": "AFCB, Bournemouth, England",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "134098",
+    "name": "Braga",
+    "formed": "1921",
+    "stadium": "Estádio Municipal de Braga",
+    "capacity": "30286",
+    "location": "Braga, Portugal",
+    "country": "Portugal",
+    "league": "Portuguese Primeira Liga"
+  },
+  {
+    "id": "134355",
+    "name": "Brentford",
+    "formed": "1889",
+    "stadium": "Brentford Community Stadium",
+    "capacity": "17250",
+    "location": "Brentford, London, England",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "140222",
+    "name": "Brighton WFC",
+    "formed": "1991",
+    "stadium": "Broadfield Stadium",
+    "capacity": "6134",
+    "location": "Crawley",
+    "country": "England",
+    "league": "English Womens Super League"
+  },
+  {
+    "id": "133623",
+    "name": "Burnley",
+    "formed": "1882",
+    "stadium": "Turf Moor",
+    "capacity": "21401",
+    "location": "Burnley, Lancashire",
+    "country": "England",
+    "league": "English League Championship"
+  },
+  {
+    "id": "133937",
+    "name": "Celta Vigo",
+    "formed": "1923",
+    "stadium": "Estadio Abanca-Balaídos",
+    "capacity": "29000",
+    "location": "Vigo, Galicia, Spain",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133647",
+    "name": "Celtic",
+    "formed": "1888",
+    "stadium": "Celtic Park",
+    "capacity": "60447",
+    "location": "Parkhead, Glasgow",
+    "country": "Scotland",
+    "league": "Scottish Premier League"
+  },
+  {
+    "id": "133610",
+    "name": "Chelsea",
+    "formed": "1905",
+    "stadium": "Stamford Bridge",
+    "capacity": "41798",
+    "location": "Fulham, London",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133789",
+    "name": "Club Brugge",
+    "formed": "1891",
+    "stadium": "Jan Breydel Stadium",
+    "capacity": "29062",
+    "location": "Bruges",
+    "country": "Belgium",
+    "league": "Belgian Pro League"
+  },
+  {
+    "id": "133632",
+    "name": "Crystal Palace",
+    "formed": "1905",
+    "stadium": "Selhurst Park",
+    "capacity": "26255",
+    "location": "South Norwood, London",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133944",
+    "name": "Dynamo Kyiv",
+    "formed": "1927",
+    "stadium": "Stadion Dynamo im Valeriy Lobanovskyi",
+    "capacity": "70050",
+    "location": "Kyiv, Ukraine",
+    "country": "Ukraine",
+    "league": "Ukrainian Premier League"
+  },
+  {
+    "id": "133814",
+    "name": "Eintracht Frankfurt",
+    "formed": "1899",
+    "stadium": "Deutsche Bank Park",
+    "capacity": "51500",
+    "location": "Frankfurt, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "133615",
+    "name": "Everton",
+    "formed": "1878",
+    "stadium": "Hill Dickinson Stadium",
+    "capacity": "40157",
+    "location": "Walton, Liverpool",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133807",
+    "name": "Fenerbahçe",
+    "formed": "1907",
+    "stadium": "Chobani Stadyumu",
+    "capacity": "53715",
+    "location": "Kadıköy, Istanbul",
+    "country": "Turkey",
+    "league": "Turkish Super Lig"
+  },
+  {
+    "id": "133758",
+    "name": "Feyenoord",
+    "formed": "1908",
+    "stadium": "Stadion Feyenoord",
+    "capacity": "51117",
+    "location": "Rotterdam, Netherlands",
+    "country": "The Netherlands",
+    "league": "Dutch Eredivisie"
+  },
+  {
+    "id": "133674",
+    "name": "Fiorentina",
+    "formed": "1926",
+    "stadium": "Stadio Artemio Franchi",
+    "capacity": "43147",
+    "location": "Florence, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133600",
+    "name": "Fulham",
+    "formed": "1879",
+    "stadium": "Craven Cottage",
+    "capacity": "25700",
+    "location": "Fulham, London, England",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133804",
+    "name": "Galatasaray",
+    "formed": "1905",
+    "stadium": "Rams Park",
+    "capacity": "52652",
+    "location": "Istanbul",
+    "country": "Turkey",
+    "league": "Turkish Super Lig"
+  },
+  {
+    "id": "133779",
+    "name": "Genk",
+    "formed": "1923",
+    "stadium": "Cegeka Arena",
+    "capacity": "25000",
+    "location": "Genk, Belgium",
+    "country": "Belgium",
+    "league": "Belgian Pro League"
+  },
+  {
+    "id": "133675",
+    "name": "Genoa",
+    "formed": "1823",
+    "stadium": "Stadio Luigi Ferraris",
+    "capacity": "36599",
+    "location": "Genoa, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "134700",
+    "name": "Girona",
+    "formed": "1930",
+    "stadium": "Estadi Municipal de Montilivi",
+    "capacity": "14450",
+    "location": "Girona",
+    "country": "Spain",
+    "league": "Spanish La Liga 2"
+  },
+  {
+    "id": "133657",
+    "name": "Hoffenheim",
+    "formed": "1899",
+    "stadium": "PreZero Arena",
+    "capacity": "30150",
+    "location": "Sinsheim, Baden-Württemberg, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "133681",
+    "name": "Inter Milan",
+    "formed": "1908",
+    "stadium": "Stadio Giuseppe Meazza",
+    "capacity": "80018",
+    "location": "Milan, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133676",
+    "name": "Juventus",
+    "formed": "1897",
+    "stadium": "Allianz Stadium Turin",
+    "capacity": "41507",
+    "location": "Turin, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "139474",
+    "name": "Kaizer Chiefs",
+    "formed": "1970",
+    "stadium": "FNB Stadium",
+    "capacity": "94797",
+    "location": "Johannesburg, South Africa",
+    "country": "South Africa",
+    "league": "South African Premier Soccer League"
+  },
+  {
+    "id": "133668",
+    "name": "Lazio",
+    "formed": "1900",
+    "stadium": "Stadio Olimpico",
+    "capacity": "70634",
+    "location": "Rome, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133635",
+    "name": "Leeds United",
+    "formed": "1919",
+    "stadium": "Elland Road",
+    "capacity": "37890",
+    "location": "Beeston, Leeds, England",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133822",
+    "name": "Lens",
+    "formed": "1906",
+    "stadium": "Stade Bollaert-Delelis",
+    "capacity": "41229",
+    "location": "Lens, France",
+    "country": "France",
+    "league": "French Ligue 1"
+  },
+  {
+    "id": "133602",
+    "name": "Liverpool",
+    "formed": "1892",
+    "stadium": "Anfield",
+    "capacity": "55000",
+    "location": "Anfield, Liverpool",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133713",
+    "name": "Lyon",
+    "formed": "1950",
+    "stadium": "Groupama Stadium",
+    "capacity": "59186",
+    "location": "Lyon",
+    "country": "France",
+    "league": "French Ligue 1"
+  },
+  {
+    "id": "134491",
+    "name": "Mamelodi Sundowns",
+    "formed": "1970",
+    "stadium": "Loftus Versfeld Stadium",
+    "capacity": "28000",
+    "location": "Pretoria",
+    "country": "South Africa",
+    "league": "South African Premier Soccer League"
+  },
+  {
+    "id": "133613",
+    "name": "Manchester City",
+    "formed": "1880",
+    "stadium": "Etihad Stadium",
+    "capacity": "62000",
+    "location": "Etihad Campus, Manchester",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133612",
+    "name": "Manchester United",
+    "formed": "1878",
+    "stadium": "Old Trafford",
+    "capacity": "76962",
+    "location": "Trafford, Greater Manchester",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133707",
+    "name": "Marseille",
+    "formed": "1899",
+    "stadium": "Orange Vélodrome",
+    "capacity": "67394",
+    "location": "Marseille, France",
+    "country": "France",
+    "league": "French Ligue 1"
+  },
+  {
+    "id": "133823",
+    "name": "Monaco",
+    "formed": "1924",
+    "stadium": "Stade Louis II",
+    "capacity": "18523",
+    "location": "Fontvieille, Monaco",
+    "country": "Monaco",
+    "league": "French Ligue 1"
+  },
+  {
+    "id": "133861",
+    "name": "Nantes",
+    "formed": "1943",
+    "stadium": "Stade de la Beaujoire - Louis Fonteneau",
+    "capacity": "38285",
+    "location": "Nantes",
+    "country": "France",
+    "league": "French Ligue 2"
+  },
+  {
+    "id": "133670",
+    "name": "Napoli",
+    "formed": "1926",
+    "stadium": "Stadio Diego Armando Maradona",
+    "capacity": "60240",
+    "location": "Napoli, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "134777",
+    "name": "Newcastle United",
+    "formed": "1892",
+    "stadium": "St James Park",
+    "capacity": "52305",
+    "location": "Newcastle upon Tyne",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133712",
+    "name": "Nice",
+    "formed": "1904",
+    "stadium": "Allianz Riviera",
+    "capacity": "35624",
+    "location": "Nice, France",
+    "country": "France",
+    "league": "French Ligue 1"
+  },
+  {
+    "id": "133754",
+    "name": "Olympiacos",
+    "formed": "1925",
+    "stadium": "Karaiskakis Stadium",
+    "capacity": "32115",
+    "location": "Piraeus, Greece",
+    "country": "Greece",
+    "league": "Greek Superleague Greece"
+  },
+  {
+    "id": "139483",
+    "name": "Orlando Pirates",
+    "formed": "1937",
+    "stadium": "Orlando Amstel Arena",
+    "capacity": "37139",
+    "location": "Soweto, Johannesburg, South Africa",
+    "country": "South Africa",
+    "league": "South African Premier Soccer League"
+  },
+  {
+    "id": "133730",
+    "name": "Osasuna",
+    "formed": "1920",
+    "stadium": "Estadio El Sadar",
+    "capacity": "18761",
+    "location": "Pamplona",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133768",
+    "name": "PSV Eindhoven",
+    "formed": "1913",
+    "stadium": "Philips Stadion",
+    "capacity": "36500",
+    "location": "Eindhoven, Netherlands",
+    "country": "The Netherlands",
+    "league": "Dutch Eredivisie"
+  },
+  {
+    "id": "133642",
+    "name": "Rangers",
+    "formed": "1872",
+    "stadium": "Ibrox Stadium",
+    "capacity": "50987",
+    "location": "Glasgow, Scotland",
+    "country": "Scotland",
+    "league": "Scottish Premier League"
+  },
+  {
+    "id": "134695",
+    "name": "RB Leipzig",
+    "formed": "2009",
+    "stadium": "Red Bull Arena Leipzig",
+    "capacity": "42959",
+    "location": "Am Sportforum 3, Leipzig, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "133722",
+    "name": "Real Betis",
+    "formed": "1907",
+    "stadium": "Estadio de La Cartuja",
+    "capacity": "60720",
+    "location": "Seville",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133738",
+    "name": "Real Madrid",
+    "formed": "1902",
+    "stadium": "Estadio Santiago Bernabéu",
+    "capacity": "81000",
+    "location": "Madrid",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133724",
+    "name": "Real Sociedad",
+    "formed": "1909",
+    "stadium": "Reale Arena",
+    "capacity": "39500",
+    "location": "San Sebastián, Guipúzcoa",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133970",
+    "name": "Red Bull Salzburg",
+    "formed": "1933",
+    "stadium": "Red Bull Arena Salzburg",
+    "capacity": "31000",
+    "location": "Wals-Siezenheim, Salzburg, Austria",
+    "country": "Austria",
+    "league": "Austrian Bundesliga"
+  },
+  {
+    "id": "133719",
+    "name": "Rennes",
+    "formed": "1901",
+    "stadium": "Roazhon Park",
+    "capacity": "29778",
+    "location": "111 Rue de Lorient, 35000 Rennes",
+    "country": "France",
+    "league": "French Ligue 1"
+  },
+  {
+    "id": "133682",
+    "name": "Roma",
+    "formed": "1927",
+    "stadium": "Stadio Olimpico",
+    "capacity": "70634",
+    "location": "Rome, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133735",
+    "name": "Sevilla",
+    "formed": "1905",
+    "stadium": "Estadio Ramón Sánchez Pizjuán",
+    "capacity": "42500",
+    "location": "Sevilla",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "134126",
+    "name": "Shakhtar Donetsk",
+    "formed": "1936",
+    "stadium": "Arena Lviv",
+    "capacity": "40003",
+    "location": "Donestsk, Ukraine",
+    "country": "Ukraine",
+    "league": "Ukrainian Premier League"
+  },
+  {
+    "id": "135708",
+    "name": "Sporting CP",
+    "formed": "1906",
+    "stadium": "Estádio José Alvalade",
+    "capacity": "50049",
+    "location": "Lisboa, Portugal",
+    "country": "Portugal",
+    "league": "Portuguese Primeira Liga"
+  },
+  {
+    "id": "133882",
+    "name": "Strasbourg",
+    "formed": "1906",
+    "stadium": "Stade de la Meinau",
+    "capacity": "29230",
+    "location": "Strasbourg, France",
+    "country": "France",
+    "league": "French Ligue 1"
+  },
+  {
+    "id": "133660",
+    "name": "Stuttgart",
+    "formed": "1893",
+    "stadium": "MHP Arena",
+    "capacity": "60469",
+    "location": "Stuttgart, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "133603",
+    "name": "Sunderland",
+    "formed": "1879",
+    "stadium": "Stadium of Light",
+    "capacity": "49000",
+    "location": "Sunderland, Tyne and Wear",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133687",
+    "name": "Torino",
+    "formed": "1906",
+    "stadium": "Stadio Olimpico Grande Torino",
+    "capacity": "27958",
+    "location": "Turin, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133616",
+    "name": "Tottenham Hotspur",
+    "formed": "1882",
+    "stadium": "Tottenham Hotspur Stadium",
+    "capacity": "36284",
+    "location": "Bill Nicholson Way, Tottenham, London",
+    "country": "England",
+    "league": "English Premier League"
+  },
+  {
+    "id": "133679",
+    "name": "Udinese",
+    "formed": "1896",
+    "stadium": "Bluenergy Stadium",
+    "capacity": "25144",
+    "location": "Udine, Italy",
+    "country": "Italy",
+    "league": "Italian Serie A"
+  },
+  {
+    "id": "133725",
+    "name": "Valencia",
+    "formed": "1919",
+    "stadium": "Estadio de Mestalla",
+    "capacity": "55000",
+    "location": "Valencia, Spain",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133740",
+    "name": "Villarreal",
+    "formed": "1923",
+    "stadium": "Estadio de la Cerámica",
+    "capacity": "24890",
+    "location": "Villareal, Castellón",
+    "country": "Spain",
+    "league": "Spanish La Liga"
+  },
+  {
+    "id": "133662",
+    "name": "Werder Bremen",
+    "formed": "1899",
+    "stadium": "Weserstadion",
+    "capacity": "42500",
+    "location": "Bremen, Germany",
+    "country": "Germany",
+    "league": "German Bundesliga"
+  },
+  {
+    "id": "133636",
+    "name": "West Ham United",
+    "formed": "1895",
+    "stadium": "London Stadium",
+    "capacity": "60000",
+    "location": "London Stadium, Queen Elizabeth Olympic Park, London",
+    "country": "England",
+    "league": "English League Championship"
+  },
+  {
+    "id": "133655",
+    "name": "Wolfsburg",
+    "formed": "1945",
+    "stadium": "Volkswagen Arena",
+    "capacity": "30000",
+    "location": "Wolfsburg, Germany",
+    "country": "Germany",
+    "league": "German 2. Bundesliga"
+  },
+  {
+    "id": "133599",
+    "name": "Wolverhampton Wanderers",
+    "formed": "1877",
+    "stadium": "Molineux Stadium",
+    "capacity": "31700",
+    "location": "Waterloo Road, Wolverhampton, England",
+    "country": "England",
+    "league": "English League Championship"
+  },
+  {
+    "id": "138997",
+    "name": "Zamalek",
+    "formed": "1911",
+    "stadium": "Cairo International Stadium",
+    "capacity": "75000",
+    "location": "Giza",
+    "country": "Egypt",
+    "league": "Egyptian Premier League"
+  }
+]

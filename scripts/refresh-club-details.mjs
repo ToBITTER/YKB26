@@ -1,0 +1,5 @@
+import {readFile,writeFile} from "node:fs/promises";
+const clubs=JSON.parse(await readFile("data/clubs.generated.json","utf8")),details=[];
+const clean=value=>typeof value==="string"?value.trim():"",sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+for(const club of clubs){const response=await fetch(`https://www.thesportsdb.com/api/v1/json/123/lookupteam.php?id=${club.id}`,{headers:{"User-Agent":"BALLER-club-bank/1.0"}});if(!response.ok){process.stderr.write(`Skipped ${club.name}: HTTP ${response.status}\n`);await sleep(2200);continue}const team=(await response.json()).teams?.[0];if(team)details.push({id:club.id,name:club.name,formed:clean(team.intFormedYear),stadium:clean(team.strStadium),capacity:clean(team.intStadiumCapacity),location:clean(team.strLocation),country:clean(team.strCountry)||club.country,league:clean(team.strLeague)||club.league});console.log(`Fetched ${details.length}/${clubs.length} club profiles.`);await sleep(2200)}
+await writeFile("data/club-details.generated.json",JSON.stringify(details,null,2)+"\n");console.log(`Saved ${details.length} club profiles.`);

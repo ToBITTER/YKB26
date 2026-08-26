@@ -17,6 +17,19 @@ export function selectQuestionSet(bank: QuizQuestion[], count = 20, random: () =
     seenRecords.add(record);
   };
 
+  // Seed the round with different question families before filling from the
+  // wider pool. Historical honours are prioritised when the club has one.
+  const families = [...new Set(shuffled.map((question) => question.kind ?? "general"))].sort((a, b) => Number(b.startsWith("club-honour")) - Number(a.startsWith("club-honour")));
+  for (const family of families) {
+    for (const question of shuffled) {
+      if ((question.kind ?? "general") !== family) continue;
+      const before = selected.length;
+      add(question, true);
+      if (selected.length > before) break;
+    }
+    if (selected.length === count) return selected;
+  }
+
   // Prefer twenty different footballers. Small club/category pools then fill
   // from other question types while still never repeating a question or answer.
   for (const question of shuffled) {
