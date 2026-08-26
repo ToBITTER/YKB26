@@ -34,3 +34,8 @@ export function selectUnseenQuestionSet(bank: QuizQuestion[], seenIds: Iterable<
   const seen = new Set(seenIds);
   return selectQuestionSet(bank.filter((question) => !seen.has(question.id)), count, random);
 }
+
+export function selectRotatingQuestionSet(bank: QuizQuestion[], seenIds: Iterable<string>, count = 20, random: () => number = Math.random) {
+  const fresh = selectUnseenQuestionSet(bank, seenIds, count, random);
+  return fresh.length === count ? fresh : selectQuestionSet(bank, count, random);
+}

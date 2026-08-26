@@ -6,7 +6,7 @@ import clubs from "@/data/clubs.generated.json";
 import type { QuizQuestion } from "@/types";
 import { currentUser, sameOrigin } from "@/lib/auth";
 import { dailyIndex } from "@/lib/game";
-import { selectUnseenQuestionSet } from "@/lib/question-selection";
+import { selectRotatingQuestionSet } from "@/lib/question-selection";
 import { db } from "@/lib/db";
 
 const schema = z.object({ mode: z.enum(["whos-that-baller", "nigeria"]).default("whos-that-baller"), daily: z.boolean().default(false), category: z.string().trim().max(100).optional(), competition: z.string().trim().max(100).optional(), seenIds: z.array(z.string().min(1).max(120)).max(10000).default([]) });
@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
   const filtered = category ? fullBank.filter((question) => question.category.toLowerCase() === category.toLowerCase()) : leagueClubs.length ? fullBank.filter((question) => leagueClubs.includes(question.category.toLowerCase())) : fullBank;
   const user = await currentUser();
   const seenIds = [...new Set([...parsed.data.seenIds, ...(user?.stats?.seenQuestionIds ?? [])])];
-  const questions = daily ? (() => { const unseen = filtered.filter((question) => !seenIds.includes(question.id)); return unseen.length ? [unseen[dailyIndex(new Date().toISOString().slice(0, 10), unseen.length)]!] : []; })() : selectUnseenQuestionSet(filtered, seenIds, 20);
+  const questions = daily ? (() => { const unseen = filtered.filter((question) => !seenIds.includes(question.id)); return unseen.length ? [unseen[dailyIndex(new Date().toISOString().slice(0, 10), unseen.length)]!] : []; })() : selectRotatingQuestionSet(filtered, seenIds, 20);
   if (user && questions.length) {
     const merged = [...new Set([...(user.stats?.seenQuestionIds ?? []), ...questions.map((question) => question.id)])];
     await db.userStats.upsert({ where: { userId: user.id }, create: { userId: user.id, seenQuestionIds: merged }, update: { seenQuestionIds: merged } });

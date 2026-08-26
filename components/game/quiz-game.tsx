@@ -31,7 +31,7 @@ export function QuizGame({ mode = "whos-that-baller", daily = false, category, c
 
   if (loadError) return <main className="game-shell"><section className="question-card"><div className="mode-label">CONNECTION ERROR</div><h1>WE COULDN’T LOAD THIS ROUND.</h1><button className="primary" onClick={() => { setQuestions(null); setRun((value) => value + 1); }}>TRY AGAIN</button></section></main>;
   if (!historyReady || questions === null) return <main className="game-shell"><p>Loading your unseen questions…</p></main>;
-  if (questions.length < (daily ? 1 : QUESTIONS_PER_SESSION)) return <main className="game-shell"><section className="question-card"><div className="mode-label">CATEGORY COMPLETE</div><h1>YOU’VE CLEARED THIS 20-QUESTION CATEGORY.</h1><p>We will never recycle questions you have already seen. Choose another club or competition while fresh verified questions are added.</p></section></main>;
+  if (questions.length < (daily ? 1 : QUESTIONS_PER_SESSION)) return <main className="game-shell"><section className="question-card"><div className="mode-label">ROUND UNAVAILABLE</div><h1>WE COULDN’T BUILD 20 QUESTIONS.</h1><p>Please choose another category or try again shortly.</p><button className="primary" onClick={() => { setQuestions(null); setRun((value) => value + 1); }}>TRY AGAIN</button></section></main>;
   return <QuizRound key={run} questions={questions} mode={mode} daily={daily} again={() => { setQuestions(null); setRun((value) => value + 1); }} />;
 }
 
