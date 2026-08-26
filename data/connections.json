@@ -1,7 +1,22 @@
 [
- {"category":"ARSENAL PLAYERS","items":["Bukayo Saka","Thierry Henry","Patrick Vieira","Dennis Bergkamp"]},
- {"category":"AFRICAN FORWARDS","items":["Victor Osimhen","Mohamed Salah","Didier Drogba","Sadio Mané"]},
- {"category":"BALLON D'OR WINNERS","items":["Lionel Messi","Luka Modrić","Ronaldinho","Zinedine Zidane"]},
- {"category":"PLAYED FOR BARCELONA","items":["Luis Suárez","Neymar","Samuel Eto'o","Dani Alves"]}
+  {
+    "category": "ARSENAL PLAYERS",
+    "hint": "Think of footballers strongly associated with North London and the red half of the Emirates.",
+    "items": ["Bukayo Saka", "Thierry Henry", "Patrick Vieira", "Dennis Bergkamp"]
+  },
+  {
+    "category": "AFRICAN FORWARDS",
+    "hint": "These attacking stars represented nations from the same continent.",
+    "items": ["Victor Osimhen", "Mohamed Salah", "Didier Drogba", "Sadio Mané"]
+  },
+  {
+    "category": "BALLON D'OR WINNERS",
+    "hint": "Each player has lifted football's most famous individual golden prize.",
+    "items": ["Lionel Messi", "Luka Modrić", "Ronaldinho", "Zinedine Zidane"]
+  },
+  {
+    "category": "PLAYED FOR BARCELONA",
+    "hint": "All four wore the colours of a major Catalan club.",
+    "items": ["Luis Suárez", "Neymar", "Samuel Eto'o", "Dani Alves"]
+  }
 ]
-
