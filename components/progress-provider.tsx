@@ -29,12 +29,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     setHistoryReady(true);
     const controller = new AbortController();
     const timeout = window.setTimeout(() => controller.abort(), 4000);
-    fetch("/api/questions/seen", { cache: "no-store", signal: controller.signal })
-      .then((response) => response.ok ? response.json() : { ids: [] })
-      .then(({ ids }: { ids: string[] }) => {
-        if (!ids.length) return;
+    fetch("/api/auth/me", { cache: "no-store", signal: controller.signal })
+      .then((response) => response.ok ? response.json() : { user: null })
+      .then(({ user }) => {
+        if (!user) return;
         setProgress((current) => {
-          const next = { ...current, seenQuestionIds: [...new Set([...current.seenQuestionIds, ...ids])] };
+          const stats = user.stats ?? {};
+          const next = { ...current, ...stats, username: user.username, country: user.country, lastDaily: stats.lastDaily?.slice(0, 10) ?? null, categoryScores: stats.categoryScores ?? {}, badges: stats.badges ?? [], seenQuestionIds: [...new Set([...current.seenQuestionIds, ...(stats.seenQuestionIds ?? [])])] };
           localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
           return next;
         });
@@ -54,6 +55,14 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     complete: (result, category = "World", daily = false) => {
       const next = updateProgress(progress, result, category, daily);
       persist(next);
+      void fetch("/api/progress", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ result, category, daily }) })
+        .then((response) => response.ok ? response.json() : null)
+        .then((payload) => {
+          if (!payload?.progress) return;
+          setProgress(payload.progress);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(payload.progress));
+        })
+        .catch(() => {});
       return next;
     },
     rename: (username) => persist({ ...progress, username: username.trim().slice(0, 24) || "Guest Baller" }),
