@@ -1,22 +1,38 @@
 [
-  {
-    "category": "ARSENAL PLAYERS",
-    "hint": "Think of footballers strongly associated with North London and the red half of the Emirates.",
-    "items": ["Bukayo Saka", "Thierry Henry", "Patrick Vieira", "Dennis Bergkamp"]
-  },
-  {
-    "category": "AFRICAN FORWARDS",
-    "hint": "These attacking stars represented nations from the same continent.",
-    "items": ["Victor Osimhen", "Mohamed Salah", "Didier Drogba", "Sadio Mané"]
-  },
-  {
-    "category": "BALLON D'OR WINNERS",
-    "hint": "Each player has lifted football's most famous individual golden prize.",
-    "items": ["Lionel Messi", "Luka Modrić", "Ronaldinho", "Zinedine Zidane"]
-  },
-  {
-    "category": "PLAYED FOR BARCELONA",
-    "hint": "All four wore the colours of a major Catalan club.",
-    "items": ["Luis Suárez", "Neymar", "Samuel Eto'o", "Dani Alves"]
-  }
+  {"id":"classic-icons","groups":[
+    {"category":"ARSENAL PLAYERS","hint":"Think of footballers strongly associated with North London and the red half of the Emirates.","items":["Bukayo Saka","Thierry Henry","Patrick Vieira","Dennis Bergkamp"]},
+    {"category":"AFRICAN FORWARDS","hint":"These attacking stars represented nations from the same continent.","items":["Victor Osimhen","Mohamed Salah","Didier Drogba","Sadio Mané"]},
+    {"category":"BALLON D'OR WINNERS","hint":"Each player has lifted football's most famous individual golden prize.","items":["Lionel Messi","Luka Modrić","Ronaldinho","Zinedine Zidane"]},
+    {"category":"PLAYED FOR BARCELONA","hint":"All four wore the colours of a major Catalan club.","items":["Luis Suárez","Neymar","Samuel Eto'o","Dani Alves"]}
+  ]},
+  {"id":"champions-table","groups":[
+    {"category":"REAL MADRID LEGENDS","hint":"All four became icons in white at the Santiago Bernabéu.","items":["Iker Casillas","Sergio Ramos","Raúl","Roberto Carlos"]},
+    {"category":"PREMIER LEAGUE GOLDEN BOOT WINNERS","hint":"These forwards have finished a Premier League season as top scorer.","items":["Harry Kane","Erling Haaland","Jamie Vardy","Robin van Persie"]},
+    {"category":"ITALIAN CLUBS","hint":"These teams compete in Italy's football pyramid.","items":["Juventus","AC Milan","Inter Milan","Roma"]},
+    {"category":"WORLD CUP-WINNING CAPTAINS","hint":"Each lifted the men's World Cup while wearing the armband.","items":["Lionel Messi","Hugo Lloris","Philipp Lahm","Fabio Cannavaro"]}
+  ]},
+  {"id":"touchline-stars","groups":[
+    {"category":"MANAGED CHELSEA","hint":"Each has occupied the Stamford Bridge dugout.","items":["José Mourinho","Antonio Conte","Thomas Tuchel","Carlo Ancelotti"]},
+    {"category":"NIGERIA FORWARDS","hint":"These attackers have represented the Super Eagles.","items":["Nwankwo Kanu","Yakubu Aiyegbeni","Obafemi Martins","Odion Ighalo"]},
+    {"category":"PLAYED FOR BAYERN MUNICH","hint":"All four starred for the Bavarian giants.","items":["Robert Lewandowski","Arjen Robben","Franck Ribéry","Thomas Müller"]},
+    {"category":"ELITE GOALKEEPERS","hint":"Their job begins between the posts.","items":["Gianluigi Buffon","Manuel Neuer","Thibaut Courtois","Alisson Becker"]}
+  ]},
+  {"id":"academy-nations","groups":[
+    {"category":"MANCHESTER UNITED ACADEMY","hint":"These players came through the youth system at Old Trafford.","items":["David Beckham","Paul Scholes","Ryan Giggs","Marcus Rashford"]},
+    {"category":"BRAZIL WORLD CUP WINNERS","hint":"These Seleção stars became world champions.","items":["Cafu","Ronaldo Nazário","Rivaldo","Kaká"]},
+    {"category":"AFRICAN PLAYER OF THE YEAR WINNERS","hint":"Each has been named the continent's leading men's player.","items":["Yaya Touré","Riyad Mahrez","Pierre-Emerick Aubameyang","Emmanuel Adebayor"]},
+    {"category":"PREMIER LEAGUE MANAGERS","hint":"All four have managed in England's top flight.","items":["Pep Guardiola","Jürgen Klopp","Mikel Arteta","Unai Emery"]}
+  ]},
+  {"id":"european-nights","groups":[
+    {"category":"LIVERPOOL CAPTAINS","hint":"All four have worn the armband for the Anfield club.","items":["Steven Gerrard","Jordan Henderson","Sami Hyypiä","Virgil van Dijk"]},
+    {"category":"FRANCE FORWARDS","hint":"These attackers have represented Les Bleus.","items":["Kylian Mbappé","Thierry Henry","Karim Benzema","Antoine Griezmann"]},
+    {"category":"CHAMPIONS LEAGUE-WINNING MANAGERS","hint":"Each coached a team to Europe's biggest club trophy.","items":["Zinedine Zidane","Pep Guardiola","Jürgen Klopp","Hansi Flick"]},
+    {"category":"SERIE A ATTACKING ICONS","hint":"These famous attackers made their mark in Italy's top division.","items":["Gabriel Batistuta","Francesco Totti","Alessandro Del Piero","Christian Vieri"]}
+  ]},
+  {"id":"clubs-countries","groups":[
+    {"category":"AJAX ACADEMY GRADUATES","hint":"These players developed in Amsterdam's famous youth system.","items":["Matthijs de Ligt","Frenkie de Jong","Christian Eriksen","Wesley Sneijder"]},
+    {"category":"PORTUGAL INTERNATIONALS","hint":"All four have represented Portugal's senior national team.","items":["Cristiano Ronaldo","Bruno Fernandes","Bernardo Silva","Pepe"]},
+    {"category":"PLAYED FOR PSG","hint":"These players have worn Paris Saint-Germain colours.","items":["Zlatan Ibrahimović","Edinson Cavani","Kylian Mbappé","Marquinhos"]},
+    {"category":"BUNDESLIGA CLUBS","hint":"These clubs play in Germany's league system.","items":["Borussia Dortmund","Bayer Leverkusen","RB Leipzig","Eintracht Frankfurt"]}
+  ]}
 ]

@@ -1,10 +1,11 @@
 "use client";
 
-import groups from "@/data/connections.json";
-import { useMemo, useRef, useState } from "react";
+import puzzles from "@/data/connections.json";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Lightbulb, X } from "lucide-react";
 import { useProgress } from "@/components/progress-provider";
 import { calculateScore } from "@/lib/game";
+import { selectConnectionPuzzle, type ConnectionPuzzle } from "@/lib/connections-selection";
 import type { GameResult } from "@/types";
 import { Result } from "./result";
 
@@ -14,8 +15,10 @@ export function ConnectionsGame() {
 }
 
 function Round({ again }: { again: () => void }) {
-  const items = useMemo(() => groups.flatMap((group) => group.items).sort(() => .5 - Math.random()), []);
-  const { complete } = useProgress();
+  const { complete, progress, markQuestionsSeen } = useProgress();
+  const [puzzle] = useState(() => selectConnectionPuzzle(puzzles as ConnectionPuzzle[], progress.seenQuestionIds));
+  const groups = puzzle.groups;
+  const items = useMemo(() => groups.flatMap((group) => group.items).sort(() => .5 - Math.random()), [groups]);
   const [selected, setSelected] = useState<string[]>([]);
   const [solved, setSolved] = useState<string[]>([]);
   const [mistakes, setMistakes] = useState(4);
@@ -25,6 +28,12 @@ function Round({ again }: { again: () => void }) {
   const [result, setResult] = useState<GameResult | null>(null);
   const started = useRef(Date.now());
   const hintedGroup = hintGroupIndex === null ? null : groups[hintGroupIndex];
+
+  useEffect(() => {
+    markQuestionsSeen([`connections-${puzzle.id}`]);
+    // The chosen board remains fixed for the whole round.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function choose(item: string) {
     if (solved.includes(item)) return;
