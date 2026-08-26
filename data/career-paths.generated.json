@@ -8,10 +8,10 @@
     ],
     "answer": "Lionel Messi",
     "choices": [
-      "Jay-Jay Okocha",
       "Lionel Messi",
       "Kylian Mbappé",
-      "Jude Bellingham"
+      "Xabi Alonso",
+      "Toni Kroos"
     ],
     "nationality": "Argentina",
     "position": "Forward"
@@ -27,10 +27,10 @@
     ],
     "answer": "Cristiano Ronaldo",
     "choices": [
+      "Zlatan Ibrahimović",
       "Erling Haaland",
       "Cristiano Ronaldo",
-      "Son Heung-min",
-      "Zinedine Zidane"
+      "Son Heung-min"
     ],
     "nationality": "Portugal",
     "position": "Forward"
@@ -46,9 +46,9 @@
     ],
     "answer": "Mohamed Salah",
     "choices": [
-      "Bukayo Saka",
+      "Robin van Persie",
+      "Patrick Kluivert",
       "Victor Osimhen",
-      "Lionel Messi",
       "Mohamed Salah"
     ],
     "nationality": "Egypt",
@@ -65,28 +65,13 @@
     ],
     "answer": "Victor Osimhen",
     "choices": [
-      "Jay-Jay Okocha",
-      "Erling Haaland",
-      "Zinedine Zidane",
-      "Victor Osimhen"
+      "Sergio Agüero",
+      "Arjen Robben",
+      "Victor Osimhen",
+      "Edwin van der Sar"
     ],
     "nationality": "Nigeria",
     "position": "Striker"
-  },
-  {
-    "id": "career-saka",
-    "clubs": [
-      "Arsenal"
-    ],
-    "answer": "Bukayo Saka",
-    "choices": [
-      "Bukayo Saka",
-      "Zinedine Zidane",
-      "Lamine Yamal",
-      "Mohamed Salah"
-    ],
-    "nationality": "England",
-    "position": "Winger"
   },
   {
     "id": "career-bellingham",
@@ -97,9 +82,9 @@
     ],
     "answer": "Jude Bellingham",
     "choices": [
-      "Nwankwo Kanu",
+      "Zlatan Ibrahimović",
       "Jude Bellingham",
-      "Lionel Messi",
+      "Marcel Desailly",
       "Son Heung-min"
     ],
     "nationality": "England",
@@ -114,10 +99,10 @@
     ],
     "answer": "Kylian Mbappé",
     "choices": [
-      "Thierry Henry",
       "Luka Modrić",
       "Kylian Mbappé",
-      "Jude Bellingham"
+      "Arjen Robben",
+      "Steven Gerrard"
     ],
     "nationality": "France",
     "position": "Forward"
@@ -133,10 +118,10 @@
     ],
     "answer": "Erling Haaland",
     "choices": [
-      "Jay-Jay Okocha",
-      "Erling Haaland",
-      "Kylian Mbappé",
-      "Cristiano Ronaldo"
+      "Steven Gerrard",
+      "Deco",
+      "Kaká",
+      "Erling Haaland"
     ],
     "nationality": "Norway",
     "position": "Striker"
@@ -154,8 +139,8 @@
     "choices": [
       "Kevin De Bruyne",
       "Victor Osimhen",
-      "Ronaldinho",
-      "Didier Drogba"
+      "Didier Drogba",
+      "Cesc Fàbregas"
     ],
     "nationality": "Belgium",
     "position": "Midfielder"
@@ -170,8 +155,8 @@
     "answer": "Luka Modrić",
     "choices": [
       "Didier Drogba",
-      "Son Heung-min",
-      "Lamine Yamal",
+      "Cesc Fàbregas",
+      "Samuel Eto'o",
       "Luka Modrić"
     ],
     "nationality": "Croatia",
@@ -188,10 +173,10 @@
     ],
     "answer": "Thierry Henry",
     "choices": [
-      "Victor Osimhen",
+      "David Beckham",
       "Thierry Henry",
-      "Cole Palmer",
-      "Jude Bellingham"
+      "Frank Lampard",
+      "Pavel Nedvěd"
     ],
     "nationality": "France",
     "position": "Forward"
@@ -208,10 +193,10 @@
     ],
     "answer": "Jay-Jay Okocha",
     "choices": [
+      "Franck Ribéry",
+      "Lilian Thuram",
       "Jay-Jay Okocha",
-      "Zinedine Zidane",
-      "Nwankwo Kanu",
-      "Ronaldinho"
+      "Patrick Vieira"
     ],
     "nationality": "Nigeria",
     "position": "Midfielder"
@@ -228,10 +213,10 @@
     ],
     "answer": "Nwankwo Kanu",
     "choices": [
+      "Dimitar Berbatov",
       "Kevin De Bruyne",
-      "Kylian Mbappé",
-      "Nwankwo Kanu",
-      "Bukayo Saka"
+      "Hernán Crespo",
+      "Nwankwo Kanu"
     ],
     "nationality": "Nigeria",
     "position": "Forward"
@@ -250,10 +235,10 @@
     ],
     "answer": "Didier Drogba",
     "choices": [
-      "Thierry Henry",
+      "David Beckham",
       "Didier Drogba",
-      "Nwankwo Kanu",
-      "Bukayo Saka"
+      "Patrick Vieira",
+      "Luís Figo"
     ],
     "nationality": "Ivory Coast",
     "position": "Striker"
@@ -268,10 +253,10 @@
     ],
     "answer": "Zinedine Zidane",
     "choices": [
-      "Mohamed Salah",
+      "Zlatan Ibrahimović",
+      "Gareth Bale",
       "Zinedine Zidane",
-      "Cole Palmer",
-      "Victor Osimhen"
+      "Nicolas Anelka"
     ],
     "nationality": "France",
     "position": "Midfielder"
@@ -291,8 +276,8 @@
     "answer": "Ronaldinho",
     "choices": [
       "Didier Drogba",
+      "Cesc Fàbregas",
       "Ronaldinho",
-      "Victor Osimhen",
       "Nwankwo Kanu"
     ],
     "nationality": "Brazil",
@@ -308,9 +293,9 @@
     "answer": "Son Heung-min",
     "choices": [
       "Son Heung-min",
+      "Toni Kroos",
       "Vinícius Júnior",
-      "Mohamed Salah",
-      "Zinedine Zidane"
+      "Claude Makélélé"
     ],
     "nationality": "South Korea",
     "position": "Forward"
@@ -323,28 +308,13 @@
     ],
     "answer": "Cole Palmer",
     "choices": [
-      "Luka Modrić",
+      "Franck Ribéry",
       "Cole Palmer",
       "Kevin De Bruyne",
       "Nwankwo Kanu"
     ],
     "nationality": "England",
     "position": "Attacking midfielder"
-  },
-  {
-    "id": "career-yamal",
-    "clubs": [
-      "Barcelona"
-    ],
-    "answer": "Lamine Yamal",
-    "choices": [
-      "Bukayo Saka",
-      "Zinedine Zidane",
-      "Lamine Yamal",
-      "Jay-Jay Okocha"
-    ],
-    "nationality": "Spain",
-    "position": "Winger"
   },
   {
     "id": "career-vinicius",
@@ -354,12 +324,869 @@
     ],
     "answer": "Vinícius Júnior",
     "choices": [
-      "Jude Bellingham",
-      "Thierry Henry",
-      "Cristiano Ronaldo",
+      "Pavel Nedvěd",
+      "Ruud Gullit",
+      "Toni Kroos",
       "Vinícius Júnior"
     ],
     "nationality": "Brazil",
     "position": "Winger"
+  },
+  {
+    "id": "career-beckham",
+    "clubs": [
+      "Manchester United",
+      "Preston North End",
+      "Real Madrid",
+      "LA Galaxy",
+      "AC Milan",
+      "Paris Saint-Germain"
+    ],
+    "answer": "David Beckham",
+    "choices": [
+      "Kevin De Bruyne",
+      "Samuel Eto'o",
+      "Nicolas Anelka",
+      "David Beckham"
+    ],
+    "nationality": "England",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-ronaldo-nazario",
+    "clubs": [
+      "Cruzeiro",
+      "PSV",
+      "Barcelona",
+      "Inter Milan",
+      "Real Madrid",
+      "AC Milan",
+      "Corinthians"
+    ],
+    "answer": "Ronaldo Nazário",
+    "choices": [
+      "David Beckham",
+      "Ronaldo Nazário",
+      "Cristiano Ronaldo",
+      "Javier Mascherano"
+    ],
+    "nationality": "Brazil",
+    "position": "Striker"
+  },
+  {
+    "id": "career-ibrahimovic",
+    "clubs": [
+      "Malmö FF",
+      "Ajax",
+      "Juventus",
+      "Inter Milan",
+      "Barcelona",
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Manchester United",
+      "LA Galaxy",
+      "AC Milan"
+    ],
+    "answer": "Zlatan Ibrahimović",
+    "choices": [
+      "Ronaldo Nazário",
+      "Cristiano Ronaldo",
+      "Javier Mascherano",
+      "Zlatan Ibrahimović"
+    ],
+    "nationality": "Sweden",
+    "position": "Striker"
+  },
+  {
+    "id": "career-etoo",
+    "clubs": [
+      "Real Madrid",
+      "Mallorca",
+      "Barcelona",
+      "Inter Milan",
+      "Anzhi Makhachkala",
+      "Chelsea",
+      "Everton",
+      "Sampdoria",
+      "Antalyaspor",
+      "Konyaspor",
+      "Qatar SC"
+    ],
+    "answer": "Samuel Eto'o",
+    "choices": [
+      "Samuel Eto'o",
+      "Xabi Alonso",
+      "Vinícius Júnior",
+      "Gerard Piqué"
+    ],
+    "nationality": "Cameroon",
+    "position": "Striker"
+  },
+  {
+    "id": "career-robben",
+    "clubs": [
+      "Groningen",
+      "PSV",
+      "Chelsea",
+      "Real Madrid",
+      "Bayern Munich",
+      "Groningen"
+    ],
+    "answer": "Arjen Robben",
+    "choices": [
+      "Andrea Pirlo",
+      "Arjen Robben",
+      "Hernán Crespo",
+      "Dimitar Berbatov"
+    ],
+    "nationality": "Netherlands",
+    "position": "Winger"
+  },
+  {
+    "id": "career-ribery",
+    "clubs": [
+      "Boulogne",
+      "Alès",
+      "Brest",
+      "Metz",
+      "Galatasaray",
+      "Marseille",
+      "Bayern Munich",
+      "Fiorentina",
+      "Salernitana"
+    ],
+    "answer": "Franck Ribéry",
+    "choices": [
+      "Jude Bellingham",
+      "Franck Ribéry",
+      "Lilian Thuram",
+      "Nicolas Anelka"
+    ],
+    "nationality": "France",
+    "position": "Winger"
+  },
+  {
+    "id": "career-figo",
+    "clubs": [
+      "Sporting CP",
+      "Barcelona",
+      "Real Madrid",
+      "Inter Milan"
+    ],
+    "answer": "Luís Figo",
+    "choices": [
+      "Samuel Eto'o",
+      "Ronaldinho",
+      "Luka Modrić",
+      "Luís Figo"
+    ],
+    "nationality": "Portugal",
+    "position": "Winger"
+  },
+  {
+    "id": "career-rivaldo",
+    "clubs": [
+      "Santa Cruz",
+      "Mogi Mirim",
+      "Corinthians",
+      "Palmeiras",
+      "Deportivo La Coruña",
+      "Barcelona",
+      "AC Milan",
+      "Olympiacos",
+      "AEK Athens",
+      "Bunyodkor",
+      "São Paulo",
+      "Kabuscorp",
+      "São Caetano"
+    ],
+    "answer": "Rivaldo",
+    "choices": [
+      "Carlos Tevez",
+      "Fernando Torres",
+      "Rivaldo",
+      "Son Heung-min"
+    ],
+    "nationality": "Brazil",
+    "position": "Attacking midfielder"
+  },
+  {
+    "id": "career-kaka",
+    "clubs": [
+      "São Paulo",
+      "AC Milan",
+      "Real Madrid",
+      "AC Milan",
+      "Orlando City"
+    ],
+    "answer": "Kaká",
+    "choices": [
+      "Xabi Alonso",
+      "Kaká",
+      "Nwankwo Kanu",
+      "Mohamed Salah"
+    ],
+    "nationality": "Brazil",
+    "position": "Attacking midfielder"
+  },
+  {
+    "id": "career-pirlo",
+    "clubs": [
+      "Brescia",
+      "Inter Milan",
+      "Reggina",
+      "Brescia",
+      "AC Milan",
+      "Juventus",
+      "New York City FC"
+    ],
+    "answer": "Andrea Pirlo",
+    "choices": [
+      "Andrea Pirlo",
+      "Clarence Seedorf",
+      "Pavel Nedvěd",
+      "Cristiano Ronaldo"
+    ],
+    "nationality": "Italy",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-seedorf",
+    "clubs": [
+      "Ajax",
+      "Sampdoria",
+      "Real Madrid",
+      "Inter Milan",
+      "AC Milan",
+      "Botafogo"
+    ],
+    "answer": "Clarence Seedorf",
+    "choices": [
+      "Nwankwo Kanu",
+      "Zlatan Ibrahimović",
+      "Clarence Seedorf",
+      "Jude Bellingham"
+    ],
+    "nationality": "Netherlands",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-van-persie",
+    "clubs": [
+      "Feyenoord",
+      "Arsenal",
+      "Manchester United",
+      "Fenerbahçe",
+      "Feyenoord"
+    ],
+    "answer": "Robin van Persie",
+    "choices": [
+      "Robin van Persie",
+      "Mohamed Salah",
+      "Luís Figo",
+      "Gianluigi Buffon"
+    ],
+    "nationality": "Netherlands",
+    "position": "Forward"
+  },
+  {
+    "id": "career-fabregas",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Chelsea",
+      "Monaco",
+      "Como"
+    ],
+    "answer": "Cesc Fàbregas",
+    "choices": [
+      "David Beckham",
+      "Thierry Henry",
+      "Nicolas Anelka",
+      "Cesc Fàbregas"
+    ],
+    "nationality": "Spain",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-torres",
+    "clubs": [
+      "Atlético Madrid",
+      "Liverpool",
+      "Chelsea",
+      "AC Milan",
+      "Atlético Madrid",
+      "Sagan Tosu"
+    ],
+    "answer": "Fernando Torres",
+    "choices": [
+      "Victor Osimhen",
+      "Juan Sebastián Verón",
+      "Ruud Gullit",
+      "Fernando Torres"
+    ],
+    "nationality": "Spain",
+    "position": "Striker"
+  },
+  {
+    "id": "career-aguero",
+    "clubs": [
+      "Independiente",
+      "Atlético Madrid",
+      "Manchester City",
+      "Barcelona"
+    ],
+    "answer": "Sergio Agüero",
+    "choices": [
+      "Wayne Rooney",
+      "Sergio Agüero",
+      "Jude Bellingham",
+      "Marcel Desailly"
+    ],
+    "nationality": "Argentina",
+    "position": "Striker"
+  },
+  {
+    "id": "career-rooney",
+    "clubs": [
+      "Everton",
+      "Manchester United",
+      "Everton",
+      "D.C. United",
+      "Derby County"
+    ],
+    "answer": "Wayne Rooney",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Wayne Rooney",
+      "Son Heung-min",
+      "Ruud Gullit"
+    ],
+    "nationality": "England",
+    "position": "Forward"
+  },
+  {
+    "id": "career-bale",
+    "clubs": [
+      "Southampton",
+      "Tottenham Hotspur",
+      "Real Madrid",
+      "Tottenham Hotspur",
+      "Los Angeles FC"
+    ],
+    "answer": "Gareth Bale",
+    "choices": [
+      "Didier Drogba",
+      "Lionel Messi",
+      "Ronaldinho",
+      "Gareth Bale"
+    ],
+    "nationality": "Wales",
+    "position": "Winger"
+  },
+  {
+    "id": "career-tevez",
+    "clubs": [
+      "Boca Juniors",
+      "Corinthians",
+      "West Ham United",
+      "Manchester United",
+      "Manchester City",
+      "Juventus",
+      "Shanghai Shenhua",
+      "Boca Juniors"
+    ],
+    "answer": "Carlos Tevez",
+    "choices": [
+      "David Beckham",
+      "Wayne Rooney",
+      "Luís Figo",
+      "Carlos Tevez"
+    ],
+    "nationality": "Argentina",
+    "position": "Forward"
+  },
+  {
+    "id": "career-mascherano",
+    "clubs": [
+      "River Plate",
+      "Corinthians",
+      "West Ham United",
+      "Liverpool",
+      "Barcelona",
+      "Hebei China Fortune",
+      "Estudiantes"
+    ],
+    "answer": "Javier Mascherano",
+    "choices": [
+      "Dimitar Berbatov",
+      "Yaya Touré",
+      "Cristiano Ronaldo",
+      "Javier Mascherano"
+    ],
+    "nationality": "Argentina",
+    "position": "Defensive midfielder"
+  },
+  {
+    "id": "career-xabi-alonso",
+    "clubs": [
+      "Real Sociedad",
+      "Eibar",
+      "Liverpool",
+      "Real Madrid",
+      "Bayern Munich"
+    ],
+    "answer": "Xabi Alonso",
+    "choices": [
+      "Kylian Mbappé",
+      "Xabi Alonso",
+      "Vinícius Júnior",
+      "Claude Makélélé"
+    ],
+    "nationality": "Spain",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-kroos",
+    "clubs": [
+      "Bayern Munich",
+      "Bayer Leverkusen",
+      "Bayern Munich",
+      "Real Madrid"
+    ],
+    "answer": "Toni Kroos",
+    "choices": [
+      "Toni Kroos",
+      "Vinícius Júnior",
+      "Zlatan Ibrahimović",
+      "Luís Figo"
+    ],
+    "nationality": "Germany",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-ozil",
+    "clubs": [
+      "Schalke 04",
+      "Werder Bremen",
+      "Real Madrid",
+      "Arsenal",
+      "Fenerbahçe",
+      "İstanbul Başakşehir"
+    ],
+    "answer": "Mesut Özil",
+    "choices": [
+      "Clarence Seedorf",
+      "Mesut Özil",
+      "Luka Modrić",
+      "Ronaldinho"
+    ],
+    "nationality": "Germany",
+    "position": "Attacking midfielder"
+  },
+  {
+    "id": "career-yaya-toure",
+    "clubs": [
+      "Beveren",
+      "Metalurh Donetsk",
+      "Olympiacos",
+      "Monaco",
+      "Barcelona",
+      "Manchester City",
+      "Olympiacos",
+      "Qingdao Huanghai"
+    ],
+    "answer": "Yaya Touré",
+    "choices": [
+      "Mohamed Salah",
+      "Yaya Touré",
+      "Nicolas Anelka",
+      "Toni Kroos"
+    ],
+    "nationality": "Ivory Coast",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-vieira",
+    "clubs": [
+      "Cannes",
+      "AC Milan",
+      "Arsenal",
+      "Juventus",
+      "Inter Milan",
+      "Manchester City"
+    ],
+    "answer": "Patrick Vieira",
+    "choices": [
+      "Patrick Vieira",
+      "Carlos Tevez",
+      "Zlatan Ibrahimović",
+      "Petr Čech"
+    ],
+    "nationality": "France",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-makelele",
+    "clubs": [
+      "Nantes",
+      "Marseille",
+      "Celta Vigo",
+      "Real Madrid",
+      "Chelsea",
+      "Paris Saint-Germain"
+    ],
+    "answer": "Claude Makélélé",
+    "choices": [
+      "Claude Makélélé",
+      "Samuel Eto'o",
+      "Kylian Mbappé",
+      "Ronaldo Nazário"
+    ],
+    "nationality": "France",
+    "position": "Defensive midfielder"
+  },
+  {
+    "id": "career-lampard",
+    "clubs": [
+      "West Ham United",
+      "Swansea City",
+      "Chelsea",
+      "Manchester City",
+      "New York City FC"
+    ],
+    "answer": "Frank Lampard",
+    "choices": [
+      "Juan Sebastián Verón",
+      "Ronaldinho",
+      "Petr Čech",
+      "Frank Lampard"
+    ],
+    "nationality": "England",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-gerrard",
+    "clubs": [
+      "Liverpool",
+      "LA Galaxy"
+    ],
+    "answer": "Steven Gerrard",
+    "choices": [
+      "Mohamed Salah",
+      "Steven Gerrard",
+      "Jude Bellingham",
+      "Marcel Desailly"
+    ],
+    "nationality": "England",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-buffon",
+    "clubs": [
+      "Parma",
+      "Juventus",
+      "Paris Saint-Germain",
+      "Juventus",
+      "Parma"
+    ],
+    "answer": "Gianluigi Buffon",
+    "choices": [
+      "Kevin De Bruyne",
+      "Patrick Kluivert",
+      "Gianluigi Buffon",
+      "Nwankwo Kanu"
+    ],
+    "nationality": "Italy",
+    "position": "Goalkeeper"
+  },
+  {
+    "id": "career-cech",
+    "clubs": [
+      "Chmel Blšany",
+      "Sparta Prague",
+      "Rennes",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "answer": "Petr Čech",
+    "choices": [
+      "Zinedine Zidane",
+      "Petr Čech",
+      "Patrick Vieira",
+      "Patrick Kluivert"
+    ],
+    "nationality": "Czech Republic",
+    "position": "Goalkeeper"
+  },
+  {
+    "id": "career-van-der-sar",
+    "clubs": [
+      "Ajax",
+      "Juventus",
+      "Fulham",
+      "Manchester United"
+    ],
+    "answer": "Edwin van der Sar",
+    "choices": [
+      "David Beckham",
+      "Zlatan Ibrahimović",
+      "Jude Bellingham",
+      "Edwin van der Sar"
+    ],
+    "nationality": "Netherlands",
+    "position": "Goalkeeper"
+  },
+  {
+    "id": "career-pique",
+    "clubs": [
+      "Manchester United",
+      "Real Zaragoza",
+      "Manchester United",
+      "Barcelona"
+    ],
+    "answer": "Gerard Piqué",
+    "choices": [
+      "Deco",
+      "Ronaldinho",
+      "Gerard Piqué",
+      "Zlatan Ibrahimović"
+    ],
+    "nationality": "Spain",
+    "position": "Centre-back"
+  },
+  {
+    "id": "career-gullit",
+    "clubs": [
+      "HFC Haarlem",
+      "Feyenoord",
+      "PSV",
+      "AC Milan",
+      "Sampdoria",
+      "Chelsea"
+    ],
+    "answer": "Ruud Gullit",
+    "choices": [
+      "Andriy Shevchenko",
+      "Mohamed Salah",
+      "Ruud Gullit",
+      "Jude Bellingham"
+    ],
+    "nationality": "Netherlands",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-kluivert",
+    "clubs": [
+      "Ajax",
+      "AC Milan",
+      "Barcelona",
+      "Newcastle United",
+      "Valencia",
+      "PSV",
+      "Lille"
+    ],
+    "answer": "Patrick Kluivert",
+    "choices": [
+      "Ronaldinho",
+      "Luka Modrić",
+      "Patrick Kluivert",
+      "Jude Bellingham"
+    ],
+    "nationality": "Netherlands",
+    "position": "Striker"
+  },
+  {
+    "id": "career-shevchenko",
+    "clubs": [
+      "Dynamo Kyiv",
+      "AC Milan",
+      "Chelsea",
+      "AC Milan",
+      "Dynamo Kyiv"
+    ],
+    "answer": "Andriy Shevchenko",
+    "choices": [
+      "Andriy Shevchenko",
+      "Vinícius Júnior",
+      "Claude Makélélé",
+      "Rivaldo"
+    ],
+    "nationality": "Ukraine",
+    "position": "Striker"
+  },
+  {
+    "id": "career-desailly",
+    "clubs": [
+      "Nantes",
+      "Marseille",
+      "AC Milan",
+      "Chelsea",
+      "Al-Gharafa",
+      "Qatar SC"
+    ],
+    "answer": "Marcel Desailly",
+    "choices": [
+      "Marcel Desailly",
+      "Edwin van der Sar",
+      "Yaya Touré",
+      "Dimitar Berbatov"
+    ],
+    "nationality": "France",
+    "position": "Centre-back"
+  },
+  {
+    "id": "career-crespo",
+    "clubs": [
+      "River Plate",
+      "Parma",
+      "Lazio",
+      "Inter Milan",
+      "Chelsea",
+      "AC Milan",
+      "Inter Milan",
+      "Genoa",
+      "Parma"
+    ],
+    "answer": "Hernán Crespo",
+    "choices": [
+      "Patrick Kluivert",
+      "Sergio Agüero",
+      "Kevin De Bruyne",
+      "Hernán Crespo"
+    ],
+    "nationality": "Argentina",
+    "position": "Striker"
+  },
+  {
+    "id": "career-nedved",
+    "clubs": [
+      "Dukla Prague",
+      "Sparta Prague",
+      "Lazio",
+      "Juventus"
+    ],
+    "answer": "Pavel Nedvěd",
+    "choices": [
+      "Patrick Vieira",
+      "Gianluigi Buffon",
+      "Vinícius Júnior",
+      "Pavel Nedvěd"
+    ],
+    "nationality": "Czech Republic",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-thuram",
+    "clubs": [
+      "Monaco",
+      "Parma",
+      "Juventus",
+      "Barcelona"
+    ],
+    "answer": "Lilian Thuram",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Kylian Mbappé",
+      "Nwankwo Kanu",
+      "Lilian Thuram"
+    ],
+    "nationality": "France",
+    "position": "Defender"
+  },
+  {
+    "id": "career-deco",
+    "clubs": [
+      "Corinthians Alagoano",
+      "Benfica",
+      "Alverca",
+      "Salgueiros",
+      "Porto",
+      "Barcelona",
+      "Chelsea",
+      "Fluminense"
+    ],
+    "answer": "Deco",
+    "choices": [
+      "Deco",
+      "David Beckham",
+      "Thierry Henry",
+      "Arjen Robben"
+    ],
+    "nationality": "Portugal",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-berbatov",
+    "clubs": [
+      "CSKA Sofia",
+      "Bayer Leverkusen",
+      "Tottenham Hotspur",
+      "Manchester United",
+      "Fulham",
+      "Monaco",
+      "PAOK",
+      "Kerala Blasters"
+    ],
+    "answer": "Dimitar Berbatov",
+    "choices": [
+      "Vinícius Júnior",
+      "Claude Makélélé",
+      "Dimitar Berbatov",
+      "Zlatan Ibrahimović"
+    ],
+    "nationality": "Bulgaria",
+    "position": "Striker"
+  },
+  {
+    "id": "career-veron",
+    "clubs": [
+      "Estudiantes",
+      "Boca Juniors",
+      "Sampdoria",
+      "Parma",
+      "Lazio",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan",
+      "Estudiantes",
+      "Brandsen"
+    ],
+    "answer": "Juan Sebastián Verón",
+    "choices": [
+      "Cole Palmer",
+      "Juan Sebastián Verón",
+      "David Beckham",
+      "Wayne Rooney"
+    ],
+    "nationality": "Argentina",
+    "position": "Midfielder"
+  },
+  {
+    "id": "career-anelka",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Arsenal",
+      "Real Madrid",
+      "Paris Saint-Germain",
+      "Liverpool",
+      "Manchester City",
+      "Fenerbahçe",
+      "Bolton Wanderers",
+      "Chelsea",
+      "Shanghai Shenhua",
+      "Juventus",
+      "West Bromwich Albion",
+      "Mumbai City"
+    ],
+    "answer": "Nicolas Anelka",
+    "choices": [
+      "Andrea Pirlo",
+      "Hernán Crespo",
+      "Nicolas Anelka",
+      "Ruud Gullit"
+    ],
+    "nationality": "France",
+    "position": "Striker"
   }
 ]
