@@ -59,8 +59,11 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
         .then((response) => response.ok ? response.json() : null)
         .then((payload) => {
           if (!payload?.progress) return;
-          setProgress(payload.progress);
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(payload.progress));
+          setProgress((current) => {
+            const synced = { ...payload.progress, seenQuestionIds: [...new Set([...current.seenQuestionIds, ...(payload.progress.seenQuestionIds ?? [])])] };
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(synced));
+            return synced;
+          });
         })
         .catch(() => {});
       return next;

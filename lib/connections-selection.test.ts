@@ -16,4 +16,16 @@ describe("Football Connections rotation", () => {
     const seen = bank.slice(0, -1).map((puzzle) => `connections-${puzzle.id}`);
     expect(selectConnectionPuzzle(bank, seen, () => 0).id).toBe(bank.at(-1)!.id);
   });
+  it("rotates through consecutive sessions without returning the same players", () => {
+    const seen: string[] = [];
+    const boards = Array.from({ length: bank.length }, () => {
+      const puzzle = selectConnectionPuzzle(bank, seen, () => 0);
+      seen.push(`connections-${puzzle.id}`);
+      return puzzle;
+    });
+    expect(new Set(boards.map((puzzle) => puzzle.id)).size).toBe(bank.length);
+    for (let index = 1; index < boards.length; index++) {
+      expect(boards[index]!.groups.flatMap((group) => group.items)).not.toEqual(boards[index - 1]!.groups.flatMap((group) => group.items));
+    }
+  });
 });
