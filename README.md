@@ -78,3 +78,6 @@ npm run data:refresh
 ```
 
 The refresh script respects the documented free-tier request limit, rejects incomplete records, deduplicates players and refuses to publish fewer than 2,000 valid questions. Current-club and squad-number questions explicitly include their verification date because those facts can change.
+# Trivia attribution
+
+Qetsiyah's private quiz includes data from [Open Trivia DB](https://opentdb.com/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
