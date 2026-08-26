@@ -15,4 +15,9 @@ describe("Career Path rotation", () => {
     expect(sessions.every((session) => session.length === 20)).toBe(true);
     expect(new Set(sessions.flat().map((question) => question.id)).size).toBe(60);
   });
+  it("starts a fresh shuffled cycle instead of blocking after all paths are seen", () => {
+    const session = selectUnseenCareers(bank, bank.map((question) => question.id), 20, () => .44);
+    expect(session).toHaveLength(20);
+    expect(new Set(session.map((question) => question.id)).size).toBe(20);
+  });
 });
