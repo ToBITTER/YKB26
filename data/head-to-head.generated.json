@@ -32,36 +32,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34145419-34163698",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34145419-34163698",
+    "prompt": "Who is a club teammate of David Raya?",
     "left": {
       "name": "Alex Iwobi",
-      "value": 17,
-      "label": "squad number"
+      "value": "Fulham",
+      "label": "current club"
     },
     "right": {
       "name": "Ben White",
-      "value": 4,
-      "label": "squad number"
+      "value": "Arsenal",
+      "label": "current club"
     },
-    "answer": "Alex Iwobi",
-    "category": "Current Squads"
+    "answer": "Ben White",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34145423-34163719",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34145423-34163719",
+    "prompt": "Who shares a nationality with Emi Buendía?",
     "left": {
       "name": "Emiliano Martinez",
-      "value": 23,
-      "label": "squad number"
+      "value": "Argentina",
+      "label": "nationality"
     },
     "right": {
       "name": "Antoine Semenyo",
-      "value": 42,
-      "label": "squad number"
+      "value": "Ghana",
+      "label": "nationality"
     },
     "answer": "Emiliano Martinez",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34145435-34163809",
@@ -144,36 +144,20 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34145539-34164178",
-    "prompt": "Who is listed with the higher squad number?",
-    "left": {
-      "name": "Dominic Solanke",
-      "value": 19,
-      "label": "squad number"
-    },
-    "right": {
-      "name": "Donyell Malen",
-      "value": 17,
-      "label": "squad number"
-    },
-    "answer": "Dominic Solanke",
-    "category": "Current Squads"
-  },
-  {
-    "id": "head-lower-number-34145637-34164182",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34145637-34164182",
+    "prompt": "Who shares a nationality with César Azpilicueta?",
     "left": {
       "name": "David de Gea",
-      "value": 43,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "right": {
       "name": "Cody Gakpo",
-      "value": 18,
-      "label": "squad number"
+      "value": "The Netherlands",
+      "label": "nationality"
     },
-    "answer": "Cody Gakpo",
-    "category": "Current Squads"
+    "answer": "David de Gea",
+    "category": "International"
   },
   {
     "id": "head-club-34145639-34164230",
@@ -256,36 +240,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34145891-34164270",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34145891-34164270",
+    "prompt": "Who is a club teammate of Ben Davies?",
     "left": {
       "name": "Andrew Robertson",
-      "value": 3,
-      "label": "squad number"
+      "value": "Tottenham Hotspur",
+      "label": "current club"
     },
     "right": {
       "name": "Alphonso Davies",
-      "value": 19,
-      "label": "squad number"
+      "value": "Bayern Munich",
+      "label": "current club"
     },
-    "answer": "Alphonso Davies",
-    "category": "Current Squads"
+    "answer": "Andrew Robertson",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34145936-34164282",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34145936-34164282",
+    "prompt": "Who shares a nationality with Bryan Cristante?",
     "left": {
       "name": "Emre Can",
-      "value": 23,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Francesco Acerbi",
-      "value": 15,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
     "answer": "Francesco Acerbi",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34145978-34164381",
@@ -368,36 +352,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34146220-34164505",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34146220-34164505",
+    "prompt": "Who is a club teammate of João Palhinha?",
     "left": {
       "name": "Harry Kane",
-      "value": 9,
-      "label": "squad number"
+      "value": "Bayern Munich",
+      "label": "current club"
     },
     "right": {
       "name": "Federico Chiesa",
-      "value": 14,
-      "label": "squad number"
+      "value": "Liverpool",
+      "label": "current club"
     },
-    "answer": "Federico Chiesa",
-    "category": "Current Squads"
+    "answer": "Harry Kane",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34146232-34164522",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34146232-34164522",
+    "prompt": "Who shares a nationality with Connor Roberts?",
     "left": {
       "name": "Ben Davies",
-      "value": 33,
-      "label": "squad number"
+      "value": "Wales",
+      "label": "nationality"
     },
     "right": {
       "name": "Alfonso Pedraza",
-      "value": 24,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
-    "answer": "Alfonso Pedraza",
-    "category": "Current Squads"
+    "answer": "Ben Davies",
+    "category": "International"
   },
   {
     "id": "head-club-34146235-34166118",
@@ -480,36 +464,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34146684-34167119",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34146684-34167119",
+    "prompt": "Who is a club teammate of Elye Wahi?",
     "left": {
       "name": "Dante",
-      "value": 4,
-      "label": "squad number"
+      "value": "Nice",
+      "label": "current club"
     },
     "right": {
       "name": "David Neres",
-      "value": 7,
-      "label": "squad number"
+      "value": "Napoli",
+      "label": "current club"
     },
-    "answer": "David Neres",
-    "category": "Current Squads"
+    "answer": "Dante",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34146809-34167123",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34146809-34167123",
+    "prompt": "Who shares a nationality with Brandon Mechele?",
     "left": {
       "name": "Axel Witsel",
-      "value": 20,
-      "label": "squad number"
+      "value": "Belgium",
+      "label": "nationality"
     },
     "right": {
       "name": "Frenkie de Jong",
-      "value": 21,
-      "label": "squad number"
+      "value": "The Netherlands",
+      "label": "nationality"
     },
     "answer": "Axel Witsel",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34146872-34167575",
@@ -592,36 +576,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34147121-34168133",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34147121-34168133",
+    "prompt": "Who is a club teammate of Hakan Çalhanoğlu?",
     "left": {
       "name": "Federico Dimarco",
-      "value": 32,
-      "label": "squad number"
+      "value": "Inter Milan",
+      "label": "current club"
     },
     "right": {
       "name": "Aurélien Tchouaméni",
-      "value": 14,
-      "label": "squad number"
+      "value": "Real Madrid",
+      "label": "current club"
     },
     "answer": "Federico Dimarco",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-position-34147327-34168142",
-    "prompt": "Who is listed as a Midfielder?",
+    "id": "head-compatriot-34147327-34168142",
+    "prompt": "Who shares a nationality with Daley Blind?",
     "left": {
       "name": "Davy Klaassen",
-      "value": "Midfielder",
-      "label": "position"
+      "value": "The Netherlands",
+      "label": "nationality"
     },
     "right": {
       "name": "Benoit Badiashile",
-      "value": "Centre-Back",
-      "label": "position"
+      "value": "France",
+      "label": "nationality"
     },
     "answer": "Davy Klaassen",
-    "category": "Player Positions"
+    "category": "International"
   },
   {
     "id": "head-club-34147839-34168363",
@@ -704,36 +688,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34148287-34169114",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34148287-34169114",
+    "prompt": "Who is a club teammate of Benjamin Siegrist?",
     "left": {
       "name": "Caleb Ekuban",
-      "value": 18,
-      "label": "squad number"
+      "value": "Genoa",
+      "label": "current club"
     },
     "right": {
       "name": "Hee-chan Hwang",
-      "value": 11,
-      "label": "squad number"
+      "value": "Wolverhampton Wanderers",
+      "label": "current club"
     },
     "answer": "Caleb Ekuban",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34148376-34169116",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34148376-34169116",
+    "prompt": "Who shares a nationality with Alexander Sørloth?",
     "left": {
       "name": "Davide Zappacosta",
-      "value": 77,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
     "right": {
       "name": "Erling Haaland",
-      "value": 9,
-      "label": "squad number"
+      "value": "Norway",
+      "label": "nationality"
     },
     "answer": "Erling Haaland",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34148385-34169130",
@@ -816,36 +800,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34148993-34169205",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34148993-34169205",
+    "prompt": "Who is a club teammate of Andrej Kramarić?",
     "left": {
       "name": "Brandon Mechele",
-      "value": 44,
-      "label": "squad number"
+      "value": "Club Brugge",
+      "label": "current club"
     },
     "right": {
       "name": "Dennis Geiger",
-      "value": 8,
-      "label": "squad number"
+      "value": "Hoffenheim",
+      "label": "current club"
     },
-    "answer": "Brandon Mechele",
-    "category": "Current Squads"
+    "answer": "Dennis Geiger",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34149020-34169209",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34149020-34169209",
+    "prompt": "Who shares a nationality with Ashley Barnes?",
     "left": {
       "name": "Anthony Lopes",
-      "value": 16,
-      "label": "squad number"
+      "value": "Portugal",
+      "label": "nationality"
     },
     "right": {
       "name": "Christoph Baumgartner",
-      "value": 14,
-      "label": "squad number"
+      "value": "Austria",
+      "label": "nationality"
     },
     "answer": "Christoph Baumgartner",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34149045-34169228",
@@ -928,36 +912,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34149478-34169295",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34149478-34169295",
+    "prompt": "Who is a club teammate of Federico Bernardeschi?",
     "left": {
       "name": "Dimitri Foulquier",
-      "value": 20,
-      "label": "squad number"
+      "value": "Valencia",
+      "label": "current club"
     },
     "right": {
       "name": "Juan Miranda",
-      "value": 33,
-      "label": "squad number"
+      "value": "Bologna",
+      "label": "current club"
     },
     "answer": "Juan Miranda",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34149700-34169300",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34149700-34169300",
+    "prompt": "Who shares a nationality with Emiliano Martinez?",
     "left": {
       "name": "Gerónimo Rulli",
-      "value": 28,
-      "label": "squad number"
+      "value": "Argentina",
+      "label": "nationality"
     },
     "right": {
       "name": "Fabian Reese",
-      "value": 11,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
-    "answer": "Fabian Reese",
-    "category": "Current Squads"
+    "answer": "Gerónimo Rulli",
+    "category": "International"
   },
   {
     "id": "head-club-34149722-34169341",
@@ -1040,36 +1024,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34152742-34169562",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34152742-34169562",
+    "prompt": "Who is a club teammate of Antonio Rüdiger?",
     "left": {
       "name": "Bernardo Silva",
-      "value": 20,
-      "label": "squad number"
+      "value": "Real Madrid",
+      "label": "current club"
     },
     "right": {
       "name": "Amir Rrahmani",
-      "value": 13,
-      "label": "squad number"
+      "value": "Napoli",
+      "label": "current club"
     },
     "answer": "Bernardo Silva",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34152850-34169691",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34152850-34169691",
+    "prompt": "Who shares a nationality with Axel Witsel?",
     "left": {
       "name": "Franck Honorat",
-      "value": 9,
-      "label": "squad number"
+      "value": "France",
+      "label": "nationality"
     },
     "right": {
       "name": "Alexis Saelemaekers",
-      "value": 56,
-      "label": "squad number"
+      "value": "Belgium",
+      "label": "nationality"
     },
-    "answer": "Franck Honorat",
-    "category": "Current Squads"
+    "answer": "Alexis Saelemaekers",
+    "category": "International"
   },
   {
     "id": "head-club-34152856-34169692",
@@ -1152,36 +1136,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34154877-34170133",
-    "prompt": "Who is listed as a Central Midfield?",
+    "id": "head-teammate-34154877-34170133",
+    "prompt": "Who is a club teammate of Alexander Isak?",
     "left": {
       "name": "Ciro Immobile",
-      "value": "Centre-Forward",
-      "label": "position"
+      "value": "Beşiktaş",
+      "label": "current club"
     },
     "right": {
       "name": "Alexis Mac Allister",
-      "value": "Central Midfield",
-      "label": "position"
+      "value": "Liverpool",
+      "label": "current club"
     },
     "answer": "Alexis Mac Allister",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34155126-34170134",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34155126-34170134",
+    "prompt": "Who shares a nationality with Emre Can?",
     "left": {
       "name": "Jens Grahl",
-      "value": 33,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Bernardo",
-      "value": 13,
-      "label": "squad number"
+      "value": "Brazil",
+      "label": "nationality"
     },
-    "answer": "Bernardo",
-    "category": "Current Squads"
+    "answer": "Jens Grahl",
+    "category": "International"
   },
   {
     "id": "head-club-34155217-34170142",
@@ -1264,36 +1248,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34156789-34170245",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34156789-34170245",
+    "prompt": "Who is a club teammate of Adrian?",
     "left": {
       "name": "Bruma",
-      "value": 7,
-      "label": "squad number"
+      "value": "Benfica",
+      "label": "current club"
     },
     "right": {
       "name": "Aitor Ruibal",
-      "value": 24,
-      "label": "squad number"
+      "value": "Real Betis",
+      "label": "current club"
     },
     "answer": "Aitor Ruibal",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34156820-34170248",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34156820-34170248",
+    "prompt": "Who shares a nationality with Alphonso Davies?",
     "left": {
       "name": "Atiba Hutchinson",
-      "value": 13,
-      "label": "squad number"
+      "value": "Canada",
+      "label": "nationality"
     },
     "right": {
       "name": "Bryan Gil",
-      "value": 21,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "answer": "Atiba Hutchinson",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34157085-34170279",
@@ -1360,36 +1344,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34158489-34170347",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34158489-34170347",
+    "prompt": "Who is a club teammate of James Ward-Prowse?",
     "left": {
       "name": "Abdülkerim Bardakcı",
-      "value": 42,
-      "label": "squad number"
+      "value": "Galatasaray",
+      "label": "current club"
     },
     "right": {
       "name": "Crysencio Summerville",
-      "value": 7,
-      "label": "squad number"
+      "value": "West Ham United",
+      "label": "current club"
     },
-    "answer": "Abdülkerim Bardakcı",
-    "category": "Current Squads"
+    "answer": "Crysencio Summerville",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34158758-34170382",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34158758-34170382",
+    "prompt": "Who shares a nationality with Hákon Rafn Valdimarsson?",
     "left": {
       "name": "Alan Browne",
-      "value": 8,
-      "label": "squad number"
+      "value": "Ireland",
+      "label": "nationality"
     },
     "right": {
       "name": "Albert Guðmundsson",
-      "value": 10,
-      "label": "squad number"
+      "value": "Iceland",
+      "label": "nationality"
     },
-    "answer": "Alan Browne",
-    "category": "Current Squads"
+    "answer": "Albert Guðmundsson",
+    "category": "International"
   },
   {
     "id": "head-position-34159023-34170408",
@@ -1456,36 +1440,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34160535-34171965",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34160535-34171965",
+    "prompt": "Who is a club teammate of Alexander Isak?",
     "left": {
       "name": "Álvaro Morata",
-      "value": 7,
-      "label": "squad number"
+      "value": "Galatasaray",
+      "label": "current club"
     },
     "right": {
       "name": "Dominik Szoboszlai",
-      "value": 8,
-      "label": "squad number"
+      "value": "Liverpool",
+      "label": "current club"
     },
     "answer": "Dominik Szoboszlai",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34160664-34172095",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34160664-34172095",
+    "prompt": "Who shares a nationality with Dante?",
     "left": {
       "name": "Fabian Schär",
-      "value": 5,
-      "label": "squad number"
+      "value": "Switzerland",
+      "label": "nationality"
     },
     "right": {
       "name": "Dodô",
-      "value": 2,
-      "label": "squad number"
+      "value": "Brazil",
+      "label": "nationality"
     },
     "answer": "Dodô",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34160884-34172187",
@@ -1568,36 +1552,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34160998-34172242",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34160998-34172242",
+    "prompt": "Who is a club teammate of Eric Dier?",
     "left": {
       "name": "Ben Chilwell",
-      "value": 3,
-      "label": "squad number"
+      "value": "Strasbourg",
+      "label": "current club"
     },
     "right": {
       "name": "Ansu Fati",
-      "value": 31,
-      "label": "squad number"
+      "value": "Monaco",
+      "label": "current club"
     },
     "answer": "Ansu Fati",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34161018-34172277",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34161018-34172277",
+    "prompt": "Who shares a nationality with Dante?",
     "left": {
       "name": "Cameron Carter-Vickers",
-      "value": 20,
-      "label": "squad number"
+      "value": "United States",
+      "label": "nationality"
     },
     "right": {
       "name": "Caio Henrique",
-      "value": 12,
-      "label": "squad number"
+      "value": "Brazil",
+      "label": "nationality"
     },
     "answer": "Caio Henrique",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34161149-34172278",
@@ -1680,36 +1664,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34161584-34172388",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34161584-34172388",
+    "prompt": "Who is a club teammate of David Raya?",
     "left": {
       "name": "Declan Rice",
-      "value": 41,
-      "label": "squad number"
+      "value": "Arsenal",
+      "label": "current club"
     },
     "right": {
       "name": "Guus Til",
-      "value": 20,
-      "label": "squad number"
+      "value": "PSV Eindhoven",
+      "label": "current club"
     },
     "answer": "Declan Rice",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-position-34161602-34172407",
-    "prompt": "Who is listed as a Centre-Forward?",
+    "id": "head-compatriot-34161602-34172407",
+    "prompt": "Who shares a nationality with Andre Almeida?",
     "left": {
       "name": "Brahim Díaz",
-      "value": "Right Winger",
-      "label": "position"
+      "value": "Morocco",
+      "label": "nationality"
     },
     "right": {
       "name": "Fábio Silva",
-      "value": "Centre-Forward",
-      "label": "position"
+      "value": "Portugal",
+      "label": "nationality"
     },
     "answer": "Fábio Silva",
-    "category": "Player Positions"
+    "category": "International"
   },
   {
     "id": "head-club-34161898-34172526",
@@ -1792,36 +1776,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34162303-34172989",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34162303-34172989",
+    "prompt": "Who is a club teammate of Adrian?",
     "left": {
       "name": "Gianluigi Donnarumma",
-      "value": 1,
-      "label": "squad number"
+      "value": "Manchester City",
+      "label": "current club"
     },
     "right": {
       "name": "Antony",
-      "value": 7,
-      "label": "squad number"
+      "value": "Real Betis",
+      "label": "current club"
     },
     "answer": "Antony",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34162494-34173019",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34162494-34173019",
+    "prompt": "Who shares a nationality with Christian Kouamé?",
     "left": {
       "name": "Franco Cervi",
-      "value": 11,
-      "label": "squad number"
+      "value": "Argentina",
+      "label": "nationality"
     },
     "right": {
       "name": "Amad Diallo",
-      "value": 16,
-      "label": "squad number"
+      "value": "Ivory Coast",
+      "label": "nationality"
     },
-    "answer": "Franco Cervi",
-    "category": "Current Squads"
+    "answer": "Amad Diallo",
+    "category": "International"
   },
   {
     "id": "head-club-34163007-34173035",
@@ -1904,36 +1888,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34163407-34173113",
-    "prompt": "Who is listed as a Left-Back?",
+    "id": "head-teammate-34163407-34173113",
+    "prompt": "Who is a club teammate of Daichi Kamada?",
     "left": {
       "name": "Fred",
-      "value": "Central Midfield",
-      "label": "position"
+      "value": "Fenerbahçe",
+      "label": "current club"
     },
     "right": {
       "name": "Borna Sosa",
-      "value": "Left-Back",
-      "label": "position"
+      "value": "Crystal Palace",
+      "label": "current club"
     },
     "answer": "Borna Sosa",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34163434-34173134",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-position-34163434-34173134",
+    "prompt": "Who is listed as a Centre-Back?",
     "left": {
       "name": "Benjamin Pavard",
-      "value": 28,
-      "label": "squad number"
+      "value": "Centre-Back",
+      "label": "position"
     },
     "right": {
       "name": "Adrien Truffert",
-      "value": 3,
-      "label": "squad number"
+      "value": "Left-Back",
+      "label": "position"
     },
-    "answer": "Adrien Truffert",
-    "category": "Current Squads"
+    "answer": "Benjamin Pavard",
+    "category": "Player Positions"
   },
   {
     "id": "head-club-34163438-34173162",
@@ -2016,36 +2000,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34163475-34173230",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34163475-34173230",
+    "prompt": "Who is a club teammate of Álvaro Odriozola?",
     "left": {
       "name": "Carlos Soler",
-      "value": 18,
-      "label": "squad number"
+      "value": "Real Sociedad",
+      "label": "current club"
     },
     "right": {
       "name": "Brian Brobbey",
-      "value": 9,
-      "label": "squad number"
+      "value": "Sunderland",
+      "label": "current club"
     },
     "answer": "Carlos Soler",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34163489-34173339",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34163489-34173339",
+    "prompt": "Who shares a nationality with Abdoulaye Faye?",
     "left": {
       "name": "Alexander Nübel",
-      "value": 33,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Boulaye Dia",
-      "value": 19,
-      "label": "squad number"
+      "value": "Senegal",
+      "label": "nationality"
     },
     "answer": "Boulaye Dia",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34163490-34173355",
@@ -2128,36 +2112,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34163610-34173526",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34163610-34173526",
+    "prompt": "Who is a club teammate of Dante?",
     "left": {
       "name": "Alex Meret",
-      "value": 1,
-      "label": "squad number"
+      "value": "Napoli",
+      "label": "current club"
     },
     "right": {
       "name": "Elye Wahi",
-      "value": 11,
-      "label": "squad number"
+      "value": "Nice",
+      "label": "current club"
     },
     "answer": "Elye Wahi",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34163663-34173542",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34163663-34173542",
+    "prompt": "Who shares a nationality with Florian Thauvin?",
     "left": {
       "name": "Cengiz Ünder",
-      "value": 20,
-      "label": "squad number"
+      "value": "Turkey",
+      "label": "nationality"
     },
     "right": {
       "name": "Lilian Brassier",
-      "value": 3,
-      "label": "squad number"
+      "value": "France",
+      "label": "nationality"
     },
     "answer": "Lilian Brassier",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34163672-34173594",
@@ -2240,36 +2224,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34163810-34173907",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34163810-34173907",
+    "prompt": "Who is a club teammate of Ederson?",
     "left": {
       "name": "Çağlar Söyüncü",
-      "value": 4,
-      "label": "squad number"
+      "value": "Fenerbahçe",
+      "label": "current club"
     },
     "right": {
       "name": "Dani Raba",
-      "value": 19,
-      "label": "squad number"
+      "value": "Valencia",
+      "label": "current club"
     },
-    "answer": "Dani Raba",
-    "category": "Current Squads"
+    "answer": "Çağlar Söyüncü",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34163865-34174026",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34163865-34174026",
+    "prompt": "Who shares a nationality with Emre Can?",
     "left": {
       "name": "Dujon Sterling",
-      "value": 21,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
     "right": {
       "name": "Chris Führich",
-      "value": 10,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "answer": "Chris Führich",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34163947-34174051",
@@ -2352,36 +2336,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34164235-34174214",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34164235-34174214",
+    "prompt": "Who is a club teammate of Cristiano Biraghi?",
     "left": {
       "name": "Duván Zapata",
-      "value": 91,
-      "label": "squad number"
+      "value": "Torino",
+      "label": "current club"
     },
     "right": {
       "name": "Jordan Teze",
-      "value": 4,
-      "label": "squad number"
+      "value": "Monaco",
+      "label": "current club"
     },
     "answer": "Duván Zapata",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34164241-34174227",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34164241-34174227",
+    "prompt": "Who shares a nationality with Cameron Carter-Vickers?",
     "left": {
       "name": "Christian Kouamé",
-      "value": 99,
-      "label": "squad number"
+      "value": "Ivory Coast",
+      "label": "nationality"
     },
     "right": {
       "name": "Brenden Aaronson",
-      "value": 11,
-      "label": "squad number"
+      "value": "United States",
+      "label": "nationality"
     },
     "answer": "Brenden Aaronson",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34164243-34174228",
@@ -2464,36 +2448,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34164383-34174576",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34164383-34174576",
+    "prompt": "Who is a club teammate of Alessio Romagnoli?",
     "left": {
       "name": "Bremer",
-      "value": 3,
-      "label": "squad number"
+      "value": "Juventus",
+      "label": "current club"
     },
     "right": {
       "name": "Davide Frattesi",
-      "value": 16,
-      "label": "squad number"
+      "value": "Lazio",
+      "label": "current club"
     },
     "answer": "Davide Frattesi",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34164460-34174589",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34164460-34174589",
+    "prompt": "Who shares a nationality with Axel Witsel?",
     "left": {
       "name": "Danilo Cataldi",
-      "value": 32,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
     "right": {
       "name": "Amadou Onana",
-      "value": 24,
-      "label": "squad number"
+      "value": "Belgium",
+      "label": "nationality"
     },
     "answer": "Amadou Onana",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34164499-34174593",
@@ -2576,36 +2560,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34166121-34174962",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34166121-34174962",
+    "prompt": "Who is a club teammate of Daniele Padelli?",
     "left": {
       "name": "Hassane Kamara",
-      "value": 11,
-      "label": "squad number"
+      "value": "Udinese",
+      "label": "current club"
     },
     "right": {
       "name": "Alidu Seidu",
-      "value": 36,
-      "label": "squad number"
+      "value": "Rennes",
+      "label": "current club"
     },
-    "answer": "Alidu Seidu",
-    "category": "Current Squads"
+    "answer": "Hassane Kamara",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34166154-34174990",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-position-34166154-34174990",
+    "prompt": "Who is listed as a Defender?",
     "left": {
       "name": "Adrien Tameze",
-      "value": 61,
-      "label": "squad number"
+      "value": "Midfielder",
+      "label": "position"
     },
     "right": {
       "name": "Anthony Rouault",
-      "value": 24,
-      "label": "squad number"
+      "value": "Defender",
+      "label": "position"
     },
     "answer": "Anthony Rouault",
-    "category": "Current Squads"
+    "category": "Player Positions"
   },
   {
     "id": "head-club-34166841-34174993",
@@ -2688,36 +2672,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34167607-34175285",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34167607-34175285",
+    "prompt": "Who is a club teammate of Adrian?",
     "left": {
       "name": "Ermedin Demirović",
-      "value": 9,
-      "label": "squad number"
+      "value": "Stuttgart",
+      "label": "current club"
     },
     "right": {
       "name": "Álvaro Fidalgo",
-      "value": 15,
-      "label": "squad number"
+      "value": "Real Betis",
+      "label": "current club"
     },
     "answer": "Álvaro Fidalgo",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-position-34167652-34175349",
-    "prompt": "Who is listed as a Centre-Forward?",
+    "id": "head-compatriot-34167652-34175349",
+    "prompt": "Who shares a nationality with Andrej Kramarić?",
     "left": {
       "name": "Ante Budimir",
-      "value": "Centre-Forward",
-      "label": "position"
+      "value": "Croatia",
+      "label": "nationality"
     },
     "right": {
       "name": "Cammy Devlin",
-      "value": "Central Midfield",
-      "label": "position"
+      "value": "Australia",
+      "label": "nationality"
     },
     "answer": "Ante Budimir",
-    "category": "Player Positions"
+    "category": "International"
   },
   {
     "id": "head-club-34167753-34175393",
@@ -2800,36 +2784,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34168938-34175659",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34168938-34175659",
+    "prompt": "Who is a club teammate of Dani Garcia?",
     "left": {
       "name": "Chiquinho",
-      "value": 6,
-      "label": "squad number"
+      "value": "Olympiakos",
+      "label": "current club"
     },
     "right": {
       "name": "Daan Heymans",
-      "value": 38,
-      "label": "squad number"
+      "value": "Genk",
+      "label": "current club"
     },
-    "answer": "Daan Heymans",
-    "category": "Current Squads"
+    "answer": "Chiquinho",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34168991-34175773",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34168991-34175773",
+    "prompt": "Who shares a nationality with Danny Welbeck?",
     "left": {
       "name": "Curtis Jones",
-      "value": 17,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
     "right": {
       "name": "Bryan Heynen",
-      "value": 8,
-      "label": "squad number"
+      "value": "Belgium",
+      "label": "nationality"
     },
-    "answer": "Bryan Heynen",
-    "category": "Current Squads"
+    "answer": "Curtis Jones",
+    "category": "International"
   },
   {
     "id": "head-club-34169011-34175791",
@@ -2912,36 +2896,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34169134-34176066",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34169134-34176066",
+    "prompt": "Who is a club teammate of Alexis Sánchez?",
     "left": {
       "name": "Djibril Sow",
-      "value": 20,
-      "label": "squad number"
+      "value": "Sevilla",
+      "label": "current club"
     },
     "right": {
       "name": "Gijs Smal",
-      "value": 5,
-      "label": "squad number"
+      "value": "Feyenoord",
+      "label": "current club"
     },
     "answer": "Djibril Sow",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34169137-34176074",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34169137-34176074",
+    "prompt": "Who shares a nationality with Ao Tanaka?",
     "left": {
       "name": "Daichi Kamada",
-      "value": 18,
-      "label": "squad number"
+      "value": "Japan",
+      "label": "nationality"
     },
     "right": {
       "name": "Anel Ahmedhodzic",
-      "value": 21,
-      "label": "squad number"
+      "value": "Bosnia and Herzegovina",
+      "label": "nationality"
     },
     "answer": "Daichi Kamada",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34169189-34176120",
@@ -3024,36 +3008,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34169229-34176853",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-position-34169229-34176853",
+    "prompt": "Who is listed as a Right Winger?",
     "left": {
       "name": "Alassane Pléa",
-      "value": 14,
-      "label": "squad number"
+      "value": "Forward",
+      "label": "position"
     },
     "right": {
       "name": "Dennis Man",
-      "value": 27,
-      "label": "squad number"
+      "value": "Right Winger",
+      "label": "position"
     },
     "answer": "Dennis Man",
-    "category": "Current Squads"
+    "category": "Player Positions"
   },
   {
-    "id": "head-lower-number-34169230-34176867",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34169230-34176867",
+    "prompt": "Who shares a nationality with Benjamin Siegrist?",
     "left": {
       "name": "Denis Zakaria",
-      "value": 6,
-      "label": "squad number"
+      "value": "Switzerland",
+      "label": "nationality"
     },
     "right": {
       "name": "Aleix García",
-      "value": 24,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "answer": "Denis Zakaria",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34169242-34177105",
@@ -3136,36 +3120,36 @@
     "category": "Player Positions"
   },
   {
-    "id": "head-higher-number-34169420-34177778",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34169420-34177778",
+    "prompt": "Who is a club teammate of Andre Almeida?",
     "left": {
       "name": "Charalambos Lykogiannis",
-      "value": 22,
-      "label": "squad number"
+      "value": "Bologna",
+      "label": "current club"
     },
     "right": {
       "name": "Alexander Bah",
-      "value": 6,
-      "label": "squad number"
+      "value": "Benfica",
+      "label": "current club"
     },
-    "answer": "Charalambos Lykogiannis",
-    "category": "Current Squads"
+    "answer": "Alexander Bah",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34169455-34177787",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34169455-34177787",
+    "prompt": "Who shares a nationality with Abdoulaye Faye?",
     "left": {
       "name": "Alessandro Bastoni",
-      "value": 95,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
     "right": {
       "name": "Abdallah Sima",
-      "value": 19,
-      "label": "squad number"
+      "value": "Senegal",
+      "label": "nationality"
     },
     "answer": "Abdallah Sima",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34169492-34177810",
@@ -3248,36 +3232,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34169840-34178200",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34169840-34178200",
+    "prompt": "Who is a club teammate of Daniele Padelli?",
     "left": {
       "name": "Adam Buksa",
-      "value": 18,
-      "label": "squad number"
+      "value": "Udinese",
+      "label": "current club"
     },
     "right": {
       "name": "Carl Starfelt",
-      "value": 2,
-      "label": "squad number"
+      "value": "Celta Vigo",
+      "label": "current club"
     },
     "answer": "Adam Buksa",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34169884-34178240",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34169884-34178240",
+    "prompt": "Who shares a nationality with Danny Welbeck?",
     "left": {
       "name": "Bukayo Saka",
-      "value": 7,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
     "right": {
       "name": "Georgiy Sudakov",
-      "value": 10,
-      "label": "squad number"
+      "value": "Ukraine",
+      "label": "nationality"
     },
     "answer": "Bukayo Saka",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34169971-34178275",
@@ -3360,36 +3344,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34170146-34178430",
-    "prompt": "Who is listed as a Goalkeeper?",
+    "id": "head-teammate-34170146-34178430",
+    "prompt": "Who is a club teammate of Ethan Pinnock?",
     "left": {
       "name": "Caoimhín Kelleher",
-      "value": "Goalkeeper",
-      "label": "position"
+      "value": "Brentford",
+      "label": "current club"
     },
     "right": {
       "name": "Bohdan Lednev",
-      "value": "Midfielder",
-      "label": "position"
+      "value": "Dynamo Kiev",
+      "label": "current club"
     },
     "answer": "Caoimhín Kelleher",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34170150-34178465",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34170150-34178465",
+    "prompt": "Who shares a nationality with Emre Can?",
     "left": {
       "name": "Angel Gomes",
-      "value": 47,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
     "right": {
       "name": "Ansgar Knauff",
-      "value": 7,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "answer": "Ansgar Knauff",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34170177-34178568",
@@ -3472,36 +3456,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34170301-34179444",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34170301-34179444",
+    "prompt": "Who is a club teammate of Adrian?",
     "left": {
       "name": "Diego Carlos",
-      "value": 34,
-      "label": "squad number"
+      "value": "Fenerbahçe",
+      "label": "current club"
     },
     "right": {
       "name": "Chimy Ávila",
-      "value": 9,
-      "label": "squad number"
+      "value": "Real Betis",
+      "label": "current club"
     },
-    "answer": "Diego Carlos",
-    "category": "Current Squads"
+    "answer": "Chimy Ávila",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34170305-34179725",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34170305-34179725",
+    "prompt": "Who shares a nationality with Daichi Kamada?",
     "left": {
       "name": "Aihen Muñoz",
-      "value": 3,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "right": {
       "name": "Ao Tanaka",
-      "value": 22,
-      "label": "squad number"
+      "value": "Japan",
+      "label": "nationality"
     },
-    "answer": "Aihen Muñoz",
-    "category": "Current Squads"
+    "answer": "Ao Tanaka",
+    "category": "International"
   },
   {
     "id": "head-club-34170307-34179828",
@@ -3584,36 +3568,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34170550-34180739",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34170550-34180739",
+    "prompt": "Who is a club teammate of Alexis Sánchez?",
     "left": {
       "name": "Chidera Ejuke",
-      "value": 21,
-      "label": "squad number"
+      "value": "Sevilla",
+      "label": "current club"
     },
     "right": {
       "name": "Carney Chukwuemeka",
-      "value": 17,
-      "label": "squad number"
+      "value": "Borussia Dortmund",
+      "label": "current club"
     },
     "answer": "Chidera Ejuke",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34170567-34180884",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34170567-34180884",
+    "prompt": "Who shares a nationality with Cameron Carter-Vickers?",
     "left": {
       "name": "Janis Blaswich",
-      "value": 28,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Auston Trusty",
-      "value": 6,
-      "label": "squad number"
+      "value": "United States",
+      "label": "nationality"
     },
     "answer": "Auston Trusty",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34171310-34180906",
@@ -3696,36 +3680,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34172195-34183869",
-    "prompt": "Who is listed as a Goalkeeper?",
+    "id": "head-teammate-34172195-34183869",
+    "prompt": "Who is a club teammate of Daan Heymans?",
     "left": {
       "name": "Hendrik Van Crombrugge",
-      "value": "Goalkeeper",
-      "label": "position"
+      "value": "Genk",
+      "label": "current club"
     },
     "right": {
       "name": "Bernard Parker",
-      "value": "Attacker",
-      "label": "position"
+      "value": "Kaizer Chiefs",
+      "label": "current club"
     },
     "answer": "Hendrik Van Crombrugge",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34172215-34184096",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34172215-34184096",
+    "prompt": "Who shares a nationality with Andrej Kramarić?",
     "left": {
       "name": "Dominik Livaković",
-      "value": 40,
-      "label": "squad number"
+      "value": "Croatia",
+      "label": "nationality"
     },
     "right": {
       "name": "Gabriel Slonina",
-      "value": 44,
-      "label": "squad number"
+      "value": "United States",
+      "label": "nationality"
     },
     "answer": "Dominik Livaković",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34172218-34184214",
@@ -3808,36 +3792,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34172281-34191411",
-    "prompt": "Who is listed as a Goalkeeper?",
+    "id": "head-teammate-34172281-34191411",
+    "prompt": "Who is a club teammate of Amos Pieper?",
     "left": {
       "name": "Alexander Schlager",
-      "value": "Goalkeeper",
-      "label": "position"
+      "value": "Werder Bremen",
+      "label": "current club"
     },
     "right": {
       "name": "Eduardo Quaresma",
-      "value": "Defender",
-      "label": "position"
+      "value": "Sporting CP",
+      "label": "current club"
     },
     "answer": "Alexander Schlager",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34172286-34191417",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34172286-34191417",
+    "prompt": "Who shares a nationality with Andre Almeida?",
     "left": {
       "name": "Alexander Sørloth",
-      "value": 9,
-      "label": "squad number"
+      "value": "Norway",
+      "label": "nationality"
     },
     "right": {
       "name": "Dário Essugo",
-      "value": 16,
-      "label": "squad number"
+      "value": "Portugal",
+      "label": "nationality"
     },
-    "answer": "Alexander Sørloth",
-    "category": "Current Squads"
+    "answer": "Dário Essugo",
+    "category": "International"
   },
   {
     "id": "head-club-34172295-34191419",
@@ -3920,36 +3904,36 @@
     "category": "Player Positions"
   },
   {
-    "id": "head-higher-number-34172633-34192542",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34172633-34192542",
+    "prompt": "Who is a club teammate of Axel Witsel?",
     "left": {
       "name": "Gianluca Scamacca",
-      "value": 9,
-      "label": "squad number"
+      "value": "Atalanta",
+      "label": "current club"
     },
     "right": {
       "name": "Azzedine Ounahi",
-      "value": 18,
-      "label": "squad number"
+      "value": "Girona",
+      "label": "current club"
     },
     "answer": "Azzedine Ounahi",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34172672-34192695",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34172672-34192695",
+    "prompt": "Who shares a nationality with Danny Welbeck?",
     "left": {
       "name": "Daniel Maldini",
-      "value": 70,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
     "right": {
       "name": "Alex Scott",
-      "value": 8,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
     "answer": "Alex Scott",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34172789-34192983",
@@ -4032,36 +4016,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34173038-34193281",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34173038-34193281",
+    "prompt": "Who is a club teammate of Alex Iwobi?",
     "left": {
       "name": "Emile Smith-Rowe",
-      "value": 32,
-      "label": "squad number"
+      "value": "Fulham",
+      "label": "current club"
     },
     "right": {
       "name": "Deiver Machado",
-      "value": 27,
-      "label": "squad number"
+      "value": "Nantes",
+      "label": "current club"
     },
     "answer": "Emile Smith-Rowe",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34173083-34193286",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34173083-34193286",
+    "prompt": "Who shares a nationality with Daniel Ballard?",
     "left": {
       "name": "Amos Pieper",
-      "value": 5,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Conor Bradley",
-      "value": 12,
-      "label": "squad number"
+      "value": "Northern Ireland",
+      "label": "nationality"
     },
-    "answer": "Amos Pieper",
-    "category": "Current Squads"
+    "answer": "Conor Bradley",
+    "category": "International"
   },
   {
     "id": "head-club-34173096-34193291",
@@ -4144,36 +4128,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34173164-34193542",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34173164-34193542",
+    "prompt": "Who is a club teammate of Emiliano Martinez?",
     "left": {
       "name": "Boubacar Kamara",
-      "value": 8,
-      "label": "squad number"
+      "value": "Aston Villa",
+      "label": "current club"
     },
     "right": {
       "name": "Hiroki Itō",
-      "value": 21,
-      "label": "squad number"
+      "value": "Bayern Munich",
+      "label": "current club"
     },
-    "answer": "Hiroki Itō",
-    "category": "Current Squads"
+    "answer": "Boubacar Kamara",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34173195-34193683",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34173195-34193683",
+    "prompt": "Who shares a nationality with Denys Harmash?",
     "left": {
       "name": "Anatoliy Trubin",
-      "value": 81,
-      "label": "squad number"
+      "value": "Ukraine",
+      "label": "nationality"
     },
     "right": {
       "name": "Dominik Greif",
-      "value": 1,
-      "label": "squad number"
+      "value": "Slovakia",
+      "label": "nationality"
     },
-    "answer": "Dominik Greif",
-    "category": "Current Squads"
+    "answer": "Anatoliy Trubin",
+    "category": "International"
   },
   {
     "id": "head-club-34173197-34193803",
@@ -4256,36 +4240,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34173374-34194182",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34173374-34194182",
+    "prompt": "Who is a club teammate of Florian Thauvin?",
     "left": {
       "name": "Adrien Thomasson",
-      "value": 28,
-      "label": "squad number"
+      "value": "Lens",
+      "label": "current club"
     },
     "right": {
       "name": "Diego Conde",
-      "value": 13,
-      "label": "squad number"
+      "value": "Villarreal",
+      "label": "current club"
     },
     "answer": "Adrien Thomasson",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34173402-34194421",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34173402-34194421",
+    "prompt": "Who shares a nationality with Emiliano Martinez?",
     "left": {
       "name": "Facundo Medina",
-      "value": 32,
-      "label": "squad number"
+      "value": "Argentina",
+      "label": "nationality"
     },
     "right": {
       "name": "Ameen Dakhil",
-      "value": 2,
-      "label": "squad number"
+      "value": "Belgium",
+      "label": "nationality"
     },
-    "answer": "Ameen Dakhil",
-    "category": "Current Squads"
+    "answer": "Facundo Medina",
+    "category": "International"
   },
   {
     "id": "head-club-34173412-34194497",
@@ -4368,36 +4352,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34173595-34195020",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34173595-34195020",
+    "prompt": "Who is a club teammate of Álvaro Odriozola?",
     "left": {
       "name": "Djed Spence",
-      "value": 24,
-      "label": "squad number"
+      "value": "Inter Milan",
+      "label": "current club"
     },
     "right": {
       "name": "Beñat Turrientes",
-      "value": 8,
-      "label": "squad number"
+      "value": "Real Sociedad",
+      "label": "current club"
     },
-    "answer": "Djed Spence",
-    "category": "Current Squads"
+    "answer": "Beñat Turrientes",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34173733-34195099",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34173733-34195099",
+    "prompt": "Who shares a nationality with Bryan Cristante?",
     "left": {
       "name": "Casper Tengstedt",
-      "value": 17,
-      "label": "squad number"
+      "value": "Denmark",
+      "label": "nationality"
     },
     "right": {
       "name": "Fabio Miretti",
-      "value": 21,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
-    "answer": "Casper Tengstedt",
-    "category": "Current Squads"
+    "answer": "Fabio Miretti",
+    "category": "International"
   },
   {
     "id": "head-club-34173868-34195135",
@@ -4464,36 +4448,36 @@
     "category": "Player Positions"
   },
   {
-    "id": "head-higher-number-34174104-34195918",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34174104-34195918",
+    "prompt": "Who is a club teammate of Álex Grimaldo?",
     "left": {
       "name": "Álex Baena",
-      "value": 10,
-      "label": "squad number"
+      "value": "Atlético Madrid",
+      "label": "current club"
     },
     "right": {
       "name": "Ahmed Fatouh",
-      "value": 13,
-      "label": "squad number"
+      "value": "Zamalek",
+      "label": "current club"
     },
-    "answer": "Ahmed Fatouh",
-    "category": "Current Squads"
+    "answer": "Álex Baena",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34174140-34196044",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34174140-34196044",
+    "prompt": "Who shares a nationality with Bryan Cristante?",
     "left": {
       "name": "Jessic Ngankam",
-      "value": 32,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Giorgio Scalvini",
-      "value": 42,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
-    "answer": "Jessic Ngankam",
-    "category": "Current Squads"
+    "answer": "Giorgio Scalvini",
+    "category": "International"
   },
   {
     "id": "head-club-34174170-34196095",
@@ -4560,36 +4544,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34174229-34196442",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34174229-34196442",
+    "prompt": "Who is a club teammate of Federico Dimarco?",
     "left": {
       "name": "Alessandro Buongiorno",
-      "value": 4,
-      "label": "squad number"
+      "value": "Napoli",
+      "label": "current club"
     },
     "right": {
       "name": "Andy Diouf",
-      "value": 17,
-      "label": "squad number"
+      "value": "Inter Milan",
+      "label": "current club"
     },
     "answer": "Andy Diouf",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34174253-34196464",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34174253-34196464",
+    "prompt": "Who shares a nationality with César Azpilicueta?",
     "left": {
       "name": "Alfon",
-      "value": 17,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "right": {
       "name": "Edon Zhegrova",
-      "value": 11,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
-    "answer": "Edon Zhegrova",
-    "category": "Current Squads"
+    "answer": "Alfon",
+    "category": "International"
   },
   {
     "id": "head-club-34174382-34196500",
@@ -4656,36 +4640,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34174683-34196982",
-    "prompt": "Who is listed as a Left-Back?",
+    "id": "head-teammate-34174683-34196982",
+    "prompt": "Who is a club teammate of Christoph Baumgartner?",
     "left": {
       "name": "David Raum",
-      "value": "Left-Back",
-      "label": "position"
+      "value": "RB Leipzig",
+      "label": "current club"
     },
     "right": {
       "name": "Emam Ashour",
-      "value": "Central Midfield",
-      "label": "position"
+      "value": "Al Ahly",
+      "label": "current club"
     },
     "answer": "David Raum",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34174762-34197264",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34174762-34197264",
+    "prompt": "Who shares a nationality with Emre Can?",
     "left": {
       "name": "Anton Stach",
-      "value": 18,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Jamie Gittens",
-      "value": 11,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
-    "answer": "Jamie Gittens",
-    "category": "Current Squads"
+    "answer": "Anton Stach",
+    "category": "International"
   },
   {
     "id": "head-club-34174778-34197351",
@@ -4768,36 +4752,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34175091-34198606",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34175091-34198606",
+    "prompt": "Who is a club teammate of Aitor Fernandez?",
     "left": {
       "name": "Álvaro Valles",
-      "value": 1,
-      "label": "squad number"
+      "value": "Real Betis",
+      "label": "current club"
     },
     "right": {
       "name": "Iker Benito",
-      "value": 2,
-      "label": "squad number"
+      "value": "Osasuna",
+      "label": "current club"
     },
     "answer": "Iker Benito",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34175155-34198800",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34175155-34198800",
+    "prompt": "Who shares a nationality with César Azpilicueta?",
     "left": {
       "name": "Aleix Febas",
-      "value": 14,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "right": {
       "name": "Alexander Prass",
-      "value": 22,
-      "label": "squad number"
+      "value": "Austria",
+      "label": "nationality"
     },
     "answer": "Aleix Febas",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34175161-34199475",
@@ -4880,36 +4864,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34175422-34199847",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34175422-34199847",
+    "prompt": "Who is a club teammate of Daichi Kamada?",
     "left": {
       "name": "Gernot Trauner",
-      "value": 18,
-      "label": "squad number"
+      "value": "Feyenoord",
+      "label": "current club"
     },
     "right": {
       "name": "Cheick Doucouré",
-      "value": 28,
-      "label": "squad number"
+      "value": "Crystal Palace",
+      "label": "current club"
     },
     "answer": "Cheick Doucouré",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34175574-34199896",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34175574-34199896",
+    "prompt": "Who shares a nationality with Alex Iwobi?",
     "left": {
       "name": "Charles Vanhoutte",
-      "value": 24,
-      "label": "squad number"
+      "value": "Belgium",
+      "label": "nationality"
     },
     "right": {
       "name": "Calvin Bassey",
-      "value": 3,
-      "label": "squad number"
+      "value": "Nigeria",
+      "label": "nationality"
     },
     "answer": "Calvin Bassey",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34175627-34200041",
@@ -4992,36 +4976,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34175798-34200237",
-    "prompt": "Who is listed as a Central Midfield?",
+    "id": "head-teammate-34175798-34200237",
+    "prompt": "Who is a club teammate of Ben Godfrey?",
     "left": {
       "name": "Devyne Rensch",
-      "value": "Right-Back",
-      "label": "position"
+      "value": "Roma",
+      "label": "current club"
     },
     "right": {
       "name": "Dan Neil",
-      "value": "Central Midfield",
-      "label": "position"
+      "value": "Rangers",
+      "label": "current club"
     },
     "answer": "Dan Neil",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34175869-34200257",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34175869-34200257",
+    "prompt": "Who shares a nationality with Alexander Isak?",
     "left": {
       "name": "Daniel Svensson",
-      "value": 24,
-      "label": "squad number"
+      "value": "Sweden",
+      "label": "nationality"
     },
     "right": {
       "name": "Cesare Casadei",
-      "value": 22,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
-    "answer": "Cesare Casadei",
-    "category": "Current Squads"
+    "answer": "Daniel Svensson",
+    "category": "International"
   },
   {
     "id": "head-club-34175873-34200349",
@@ -5104,36 +5088,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34176205-34200497",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34176205-34200497",
+    "prompt": "Who is a club teammate of Ben Chilwell?",
     "left": {
       "name": "Felix Agu",
-      "value": 27,
-      "label": "squad number"
+      "value": "Werder Bremen",
+      "label": "current club"
     },
     "right": {
       "name": "Abakar Sylla",
-      "value": 5,
-      "label": "squad number"
+      "value": "Strasbourg",
+      "label": "current club"
     },
-    "answer": "Felix Agu",
-    "category": "Current Squads"
+    "answer": "Abakar Sylla",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-position-34176261-34200498",
-    "prompt": "Who is listed as a Goalkeeper?",
+    "id": "head-compatriot-34176261-34200498",
+    "prompt": "Who shares a nationality with Hakan Çalhanoğlu?",
     "left": {
       "name": "Altay Bayındır",
-      "value": "Goalkeeper",
-      "label": "position"
+      "value": "Turkey",
+      "label": "nationality"
     },
     "right": {
       "name": "Bjorn Meijer",
-      "value": "Defender",
-      "label": "position"
+      "value": "The Netherlands",
+      "label": "nationality"
     },
     "answer": "Altay Bayındır",
-    "category": "Player Positions"
+    "category": "International"
   },
   {
     "id": "head-club-34176351-34200552",
@@ -5216,36 +5200,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34177246-34200795",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34177246-34200795",
+    "prompt": "Who is a club teammate of Christian Nørgaard?",
     "left": {
       "name": "Brennan Johnson",
-      "value": 22,
-      "label": "squad number"
+      "value": "Everton",
+      "label": "current club"
     },
     "right": {
       "name": "Denis Huseinbasic",
-      "value": 8,
-      "label": "squad number"
+      "value": "Braga",
+      "label": "current club"
     },
     "answer": "Brennan Johnson",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34177306-34200952",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34177306-34200952",
+    "prompt": "Who shares a nationality with Danny Welbeck?",
     "left": {
       "name": "Dane Scarlett",
-      "value": 44,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
     "right": {
       "name": "Hugo Larsson",
-      "value": 16,
-      "label": "squad number"
+      "value": "Sweden",
+      "label": "nationality"
     },
-    "answer": "Hugo Larsson",
-    "category": "Current Squads"
+    "answer": "Dane Scarlett",
+    "category": "International"
   },
   {
     "id": "head-club-34177376-34201891",
@@ -5328,36 +5312,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34177829-34202559",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34177829-34202559",
+    "prompt": "Who is a club teammate of Dante?",
     "left": {
       "name": "Abel Ruiz",
-      "value": 9,
-      "label": "squad number"
+      "value": "Girona",
+      "label": "current club"
     },
     "right": {
       "name": "Antoine Mendy",
-      "value": 33,
-      "label": "squad number"
+      "value": "Nice",
+      "label": "current club"
     },
     "answer": "Antoine Mendy",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34177858-34202599",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34177858-34202599",
+    "prompt": "Who shares a nationality with Erling Haaland?",
     "left": {
       "name": "Ian Maatsen",
-      "value": 22,
-      "label": "squad number"
+      "value": "The Netherlands",
+      "label": "nationality"
     },
     "right": {
       "name": "Andreas Schjelderup",
-      "value": 21,
-      "label": "squad number"
+      "value": "Norway",
+      "label": "nationality"
     },
     "answer": "Andreas Schjelderup",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34177875-34202601",
@@ -5440,36 +5424,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34178338-34203098",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34178338-34203098",
+    "prompt": "Who is a club teammate of Christian Nørgaard?",
     "left": {
       "name": "Iliman Ndiaye",
-      "value": 10,
-      "label": "squad number"
+      "value": "Everton",
+      "label": "current club"
     },
     "right": {
       "name": "Eliesse Ben Seghir",
-      "value": 17,
-      "label": "squad number"
+      "value": "Bayer Leverkusen",
+      "label": "current club"
     },
-    "answer": "Eliesse Ben Seghir",
-    "category": "Current Squads"
+    "answer": "Iliman Ndiaye",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34178370-34203118",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34178370-34203118",
+    "prompt": "Who shares a nationality with Florian Thauvin?",
     "left": {
       "name": "Denis Onyango",
-      "value": 1,
-      "label": "squad number"
+      "value": "Uganda",
+      "label": "nationality"
     },
     "right": {
       "name": "Christian Mawissa",
-      "value": 13,
-      "label": "squad number"
+      "value": "France",
+      "label": "nationality"
     },
-    "answer": "Denis Onyango",
-    "category": "Current Squads"
+    "answer": "Christian Mawissa",
+    "category": "International"
   },
   {
     "id": "head-club-34178391-34203230",
@@ -5552,36 +5536,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34178575-34203491",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34178575-34203491",
+    "prompt": "Who is a club teammate of Ben Chilwell?",
     "left": {
       "name": "Andrew Omobamidele",
-      "value": 2,
-      "label": "squad number"
+      "value": "Strasbourg",
+      "label": "current club"
     },
     "right": {
       "name": "Hayden Hackney",
-      "value": 30,
-      "label": "squad number"
+      "value": "Everton",
+      "label": "current club"
     },
-    "answer": "Hayden Hackney",
-    "category": "Current Squads"
+    "answer": "Andrew Omobamidele",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34178798-34203585",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34178798-34203585",
+    "prompt": "Who shares a nationality with Florian Thauvin?",
     "left": {
       "name": "Angelo Stiller",
-      "value": 6,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "right": {
       "name": "Badredine Bouanani",
-      "value": 27,
-      "label": "squad number"
+      "value": "France",
+      "label": "nationality"
     },
-    "answer": "Angelo Stiller",
-    "category": "Current Squads"
+    "answer": "Badredine Bouanani",
+    "category": "International"
   },
   {
     "id": "head-club-34179091-34203667",
@@ -5664,36 +5648,20 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34179948-34215924",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34179948-34215924",
+    "prompt": "Who is a club teammate of Callum Wilson?",
     "left": {
       "name": "Anthony Elanga",
-      "value": 19,
-      "label": "squad number"
+      "value": "Newcastle United",
+      "label": "current club"
     },
     "right": {
       "name": "Álvaro Rodríguez",
-      "value": 30,
-      "label": "squad number"
+      "value": "Bournemouth",
+      "label": "current club"
     },
     "answer": "Álvaro Rodríguez",
-    "category": "Current Squads"
-  },
-  {
-    "id": "head-lower-number-34180022-34216000",
-    "prompt": "Who is listed with the lower squad number?",
-    "left": {
-      "name": "Armando Obispo",
-      "value": 4,
-      "label": "squad number"
-    },
-    "right": {
-      "name": "Christian Früchtl",
-      "value": 1,
-      "label": "squad number"
-    },
-    "answer": "Christian Früchtl",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
     "id": "head-club-34180111-34216003",
@@ -5776,36 +5744,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-position-34181129-34216718",
-    "prompt": "Who is listed as a Defender?",
+    "id": "head-teammate-34181129-34216718",
+    "prompt": "Who is a club teammate of Franck Honorat?",
     "left": {
       "name": "Gonçalo Ramos",
-      "value": "Centre-Forward",
-      "label": "position"
+      "value": "AC Milan",
+      "label": "current club"
     },
     "right": {
       "name": "Fabio Chiarodia",
-      "value": "Defender",
-      "label": "position"
+      "value": "Borussia Mönchengladbach",
+      "label": "current club"
     },
     "answer": "Fabio Chiarodia",
-    "category": "Player Positions"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34181130-34216800",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34181130-34216800",
+    "prompt": "Who shares a nationality with Emre Can?",
     "left": {
       "name": "Daniel Bragança",
-      "value": 23,
-      "label": "squad number"
+      "value": "Portugal",
+      "label": "nationality"
     },
     "right": {
       "name": "Dzenan Pejcinovic",
-      "value": 17,
-      "label": "squad number"
+      "value": "Germany",
+      "label": "nationality"
     },
     "answer": "Dzenan Pejcinovic",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34183859-34216827",
@@ -5888,36 +5856,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34190548-34217552",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34190548-34217552",
+    "prompt": "Who is a club teammate of Aitor Fernandez?",
     "left": {
       "name": "Isak Hien",
-      "value": 4,
-      "label": "squad number"
+      "value": "Atalanta",
+      "label": "current club"
     },
     "right": {
       "name": "Iker Muñoz",
-      "value": 8,
-      "label": "squad number"
+      "value": "Osasuna",
+      "label": "current club"
     },
     "answer": "Iker Muñoz",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-position-34191396-34218004",
-    "prompt": "Who is listed as a Goalkeeper?",
+    "id": "head-compatriot-34191396-34218004",
+    "prompt": "Who shares a nationality with Andre Almeida?",
     "left": {
       "name": "Diogo Sousa",
-      "value": "Goalkeeper",
-      "label": "position"
+      "value": "Portugal",
+      "label": "nationality"
     },
     "right": {
       "name": "Arthur Vermeeren",
-      "value": "Central Midfield",
-      "label": "position"
+      "value": "Belgium",
+      "label": "nationality"
     },
     "answer": "Diogo Sousa",
-    "category": "Player Positions"
+    "category": "International"
   },
   {
     "id": "head-club-34191400-34218047",
@@ -6000,36 +5968,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34191587-34218908",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34191587-34218908",
+    "prompt": "Who is a club teammate of Federico Bernardeschi?",
     "left": {
       "name": "Beto",
-      "value": 9,
-      "label": "squad number"
+      "value": "Everton",
+      "label": "current club"
     },
     "right": {
       "name": "Benjamín Domínguez",
-      "value": 30,
-      "label": "squad number"
+      "value": "Bologna",
+      "label": "current club"
     },
     "answer": "Benjamín Domínguez",
-    "category": "Current Squads"
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34192206-34218994",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34192206-34218994",
+    "prompt": "Who shares a nationality with Eljif Elmas?",
     "left": {
       "name": "Benjamin Šeško",
-      "value": 30,
-      "label": "squad number"
+      "value": "Slovenia",
+      "label": "nationality"
     },
     "right": {
       "name": "Bojan Miovski",
-      "value": 28,
-      "label": "squad number"
+      "value": "Macedonia",
+      "label": "nationality"
     },
     "answer": "Bojan Miovski",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34192430-34219025",
@@ -6112,36 +6080,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34193001-34219811",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34193001-34219811",
+    "prompt": "Who is a club teammate of Filip Kostic?",
     "left": {
       "name": "Emil Holm",
-      "value": 2,
-      "label": "squad number"
+      "value": "Juventus",
+      "label": "current club"
     },
     "right": {
       "name": "Fermín",
-      "value": 7,
-      "label": "squad number"
+      "value": "Barcelona",
+      "label": "current club"
     },
-    "answer": "Fermín",
-    "category": "Current Squads"
+    "answer": "Emil Holm",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34193011-34219978",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34193011-34219978",
+    "prompt": "Who shares a nationality with Danny Welbeck?",
     "left": {
       "name": "Aitor Paredes",
-      "value": 4,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "right": {
       "name": "Archie Gray",
-      "value": 14,
-      "label": "squad number"
+      "value": "England",
+      "label": "nationality"
     },
-    "answer": "Aitor Paredes",
-    "category": "Current Squads"
+    "answer": "Archie Gray",
+    "category": "International"
   },
   {
     "id": "head-club-34193141-34220004",
@@ -6224,36 +6192,36 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34193337-34220162",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34193337-34220162",
+    "prompt": "Who is a club teammate of Bryan Cristante?",
     "left": {
       "name": "Christos Tzolis",
-      "value": 17,
-      "label": "squad number"
+      "value": "Arsenal",
+      "label": "current club"
     },
     "right": {
       "name": "Bryan Zaragoza",
-      "value": 15,
-      "label": "squad number"
+      "value": "Roma",
+      "label": "current club"
     },
-    "answer": "Christos Tzolis",
-    "category": "Current Squads"
+    "answer": "Bryan Zaragoza",
+    "category": "Club Knowledge"
   },
   {
-    "id": "head-lower-number-34193417-34220191",
-    "prompt": "Who is listed with the lower squad number?",
+    "id": "head-compatriot-34193417-34220191",
+    "prompt": "Who shares a nationality with César Azpilicueta?",
     "left": {
       "name": "Gavi",
-      "value": 6,
-      "label": "squad number"
+      "value": "Spain",
+      "label": "nationality"
     },
     "right": {
       "name": "Daniele Ghilardi",
-      "value": 87,
-      "label": "squad number"
+      "value": "Italy",
+      "label": "nationality"
     },
     "answer": "Gavi",
-    "category": "Current Squads"
+    "category": "International"
   },
   {
     "id": "head-club-34193418-34220275",
@@ -6336,36 +6304,20 @@
     "category": "Player Profiles"
   },
   {
-    "id": "head-higher-number-34194006-34220548",
-    "prompt": "Who is listed with the higher squad number?",
+    "id": "head-teammate-34194006-34220548",
+    "prompt": "Who is a club teammate of Dimitri Foulquier?",
     "left": {
       "name": "João Mário",
-      "value": 25,
-      "label": "squad number"
+      "value": "Bologna",
+      "label": "current club"
     },
     "right": {
       "name": "César Tárrega Requeni",
-      "value": 5,
-      "label": "squad number"
+      "value": "Valencia",
+      "label": "current club"
     },
-    "answer": "João Mário",
-    "category": "Current Squads"
-  },
-  {
-    "id": "head-lower-number-34194105-34220551",
-    "prompt": "Who is listed with the lower squad number?",
-    "left": {
-      "name": "Cristian Rivero",
-      "value": 13,
-      "label": "squad number"
-    },
-    "right": {
-      "name": "Abdukodir Khusanov",
-      "value": 45,
-      "label": "squad number"
-    },
-    "answer": "Cristian Rivero",
-    "category": "Current Squads"
+    "answer": "César Tárrega Requeni",
+    "category": "Club Knowledge"
   },
   {
     "id": "head-club-34194118-34220607",
@@ -6398,5 +6350,53 @@
     },
     "answer": "Diego López",
     "category": "International"
+  },
+  {
+    "id": "head-position-34194182-34220651",
+    "prompt": "Who is listed as a Defender?",
+    "left": {
+      "name": "Diego Conde",
+      "value": "Goalkeeper",
+      "label": "position"
+    },
+    "right": {
+      "name": "Archie Brown",
+      "value": "Defender",
+      "label": "position"
+    },
+    "answer": "Archie Brown",
+    "category": "Player Positions"
+  },
+  {
+    "id": "head-younger-34194421-34220695",
+    "prompt": "Who was born more recently?",
+    "left": {
+      "name": "Ameen Dakhil",
+      "value": 2002,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Ernest Poku",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Ernest Poku",
+    "category": "Player Profiles"
+  },
+  {
+    "id": "head-older-34194497-34220699",
+    "prompt": "Who was born earlier?",
+    "left": {
+      "name": "Ertuğrul Çetin",
+      "value": 2003,
+      "label": "birth year"
+    },
+    "right": {
+      "name": "Carlos Forbs Borges",
+      "value": 2004,
+      "label": "birth year"
+    },
+    "answer": "Ertuğrul Çetin",
+    "category": "Player Profiles"
   }
 ]
