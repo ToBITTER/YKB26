@@ -17,6 +17,34 @@ model User {
   updatedAt DateTime @updatedAt
   stats UserStats?
   sessions Session[]
+  hostedDuels Duel[] @relation("DuelHost")
+  joinedDuels Duel[] @relation("DuelGuest")
+}
+
+model Duel {
+  id String @id @default(cuid())
+  code String @unique
+  hostId String
+  guestId String?
+  status String @default("WAITING")
+  questionIds String[]
+  hostIndex Int @default(0)
+  guestIndex Int @default(0)
+  hostScore Int @default(0)
+  guestScore Int @default(0)
+  hostCorrect Int @default(0)
+  guestCorrect Int @default(0)
+  hostFinishedAt DateTime?
+  guestFinishedAt DateTime?
+  startedAt DateTime?
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  host User @relation("DuelHost", fields: [hostId], references: [id], onDelete: Cascade)
+  guest User? @relation("DuelGuest", fields: [guestId], references: [id], onDelete: SetNull)
+  @@index([hostId])
+  @@index([guestId])
+  @@index([expiresAt])
 }
 
 model UserStats {
